@@ -1,0 +1,6 @@
+# gitignore files #
+###################
+
+
+#npm modules
+node_modules/
