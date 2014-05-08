@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,700);
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -881,7 +882,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Merriweather", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
@@ -2325,7 +2326,7 @@ output {
   color: #555555;
   background-color: #ffffff;
   background-image: none;
-  border: 1px solid #cccccc;
+  border: 1px solid #1a8fc5;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -3442,7 +3443,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #555555;
   text-align: center;
   background-color: #eeeeee;
-  border: 1px solid #cccccc;
+  border: 1px solid #1a8fc5;
   border-radius: 4px;
 }
 .input-group-addon.input-sm {
@@ -3512,6 +3513,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav {
   margin-bottom: 0;
   padding-left: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
   list-style: none;
 }
 .nav > li {
@@ -4053,14 +4057,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-  border-color: #dddddd;
+  color: #fff;
+  border-color: #1a8fc5;
+  background-color: #1a8fc5;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #dddddd;
+  background-color: #2aacdd;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #888888;
+  background-color: #ffffff;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
@@ -6148,7 +6154,7 @@ button.close {
   border-width: 0 0 0 1px;
 }
 .navmenu-nav {
-  margin-bottom: 10px;
+  margin: 2em;
 }
 .navmenu-nav.dropdown-menu {
   position: static;
@@ -6199,18 +6205,18 @@ button.close {
 }
 .navmenu-default,
 .navbar-default .navbar-offcanvas {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color: #2aacdd;
+  border-color: #2099c6;
 }
 .navmenu-default .navmenu-brand,
 .navbar-default .navbar-offcanvas .navmenu-brand {
-  color: #777777;
+  color: #ffffff;
 }
 .navmenu-default .navmenu-brand:hover,
 .navbar-default .navbar-offcanvas .navmenu-brand:hover,
 .navmenu-default .navmenu-brand:focus,
 .navbar-default .navbar-offcanvas .navmenu-brand:focus {
-  color: #5e5e5e;
+  color: #e6e6e6;
   background-color: transparent;
 }
 .navmenu-default .navmenu-text,
@@ -6230,7 +6236,7 @@ button.close {
 .navbar-default .navbar-offcanvas .navmenu-nav > .open > a:hover,
 .navmenu-default .navmenu-nav > .open > a:focus,
 .navbar-default .navbar-offcanvas .navmenu-nav > .open > a:focus {
-  background-color: #e7e7e7;
+  background-color: #2099c6;
   color: #555555;
 }
 .navmenu-default .navmenu-nav > .open > a .caret,
@@ -6244,16 +6250,16 @@ button.close {
 }
 .navmenu-default .navmenu-nav > .dropdown > a .caret,
 .navbar-default .navbar-offcanvas .navmenu-nav > .dropdown > a .caret {
-  border-top-color: #777777;
-  border-bottom-color: #777777;
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
 }
 .navmenu-default .navmenu-nav.dropdown-menu,
 .navbar-default .navbar-offcanvas .navmenu-nav.dropdown-menu {
-  background-color: #e7e7e7;
+  background-color: #2099c6;
 }
 .navmenu-default .navmenu-nav.dropdown-menu > .divider,
 .navbar-default .navbar-offcanvas .navmenu-nav.dropdown-menu > .divider {
-  background-color: #f8f8f8;
+  background-color: #2aacdd;
 }
 .navmenu-default .navmenu-nav.dropdown-menu > .active > a,
 .navbar-default .navbar-offcanvas .navmenu-nav.dropdown-menu > .active > a,
@@ -6261,11 +6267,11 @@ button.close {
 .navbar-default .navbar-offcanvas .navmenu-nav.dropdown-menu > .active > a:hover,
 .navmenu-default .navmenu-nav.dropdown-menu > .active > a:focus,
 .navbar-default .navbar-offcanvas .navmenu-nav.dropdown-menu > .active > a:focus {
-  background-color: #d7d7d7;
+  background-color: #1b83aa;
 }
 .navmenu-default .navmenu-nav > li > a,
 .navbar-default .navbar-offcanvas .navmenu-nav > li > a {
-  color: #777777;
+  color: #ffffff;
 }
 .navmenu-default .navmenu-nav > li > a:hover,
 .navbar-default .navbar-offcanvas .navmenu-nav > li > a:hover,
@@ -6281,7 +6287,7 @@ button.close {
 .navmenu-default .navmenu-nav > .active > a:focus,
 .navbar-default .navbar-offcanvas .navmenu-nav > .active > a:focus {
   color: #555555;
-  background-color: #e7e7e7;
+  background-color: #2099c6;
 }
 .navmenu-default .navmenu-nav > .disabled > a,
 .navbar-default .navbar-offcanvas .navmenu-nav > .disabled > a,
@@ -6412,7 +6418,7 @@ body {
     /* force showing the toggle */
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 0) {
   body {
     padding: 0;
   }
@@ -6425,11 +6431,28 @@ body {
     padding: 0;
   }
 }
+.main-nav {
+  top: 0;
+  left: 0;
+}
 #map {
   position: absolute;
-  top: 50px;
+  top: 0;
   bottom: 0;
   left: 0;
   width: 100%;
+}
+.results {
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+}
+#slider .slider-selection {
+  background: #000;
+}
+.school {
+  color: #FB4F3B;
 }
 /*# sourceMappingURL=style.css.map */
