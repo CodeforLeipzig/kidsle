@@ -1,6 +1,27 @@
-var map;
+var map, GeoMarker;
+
+// var xhr = new XMLHttpRequest();
+// xhr.open('GET', 'src/data/grundschule.geo.json', true);
+// xhr.onload = function() {
+//   loadGrundschule(this.responseText);
+// };
+// xhr.send();
+//
+// function callback(results) {
+//   for (var i = 0; i < results.length; i++) {
+//     var geoJsonObject = results.features[i];
+//     var geometry = geoJsonObject.geometry;
+//   }
+// };
+//
+//
+// var googleMapsVector = new GeoJSON(geojson, googleOptions);
+// googleMapsVector.setMap(map);
+
 
 function initialize() {
+
+
   var mapOptions = {
     zoom: 14,
     mapTypeControl: true,
@@ -19,93 +40,69 @@ function initialize() {
     },
     scaleControl: true,
 
-    styles: [{
-      "featureType":"administrative",
-      "stylers":[{
-        "visibility":"off"
-      }]
-    },{
-      "featureType":"poi",
-      "stylers":[{
-        "visibility":"simplified"
-      }]
-    },{
-      "featureType":"road",
-      "stylers":[{
-        "visibility":"simplified"
-      }]
-    },{
-      "featureType":"water",
-      "stylers":[{
-        "visibility":"simplified"
-      }]
-    },{
-      "featureType":"transit",
-      "stylers":[{
-        "visibility":"simplified"
-      }]
-    },{
-      "featureType":"landscape",
-      "stylers":[{
-        "visibility":"simplified"
-      }]
-    },{
-      "featureType":"road.highway",
-      "stylers":[{
-        "visibility":"on"
-      }]
-    },{
-      "featureType":"road.local",
-      "stylers":[{
-        "visibility":"on"
-      }]
-    },{
-      "featureType":"road.highway",
-      "elementType":"geometry",
-      "stylers":[{
-        "visibility":"on"
-      }]
-    },{
-      "featureType":"road.arterial",
-      "stylers":[{
-        "visibility":"off"
-      }]
-    },{
-      "featureType":"water",
-      "stylers":[{
-        "color":"#5f94ff"
-      },{
-        "lightness":26
-      },{
-        "gamma":5.86
-      }]
-    },{
-      "featureType":"road.highway",
-      "stylers":[{
-        "weight":0.6
-      },{
-        "saturation":-85
-      },{
-        "lightness":61
-      }]
-    },{
-      "featureType":"road"
-    },{
-      "featureType":"landscape",
-      "stylers":[{
-        "hue":"#0066ff"
-      },{
-        "saturation":74
-      },{
-        "lightness":100
-      }]
-    }]
+    styles:
+    [{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#71ABC3"},{"saturation":-10},{"lightness":-21},{"visibility":"simplified"}]},{"featureType":"landscape.natural","elementType":"geometry","stylers":[{"hue":"#7DC45C"},{"saturation":37},{"lightness":-27},{"visibility":"simplified"}]},{"featureType":"landscape.man_made","elementType":"geometry","stylers":[{ "color": "#ebebeb" }]},{"featureType":"poi","elementType":"all","stylers":[{"hue":"#A19FA0"},{"saturation":-98},{"lightness":-20},{"visibility":"off"}]},{"featureType":"road","elementType":"geometry","stylers":[{"hue":"#FFFFFF"},{"saturation":-100},{"lightness":100},{"visibility":"simplified"}]}]
+
   };
 
 
-  /* Just for testing purpose Icon Markers */
+  schools = 'src/data/grundschule.geo.json';
+  gym   = 'src/data/gymnasium.geo.json';
+
+
   map = new google.maps.Map(document.getElementById('map'),
       mapOptions);
+
+
+  scopt = {
+   icon: 'src/img/playground2.svg'
+  };
+  //
+  // scopt = map.data.setStyle({
+  //   icon: 'src/img/playground2.svg'
+  // });
+  // var test1 = map.data.addGeoJson(geoJson:schools, options?:scopt);
+
+
+
+  // map.data.loadGeoJson(schools);
+  // map.data.setStyle(scopt);
+
+
+  // map.data.foreEach(function(feature) {console.log(feature);})
+
+
+  // var datalayer = new google.maps.Data(map);
+  //     datalayer.addGeoJson(schools);
+  //     // datalayer.setStyle(scopt);
+  //     datalayer.setMap(map);
+
+  // map.data.setStyle(scopt);
+  //
+  //
+  // map.data.addListener('click', function(event) {
+  //    map.data.overrideStyle(event.feature, {icon: 'src/img/school.svg'});
+  // });
+
+  //
+  // function  loadGeoJSON(data){
+  //
+  //   var json = JSON.parse(data);
+  //   var features = new GeoJSON(json, style);
+  //
+  //   // Loop through each feature
+  //   for (var i = 0; i < features.length; i++){
+  //     features[i].setMap(map);
+  //   }
+  // };
+
+  // scopt2 = map.data.setStyle({
+  //   icon: 'src/img/playground.svg'
+  // });
+  // map.data.loadGeoJson(gym, scopt2);
+
+
+/* Just for testing purpose Icon Markers */
 
   var plLatlng = new google.maps.LatLng(51.327, 12.339);
 
@@ -132,9 +129,31 @@ function initialize() {
     icon: 'src/img/kita.svg'
   });
 
+  // var mcOptions = {
+  //         gridSize : 50,
+  //         maxZoom : 15
+  //       };
+  // clusterer = new MarkerClusterer(map, markers, mcOptions);
 
+  // GeoMarker = new GeolocationMarker();
+  //
+  // GeoMarker.setCircleOptions({
+  //   fillColor: '#ff0000',
+  // });
+  //
+  //
+  // google.maps.event.addListenerOnce(GeoMarker, 'position_changed', function() {
+  //   map.setCenter(this.getPosition());
+  //   map.fitBounds(this.getBounds());
+  // });
+  //
+  // google.maps.event.addListener(GeoMarker, 'geolocation_error', function(e) {
+  //   alert('There was an error obtaining your position. Message: ' + e.message);
+  // });
+  //
+  // GeoMarker.setMap(map);
 
-  // Try HTML5 geolocation
+  //Try HTML5 geolocation
   if(navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(function(position) {
       var pos = new google.maps.LatLng(position.coords.latitude,
@@ -186,4 +205,10 @@ function handleNoGeolocation(errorFlag) {
   map.setCenter(options.position);
 }
 
+
+
 google.maps.event.addDomListener(window, 'load', initialize);
+
+if(!navigator.geolocation) {
+        alert('Your browser does not support geolocation');
+      }
