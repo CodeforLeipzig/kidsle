@@ -8,3 +8,62 @@ Backlog
 
 [ ] mögliche Bibliothek für sparql in js https://github.com/antoniogarrote/rdfstore-js 
 [ ] mögliche Bibliothek für sparql in js https://github.com/GeoKnow/Jassa 
+
+[ ] mögliches Feature: Bewertung der Institutionen durch User
+[ ] mögliches Feature: Die Institutionen können selbst Zusatzinformationen einpflegen, die wir nicht ziehen können
+[ ] mögliches Feature: Social Network
+
+[ ] mögliche Auswahlkriterien für:
+  [1] Spielplätze:
+  * Umkreissuche
+  * Besonderheiten: Wasserspielplatz etc.
+  * Ausstattung: Rutsche, Klettergerüst, Sandkasten, Karussell, Bolzplatz, Basketballfeld, etc.
+  * Sand"art": richtiger Sand, Kiesgemisch
+  * Freifläche/ Wiese?
+  * Gibt es öffentliche Toiletten in der Nähe? Öffnungszeiten
+  * Gibt es einen Kiosk/ Imbiss in der Nähe? Öffnungszeiten
+  * Anbindung
+  * Sauberkeit (Bewertung durch User?)
+  * Spielfläche eingezäunt?
+  * Nähe zur Straße
+  * Anzahl Sitzplätze
+  * empfohlenes Alter
+  * Anbindung
+  
+  [2] Kindergärten/Krippen/Kitas:
+  * Art: mit/ ohne Krippe/Kita/Kiga,...
+  * Aufnahmealter
+  * Öffnungszeiten
+  * Kapazitäten
+  * Wartezeiten
+  * Träger: Stadt, ev., kath., AWO, etc.
+  * Konzept: Montessori, Freinet, Piaget, etc.
+  * international? integrativ? 
+  * zu erwartende Kosten
+  * durchschnittlicher Betreuungsschlüssel
+  * eigene Küche oder Großküche?
+  * Vorschulangebot, Kooperation mit Grundschulen
+  * besondere Lernangebote (Sprachen, Musik, ....)
+  * letzte Sanierung/ Modernisierung
+  * Ausstattung
+  
+  [3] Schulen:
+  * Art: Grundschule, Jauptschule, Gesamtschule, Realschule, Gymnasium,...
+  * Träger: Stadt. Verein. ev., kath.,..
+  * Kosten (private Träger, Essensgeld)
+  * Schulkonzept: Waldorf, Montessori, Freinet,...
+  * international? integrativ?
+  * Schulschwerpunkt: altsprachlich, neusprachlich, musisch, ...
+  * Schulcampus? (von der Grundschule an sind alle Schulen auf "einem" Gelände)
+  * Einzügig, zweizügig, ...? (Wie viele Klassen pro Jahrgang)
+  * besondere Angebote/ Sprachen: Sorbisch, muslimischer Religionsunterricht, Sozialpädagogen, Medienangebot, ...
+  * Ganztagsschule/ Hort-Angebot (Schließzeiten)
+  * eigene Küche/ Großküche
+  * letzte Modernisierung/ Sanierung
+  * Anbindung
+  
+  
+  
+  
+  
+  
