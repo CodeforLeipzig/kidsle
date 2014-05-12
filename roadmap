@@ -6,8 +6,8 @@ Milestones
 
 Backlog
 
-[ ] mögliche Bibliothek für sparql in js https://github.com/antoniogarrote/rdfstore-js 
-[ ] mögliche Bibliothek für sparql in js https://github.com/GeoKnow/Jassa 
+[ ] mögliche Bibliothek für sparql in js https://github.com/antoniogarrote/rdfstore-js
+[ ] mögliche Bibliothek für sparql in js https://github.com/GeoKnow/Jassa
 
 [ ] mögliches Feature: Bewertung der Institutionen durch User
 [ ] mögliches Feature: Die Institutionen können selbst Zusatzinformationen einpflegen, die wir nicht ziehen können
@@ -29,7 +29,7 @@ Backlog
   * Anzahl Sitzplätze
   * empfohlenes Alter
   * Anbindung
-  
+
   [2] Kindergärten/Krippen/Kitas:
   * Art: mit/ ohne Krippe/Kita/Kiga,...
   * Aufnahmealter
@@ -38,7 +38,7 @@ Backlog
   * Wartezeiten
   * Träger: Stadt, ev., kath., AWO, etc.
   * Konzept: Montessori, Freinet, Piaget, etc.
-  * international? integrativ? 
+  * international? integrativ?
   * zu erwartende Kosten
   * durchschnittlicher Betreuungsschlüssel
   * eigene Küche oder Großküche?
@@ -46,7 +46,7 @@ Backlog
   * besondere Lernangebote (Sprachen, Musik, ....)
   * letzte Sanierung/ Modernisierung
   * Ausstattung
-  
+
   [3] Schulen:
   * Art: Grundschule, Jauptschule, Gesamtschule, Realschule, Gymnasium,...
   * Träger: Stadt. Verein. ev., kath.,..
@@ -61,9 +61,3 @@ Backlog
   * eigene Küche/ Großküche
   * letzte Modernisierung/ Sanierung
   * Anbindung
-  
-  
-  
-  
-  
-  

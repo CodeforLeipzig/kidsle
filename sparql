@@ -6,7 +6,7 @@ Prefix ogc: <http://www.opengis.net/ont/geosparql#>
 Prefix geom: <http://geovocab.org/geometry#>
 Prefix lgdo: <http://linkedgeodata.org/ontology/>
 
-Select ?school ?schoolLabel 
+Select ?school ?schoolLabel
 From <http://linkedgeodata.org> {
   ?school
     a lgdo:School ;
@@ -31,7 +31,7 @@ Select *  {
     geom:geometry [
       ogc:asWKT ?schoolGeo
     ] .
- 
+
    Filter (
     bif:st_intersects (?schoolGeo, bif:st_point (12.372966, 51.310228), 50)
   ) .
