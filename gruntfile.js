@@ -44,6 +44,23 @@ module.exports = function(grunt) {
           }
         },
 
+        less: {
+            dev: {
+                files: {
+                    'src/css/style.css': [
+                        'src/less/style.less'
+                    ]
+                },
+                options: {
+                    compress: false,
+                    sourceMap: true,
+                    sourceMapFilename: 'src/css/style.css.map',
+                    sourceMapURL: 'style.css.map'
+
+                }
+            }
+        },
+
         watch: {
             options: {
                 livereload: true,
@@ -52,6 +69,14 @@ module.exports = function(grunt) {
                 files: ['*.html'],
                 tasks: ['htmlhint'],
 
+            },
+            less: {
+                files: ['src/less/**/*.less'],
+                tasks: ['less:dev'],
+            },
+            js: {
+              files: ['js/*.js'],
+              tasks: ['jshint'],
             }
 
         }
@@ -65,6 +90,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', [
         'connect',
+        'less',
         'watch',
         'jshint',
         'htmlhint'

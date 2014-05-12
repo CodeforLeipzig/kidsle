@@ -4,17 +4,43 @@
     <meta charset=utf-8 />
     <title>kidlse</title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.2/css/jasny-bootstrap.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
+<!--     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"> -->
+<!--     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.2/css/jasny-bootstrap.min.css" type="text/css" media="screen" title="no title" charset="utf-8"> -->
     <link rel="stylesheet" href="src/css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
   </head>
   <body>
      <div class="navmenu navmenu-default navmenu-fixed-left">
       <a class="navmenu-brand" href="#">kidsle</a>
       <ul class="nav navmenu-nav">
-        <li><a href="#">Kitas</a></li>
-        <li><a href="#">Spielplätze</a></li>
-        <li class="active"><a href="#">Schulen</a></li>
+        <li><a href="#">Registrieren</a></li>
+        <li><a href="#">Anmelden</a></li>
+        Ergebnisse Filtern
+        <li>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"> Kitas
+            </label>
+          </div>
+        </li>
+        <li>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"> Schulen
+            </label>
+          </div>
+        </li>
+        <li>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"> Spielplätze
+            </label>
+          </div>
+        </li>
+        <li>
+          Umkreis
+          <input id="distance-slider" data-slider-id='slider' type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="14"/>
+        </li>
         <form class="navbar-form navbar-left">
             <input type="text" class="form-control" placeholder="Suchen...">
         </form>
@@ -22,31 +48,81 @@
     </div>
 
     <div class="canvas">
-      <div class="navbar navbar-default navbar-fixed-top">
+
+<!--       <div class="main-nav">
         <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
       </div>
+      <div class="main-nav">
+        <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div> -->
 
-    <div class="navbar navbar-default navbar-fixed-top">
-      <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
+      <div class="navbar navbar-default navbar-fixed-top">
+        <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas">
+          Menu
+        </button>
+      </div>
 
-    <div class="container">
-      <div id="map"></div>
-    </div><!-- /.container -->
+
+
+      <div class="container">
+        <div class="results">
+          <div class="header">
+            <h1 class="">Nachbarschafts Schule</h1>
+          </div>
+          <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+
+            <div class="row">
+              <div class="col-xs-12 col-md-6">
+                <h2 class="info">Beschreibung</h2>
+                <p class="description">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <h2 class="info">Details</h2>
+                  <ul>
+                    <li>
+                    <a href="#">Webseite</a>
+                    </li>
+                    <li>
+                    Bewertung
+                    </li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="map"></div>
+
+      </div><!-- /.container -->
+
+    </div><!-- /.canvas  -->
+
 
     <!-- Google Maps API -->
     <script src="//maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="//google-maps-utility-library-v3.googlecode.com/svn/trunk/geolocationmarker/src/geolocationmarker-compiled.js"></script>
     <script type="text/javascript" charset="utf-8" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <script type="text/javascript" charset="utf-8" src="src/js/custom.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/js/bootstrap-slider.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/js/map.js"></script>
     <script type="text/javascript" charset="utf-8" src="src/js/offcanvas.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      $('#distance-slider').slider({
+        formater: function(value) {
+          return 'Current value: ' + value;
+        }
+      });
+
+    </script>
   </body>
 </html>
