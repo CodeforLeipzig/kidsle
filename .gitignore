@@ -4,3 +4,6 @@
 
 #npm modules
 node_modules/
+*.pyc
+*.db
+*~
