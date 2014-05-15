@@ -59,3 +59,17 @@ To install all requirements, simply run the following command from the project d
 ```
 $ pip install -r requirements/base.txt
 ```
+
+### Setup database and start the server
+
+To generate the database for local development, you can run the following command. This command will create a sqlite3 database. On production, please use a proper database like PostgreSQL.
+
+```
+$ python project/manage.py syncdb
+```
+
+To start the Server, you just can do it with the following command:
+
+```
+$ python project/manage.py runserver
+```
