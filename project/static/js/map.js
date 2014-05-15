@@ -46,61 +46,11 @@ function initialize() {
   };
 
 
-  schools = 'src/data/grundschule.geo.json';
-  gym   = 'src/data/gymnasium.geo.json';
+  var schools = '/static/data/grundschule.geo.json';
+  var gym   = '/static/data/gymnasium.geo.json';
 
 
-  map = new google.maps.Map(document.getElementById('map'),
-      mapOptions);
-
-
-  scopt = {
-   icon: 'src/img/playground2.svg'
-  };
-  //
-  // scopt = map.data.setStyle({
-  //   icon: 'src/img/playground2.svg'
-  // });
-  // var test1 = map.data.addGeoJson(geoJson:schools, options?:scopt);
-
-
-
-  // map.data.loadGeoJson(schools);
-  // map.data.setStyle(scopt);
-
-
-  // map.data.foreEach(function(feature) {console.log(feature);})
-
-
-  // var datalayer = new google.maps.Data(map);
-  //     datalayer.addGeoJson(schools);
-  //     // datalayer.setStyle(scopt);
-  //     datalayer.setMap(map);
-
-  // map.data.setStyle(scopt);
-  //
-  //
-  // map.data.addListener('click', function(event) {
-  //    map.data.overrideStyle(event.feature, {icon: 'src/img/school.svg'});
-  // });
-
-  //
-  // function  loadGeoJSON(data){
-  //
-  //   var json = JSON.parse(data);
-  //   var features = new GeoJSON(json, style);
-  //
-  //   // Loop through each feature
-  //   for (var i = 0; i < features.length; i++){
-  //     features[i].setMap(map);
-  //   }
-  // };
-
-  // scopt2 = map.data.setStyle({
-  //   icon: 'src/img/playground.svg'
-  // });
-  // map.data.loadGeoJson(gym, scopt2);
-
+  var map = new google.maps.Map($('#map'), mapOptions);
 
 /* Just for testing purpose Icon Markers */
 
@@ -109,56 +59,31 @@ function initialize() {
   var playground = new google.maps.Marker({
     map: map,
     position: plLatlng,
-    icon: 'src/img/playground2.svg'
+    icon: '/static/img/playground2.svg'
   });
 
   var scLatlng = new google.maps.LatLng(51.345, 12.336);
 
-  var playground = new google.maps.Marker({
+  var school = new google.maps.Marker({
     map: map,
     position: scLatlng,
-    icon: 'src/img/school.svg'
+    icon: '/static/img/school.svg'
   });
 
 
   var ktLatlng = new google.maps.LatLng(51.329, 12.331);
 
-  var playground = new google.maps.Marker({
+  var daycare_centre = new google.maps.Marker({
     map: map,
     position: ktLatlng,
-    icon: 'src/img/kita.svg'
+    icon: '/static/img/kita.svg'
   });
 
-  // var mcOptions = {
-  //         gridSize : 50,
-  //         maxZoom : 15
-  //       };
-  // clusterer = new MarkerClusterer(map, markers, mcOptions);
-
-  // GeoMarker = new GeolocationMarker();
-  //
-  // GeoMarker.setCircleOptions({
-  //   fillColor: '#ff0000',
-  // });
-  //
-  //
-  // google.maps.event.addListenerOnce(GeoMarker, 'position_changed', function() {
-  //   map.setCenter(this.getPosition());
-  //   map.fitBounds(this.getBounds());
-  // });
-  //
-  // google.maps.event.addListener(GeoMarker, 'geolocation_error', function(e) {
-  //   alert('There was an error obtaining your position. Message: ' + e.message);
-  // });
-  //
-  // GeoMarker.setMap(map);
-
-  //Try HTML5 geolocation
   if(navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(function(position) {
       var pos = new google.maps.LatLng(position.coords.latitude,
                                        position.coords.longitude);
-      var image = new google.maps.MarkerImage('src/img/marker-circle.svg',
+      var image = new google.maps.MarkerImage('/static/img/marker-circle.svg',
         new google.maps.Size(32, 32),
         new google.maps.Point(0, 0),
         new google.maps.Point(16, 16));
@@ -189,12 +114,10 @@ function initialize() {
 }
 
 function handleNoGeolocation(errorFlag) {
+  var content = 'Error: Your browser doesn\'t support geolocation.';
   if (errorFlag) {
-    var content = 'Error: The Geolocation service failed.';
-  } else {
-    var content = 'Error: Your browser doesn\'t support geolocation.';
+    content = 'Error: The Geolocation service failed.';
   }
-
   var options = {
     map: map,
     position: new google.maps.LatLng(51.33, 12.33),

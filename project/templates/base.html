@@ -1,20 +1,24 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset=utf-8 />
-    <title>kidlse</title>
+    <title>
+      {% block title %}
+        kidlse
+      {% endblock %}
+    </title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
-<!--     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"> -->
-<!--     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.2/css/jasny-bootstrap.min.css" type="text/css" media="screen" title="no title" charset="utf-8"> -->
-    <link rel="stylesheet" href="src/css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+
+    {% block styles %}
+      <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" media="screen" title="no title" charset="utf-8">
+      <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+    {% endblock %}
   </head>
   <body>
      <div class="navmenu navmenu-default navmenu-fixed-left">
       <a class="navmenu-brand" href="#">kidsle</a>
       <ul class="nav navmenu-nav">
-        <li><a href="#">Registrieren</a></li>
-        <li><a href="#">Anmelden</a></li>
         Ergebnisse Filtern
         <li>
           <div class="checkbox">
@@ -48,21 +52,6 @@
     </div>
 
     <div class="canvas">
-
-<!--       <div class="main-nav">
-        <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <div class="main-nav">
-        <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div> -->
 
       <div class="navbar navbar-default navbar-fixed-top">
         <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas">
@@ -100,6 +89,7 @@
             </div>
           </div>
         </div>
+
         <div id="map"></div>
 
       </div><!-- /.container -->
@@ -108,21 +98,22 @@
 
 
     <!-- Google Maps API -->
-    <script src="//maps.googleapis.com/maps/api/js?sensor=false"></script>
-    <script src="//google-maps-utility-library-v3.googlecode.com/svn/trunk/geolocationmarker/src/geolocationmarker-compiled.js"></script>
-    <script type="text/javascript" charset="utf-8" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript" charset="utf-8" src="src/js/custom.js"></script>
-    <script type="text/javascript" charset="utf-8" src="src/js/bootstrap-slider.js"></script>
-    <script type="text/javascript" charset="utf-8" src="src/js/map.js"></script>
-    <script type="text/javascript" charset="utf-8" src="src/js/offcanvas.js"></script>
-    <script type="text/javascript" charset="utf-8">
-      $('#distance-slider').slider({
-        formater: function(value) {
-          return 'Current value: ' + value;
-        }
-      });
-
-    </script>
+    {% block js %}
+      <script src="//maps.googleapis.com/maps/api/js?sensor=false"></script>
+      <script src="//google-maps-utility-library-v3.googlecode.com/svn/trunk/geolocationmarker/src/geolocationmarker-compiled.js"></script>
+      <script type="text/javascript" charset="utf-8" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+      <script type="text/javascript" charset="utf-8" src="{% static 'js/custom.js' %}"></script>
+      <script type="text/javascript" charset="utf-8" src="{% static 'js/bootstrap-slider.js' %}"></script>
+      <script type="text/javascript" charset="utf-8" src="{% static 'js/map.js' %}"></script>
+      <script type="text/javascript" charset="utf-8" src="{% static 'js/offcanvas.js' %}"></script>
+      <script type="text/javascript" charset="utf-8">
+        $('#distance-slider').slider({
+          formater: function(value) {
+            return 'Current value: ' + value;
+          }
+        });
+      </script>
+    {% endblock %}
   </body>
 </html>
