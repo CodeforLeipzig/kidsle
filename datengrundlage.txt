@@ -1,0 +1,45 @@
+
+== Kitas ==
+	- Name
+	- Einrichtungsart (Kindertagesstätte | Tagesmutter /-vater)
+	- Stadtbezirk
+	- Bemerkung
+	- Einrichtungsart
+	- Anschrift
+	- Ansprechpartner
+	- Telefon
+	- Konfessionen
+	- Betreuungsarten (Kinderkrippe | Kindergarten)
+		- Anzahl der Plätze
+		- Mindestalter
+
+	- Öffungszeiten
+	- Träger
+		- Name
+		- Anschrift
+		- Ansprechpartner
+		- Telefon
+		- Fax
+		- Email
+	- Konzept [Freitext]
+
+
+== Schulen ==
+	- Name
+	- Einrichtungsart (Oberschule | Gymnasie | Berufsschule | Schulen des 2. Bildungsweges | Sonstige Schulische Einrichtungen)
+	- Stadtbezirk
+	- Anschrift
+	- Email
+	- Web
+	- Träger [nur Name]
+	- Beschreibung 
+	- Ansprechpartner
+	- Telefon
+	- Fax
+	- Profil (sprachlich | gesellschaftswissenschaftlich | naturwissenschaftlich | künstlerisch | sportlich | mathematisch-naturwissenschaftlich)
+	- weitere Angebote (Ganztagsangebote, Schulbibliothek)
+	- Fremdsprachen (Englisch, Französisch, Spanisch, Russisch, Latein, Vietnamesisch )
+	- Beschreibung [Freitext]
+	- Partner und Netzwerke (Musikschule "Johann Sebastian Bach", )
+
+
