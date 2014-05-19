@@ -10,4 +10,5 @@ urlpatterns = patterns('',
     url(r'^$', IndexView.as_view(), name='home'),
 
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^grappelli/', include('grappelli.urls')),
 )
