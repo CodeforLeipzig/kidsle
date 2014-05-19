@@ -8,13 +8,14 @@ Kitas, Kindergärten, Spielplätze und Schulen in Leipzig
 
 #### Python
 
-Make sure you have the latest version of python 2.7 installed. (TODO: extend)
+Make sure you have the latest version of python 2.7 installed.
 
-#### PIP and virtualenvwrapper
+#### setuptools, PIP and virtualenvwrapper
 
-If you want to setup and start the backend, you have to install django and it's requirements. To do so, it is recommended to install and use the python package manager `pip`. For the installation, you need root privileges:
+If you want to setup and start the backend, you have to install django and it's requirements. To do so, it is recommended to install and use the python package manager `pip`. Setuptools is also required. For the installation, you need root privileges:
 
 ```
+$ curl https://bootstrap.pypa.io/ez_setup.py -o - | python
 $ curl -O https://raw.github.com/pypa/pip/master/contrib/get-pip.py
 $ pip install virtualenv
 ```
