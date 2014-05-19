@@ -55,7 +55,7 @@ function initialize() {
 
 
   scopt = {
-   icon: 'src/img/playground2.svg'
+   icon: 'src/img/pin-marker.svg'
   };
   //
   // scopt = map.data.setStyle({
@@ -65,9 +65,11 @@ function initialize() {
 
 
 
-  // map.data.loadGeoJson(schools);
-  // map.data.setStyle(scopt);
+  map.data.loadGeoJson(schools, gym);
+  map.data.setStyle(scopt);
 
+
+  
 
   // map.data.foreEach(function(feature) {console.log(feature);})
 
@@ -104,30 +106,30 @@ function initialize() {
 
 /* Just for testing purpose Icon Markers */
 
-  var plLatlng = new google.maps.LatLng(51.327, 12.339);
-
-  var playground = new google.maps.Marker({
-    map: map,
-    position: plLatlng,
-    icon: 'src/img/playground2.svg'
-  });
-
-  var scLatlng = new google.maps.LatLng(51.345, 12.336);
-
-  var playground = new google.maps.Marker({
-    map: map,
-    position: scLatlng,
-    icon: 'src/img/school.svg'
-  });
-
-
-  var ktLatlng = new google.maps.LatLng(51.329, 12.331);
-
-  var playground = new google.maps.Marker({
-    map: map,
-    position: ktLatlng,
-    icon: 'src/img/kita.svg'
-  });
+  // var plLatlng = new google.maps.LatLng(51.327, 12.339);
+  //
+  // var playground = new google.maps.Marker({
+  //   map: map,
+  //   position: plLatlng,
+  //   icon: 'src/img/playground2.svg'
+  // });
+  //
+  // var scLatlng = new google.maps.LatLng(51.345, 12.336);
+  //
+  // var playground = new google.maps.Marker({
+  //   map: map,
+  //   position: scLatlng,
+  //   icon: 'src/img/school.svg'
+  // });
+  //
+  //
+  // var ktLatlng = new google.maps.LatLng(51.329, 12.331);
+  //
+  // var playground = new google.maps.Marker({
+  //   map: map,
+  //   position: ktLatlng,
+  //   icon: 'src/img/kita.svg'
+  // });
 
   // var mcOptions = {
   //         gridSize : 50,
@@ -167,6 +169,7 @@ function initialize() {
         map: map,
         clickable: false,
         icon: image,
+        draggable: true,
         position: pos
       });
 

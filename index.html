@@ -12,39 +12,39 @@
   <body>
      <div class="navmenu navmenu-default navmenu-fixed-left">
       <a class="navmenu-brand" href="#">kidsle</a>
+      Ergebnisse Filtern
       <ul class="nav navmenu-nav">
-        <li><a href="#">Registrieren</a></li>
-        <li><a href="#">Anmelden</a></li>
-        Ergebnisse Filtern
         <li>
           <div class="checkbox">
             <label>
-              <input type="checkbox"> Kitas
+              <input type="checkbox"> Obeschulen
             </label>
           </div>
         </li>
         <li>
           <div class="checkbox">
             <label>
-              <input type="checkbox"> Schulen
+              <input type="checkbox"> Grundschulen
             </label>
           </div>
         </li>
         <li>
           <div class="checkbox">
             <label>
-              <input type="checkbox"> Spielplätze
+              <input type="checkbox"> Gymansien
             </label>
           </div>
         </li>
-        <li>
-          Umkreis
+      </ul>
+      <div class="">
+        Umkreis
+      </div>
+
           <input id="distance-slider" data-slider-id='slider' type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="14"/>
-        </li>
         <form class="navbar-form navbar-left">
             <input type="text" class="form-control" placeholder="Suchen...">
         </form>
-      </ul>
+
     </div>
 
     <div class="canvas">
@@ -74,11 +74,8 @@
 
       <div class="container">
         <div class="results">
-          <div class="header">
-            <h1 class="">Nachbarschafts Schule</h1>
-          </div>
           <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-
+            <h1 class="">Nachbarschafts Schule</h1>
             <div class="row">
               <div class="col-xs-12 col-md-6">
                 <h2 class="info">Beschreibung</h2>
@@ -93,7 +90,10 @@
                     <a href="#">Webseite</a>
                     </li>
                     <li>
-                    Bewertung
+                    <a href="#">Kommentare</a>
+                    </li>
+                    <li>
+                    <a href="#">Bewertung</a><div class="rating-group"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span></div>
                     </li>
                   </ul>
               </div>
@@ -109,12 +109,16 @@
 
     <!-- Google Maps API -->
     <script src="//maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <!-- Leaflet -->
+    <script src="//cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+
     <script src="//google-maps-utility-library-v3.googlecode.com/svn/trunk/geolocationmarker/src/geolocationmarker-compiled.js"></script>
     <script type="text/javascript" charset="utf-8" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <script type="text/javascript" charset="utf-8" src="src/js/custom.js"></script>
     <script type="text/javascript" charset="utf-8" src="src/js/bootstrap-slider.js"></script>
     <script type="text/javascript" charset="utf-8" src="src/js/map.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/js/leaveme.js"></script>
     <script type="text/javascript" charset="utf-8" src="src/js/offcanvas.js"></script>
     <script type="text/javascript" charset="utf-8">
       $('#distance-slider').slider({
