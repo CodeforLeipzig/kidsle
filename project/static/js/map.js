@@ -49,35 +49,86 @@ function initialize() {
   var schools = '/static/data/grundschule.geo.json';
   var gym   = '/static/data/gymnasium.geo.json';
 
+  map = new google.maps.Map(document.getElementById('map'),
+      mapOptions);
 
-  var map = new google.maps.Map($('#map'), mapOptions);
+
+  scopt = {
+   icon: 'src/img/pin-marker.svg'
+  };
+  //
+  // scopt = map.data.setStyle({
+  //   icon: 'src/img/playground2.svg'
+  // });
+  // var test1 = map.data.addGeoJson(geoJson:schools, options?:scopt);
+
+
+
+  map.data.loadGeoJson(schools, gym);
+  map.data.setStyle(scopt);
+
+
+
+
+  // map.data.foreEach(function(feature) {console.log(feature);})
+
+
+  // var datalayer = new google.maps.Data(map);
+  //     datalayer.addGeoJson(schools);
+  //     // datalayer.setStyle(scopt);
+  //     datalayer.setMap(map);
+
+  // map.data.setStyle(scopt);
+  //
+  //
+  // map.data.addListener('click', function(event) {
+  //    map.data.overrideStyle(event.feature, {icon: 'src/img/school.svg'});
+  // });
+
+  //
+  // function  loadGeoJSON(data){
+  //
+  //   var json = JSON.parse(data);
+  //   var features = new GeoJSON(json, style);
+  //
+  //   // Loop through each feature
+  //   for (var i = 0; i < features.length; i++){
+  //     features[i].setMap(map);
+  //   }
+  // };
+
+  // scopt2 = map.data.setStyle({
+  //   icon: 'src/img/playground.svg'
+  // });
+  // map.data.loadGeoJson(gym, scopt2);
+
 
 /* Just for testing purpose Icon Markers */
 
-  var plLatlng = new google.maps.LatLng(51.327, 12.339);
-
-  var playground = new google.maps.Marker({
-    map: map,
-    position: plLatlng,
-    icon: '/static/img/playground2.svg'
-  });
-
-  var scLatlng = new google.maps.LatLng(51.345, 12.336);
-
-  var school = new google.maps.Marker({
-    map: map,
-    position: scLatlng,
-    icon: '/static/img/school.svg'
-  });
-
-
-  var ktLatlng = new google.maps.LatLng(51.329, 12.331);
-
-  var daycare_centre = new google.maps.Marker({
-    map: map,
-    position: ktLatlng,
-    icon: '/static/img/kita.svg'
-  });
+  // var plLatlng = new google.maps.LatLng(51.327, 12.339);
+  //
+  // var playground = new google.maps.Marker({
+  //   map: map,
+  //   position: plLatlng,
+  //   icon: 'src/img/playground2.svg'
+  // });
+  //
+  // var scLatlng = new google.maps.LatLng(51.345, 12.336);
+  //
+  // var playground = new google.maps.Marker({
+  //   map: map,
+  //   position: scLatlng,
+  //   icon: 'src/img/school.svg'
+  // });
+  //
+  //
+  // var ktLatlng = new google.maps.LatLng(51.329, 12.331);
+  //
+  // var playground = new google.maps.Marker({
+  //   map: map,
+  //   position: ktLatlng,
+  //   icon: 'src/img/kita.svg'
+  // });
 
   if(navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(function(position) {
@@ -92,6 +143,7 @@ function initialize() {
         map: map,
         clickable: false,
         icon: image,
+        draggable: true,
         position: pos
       });
 
