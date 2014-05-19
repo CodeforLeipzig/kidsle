@@ -46,9 +46,8 @@ function initialize() {
   };
 
 
-  schools = 'src/data/grundschule.geo.json';
-  gym   = 'src/data/gymnasium.geo.json';
-
+  var schools = '/static/data/grundschule.geo.json';
+  var gym   = '/static/data/gymnasium.geo.json';
 
   map = new google.maps.Map(document.getElementById('map'),
       mapOptions);
@@ -69,7 +68,7 @@ function initialize() {
   map.data.setStyle(scopt);
 
 
-  
+
 
   // map.data.foreEach(function(feature) {console.log(feature);})
 
@@ -131,36 +130,11 @@ function initialize() {
   //   icon: 'src/img/kita.svg'
   // });
 
-  // var mcOptions = {
-  //         gridSize : 50,
-  //         maxZoom : 15
-  //       };
-  // clusterer = new MarkerClusterer(map, markers, mcOptions);
-
-  // GeoMarker = new GeolocationMarker();
-  //
-  // GeoMarker.setCircleOptions({
-  //   fillColor: '#ff0000',
-  // });
-  //
-  //
-  // google.maps.event.addListenerOnce(GeoMarker, 'position_changed', function() {
-  //   map.setCenter(this.getPosition());
-  //   map.fitBounds(this.getBounds());
-  // });
-  //
-  // google.maps.event.addListener(GeoMarker, 'geolocation_error', function(e) {
-  //   alert('There was an error obtaining your position. Message: ' + e.message);
-  // });
-  //
-  // GeoMarker.setMap(map);
-
-  //Try HTML5 geolocation
   if(navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(function(position) {
       var pos = new google.maps.LatLng(position.coords.latitude,
                                        position.coords.longitude);
-      var image = new google.maps.MarkerImage('src/img/marker-circle.svg',
+      var image = new google.maps.MarkerImage('/static/img/marker-circle.svg',
         new google.maps.Size(32, 32),
         new google.maps.Point(0, 0),
         new google.maps.Point(16, 16));
@@ -192,12 +166,10 @@ function initialize() {
 }
 
 function handleNoGeolocation(errorFlag) {
+  var content = 'Error: Your browser doesn\'t support geolocation.';
   if (errorFlag) {
-    var content = 'Error: The Geolocation service failed.';
-  } else {
-    var content = 'Error: Your browser doesn\'t support geolocation.';
+    content = 'Error: The Geolocation service failed.';
   }
-
   var options = {
     map: map,
     position: new google.maps.LatLng(51.33, 12.33),

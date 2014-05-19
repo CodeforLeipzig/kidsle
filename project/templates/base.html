@@ -1,19 +1,26 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset=utf-8 />
-    <title>kidlse</title>
+    <title>
+      {% block title %}
+        kidlse
+      {% endblock %}
+    </title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
-<!--     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"> -->
-<!--     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.2/css/jasny-bootstrap.min.css" type="text/css" media="screen" title="no title" charset="utf-8"> -->
-    <link rel="stylesheet" href="src/css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+
+    {% block styles %}
+      <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" media="screen" title="no title" charset="utf-8">
+      <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+    {% endblock %}
   </head>
   <body>
      <div class="navmenu navmenu-default navmenu-fixed-left">
       <a class="navmenu-brand" href="#">kidsle</a>
       Ergebnisse Filtern
       <ul class="nav navmenu-nav">
+        Ergebnisse Filtern
         <li>
           <div class="checkbox">
             <label>
@@ -48,21 +55,6 @@
     </div>
 
     <div class="canvas">
-
-<!--       <div class="main-nav">
-        <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <div class="main-nav">
-        <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div> -->
 
       <div class="navbar navbar-default navbar-fixed-top">
         <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas">
@@ -100,6 +92,7 @@
             </div>
           </div>
         </div>
+
         <div id="map"></div>
 
       </div><!-- /.container -->
@@ -108,6 +101,7 @@
 
 
     <!-- Google Maps API -->
+    {% block js %}
     <script src="//maps.googleapis.com/maps/api/js?sensor=false"></script>
     <!-- Leaflet -->
     <script src="//cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
@@ -128,5 +122,6 @@
       });
 
     </script>
+    {% endblock %}
   </body>
 </html>

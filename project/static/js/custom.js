@@ -85,25 +85,30 @@ function initialize() {
       }]
     }]
   };
-  map = new google.maps.Map(document.getElementById('map'),
+  var map = new google.maps.Map(document.getElementById('map'),
       mapOptions);
 
   // Try HTML5 geolocation
   if(navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(function(position) {
-      var pos = new google.maps.LatLng(position.coords.latitude,
-                                       position.coords.longitude);
+    try {
+      navigator.geolocation.getCurrentPosition(function(position) {
+        var pos = new google.maps.LatLng(position.coords.latitude,
+                                         position.coords.longitude);
+        var infowindow = new google.maps.InfoWindow({
+          map: map,
+          position: pos,
+          content: 'du bist hier'
+        });
 
-      var infowindow = new google.maps.InfoWindow({
-        map: map,
-        position: pos,
-        content: 'du bist hier'
+        map.setCenter(pos);
+      }, function() {
+        handleNoGeolocation(true);
       });
-
-      map.setCenter(pos);
-    }, function() {
-      handleNoGeolocation(true);
-    });
+    }
+    catch(err) {
+      // getting geolocation raised an error
+      handleNoGeolocation(false);
+    }
   } else {
     // Browser doesn't support Geolocation
     handleNoGeolocation(false);
@@ -128,4 +133,4 @@ function handleNoGeolocation(errorFlag) {
   map.setCenter(options.position);
 }
 
-google.maps.event.addDomListener(window, 'load', initialize);
+$(document).ready(initialize);
