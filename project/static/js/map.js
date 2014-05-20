@@ -1,7 +1,7 @@
 var map, GeoMarker;
 
 // var xhr = new XMLHttpRequest();
-// xhr.open('GET', 'src/data/grundschule.geo.json', true);
+// xhr.open('GET', '/static/data/grundschule.geo.json', true);
 // xhr.onload = function() {
 //   loadGrundschule(this.responseText);
 // };
@@ -54,11 +54,11 @@ function initialize() {
 
 
   scopt = {
-   icon: 'src/img/pin-marker.svg'
+   icon: '/static/img/pin-marker.svg'
   };
   //
   // scopt = map.data.setStyle({
-  //   icon: 'src/img/playground2.svg'
+  //   icon: '/static/img/playground2.svg'
   // });
   // var test1 = map.data.addGeoJson(geoJson:schools, options?:scopt);
 
@@ -82,7 +82,7 @@ function initialize() {
   //
   //
   // map.data.addListener('click', function(event) {
-  //    map.data.overrideStyle(event.feature, {icon: 'src/img/school.svg'});
+  //    map.data.overrideStyle(event.feature, {icon: '/static/img/school.svg'});
   // });
 
   //
@@ -98,7 +98,7 @@ function initialize() {
   // };
 
   // scopt2 = map.data.setStyle({
-  //   icon: 'src/img/playground.svg'
+  //   icon: '/static/img/playground.svg'
   // });
   // map.data.loadGeoJson(gym, scopt2);
 
@@ -110,7 +110,7 @@ function initialize() {
   // var playground = new google.maps.Marker({
   //   map: map,
   //   position: plLatlng,
-  //   icon: 'src/img/playground2.svg'
+  //   icon: '/static/img/playground2.svg'
   // });
   //
   // var scLatlng = new google.maps.LatLng(51.345, 12.336);
@@ -118,7 +118,7 @@ function initialize() {
   // var playground = new google.maps.Marker({
   //   map: map,
   //   position: scLatlng,
-  //   icon: 'src/img/school.svg'
+  //   icon: '/static/img/school.svg'
   // });
   //
   //
@@ -127,7 +127,7 @@ function initialize() {
   // var playground = new google.maps.Marker({
   //   map: map,
   //   position: ktLatlng,
-  //   icon: 'src/img/kita.svg'
+  //   icon: '/static/img/kita.svg'
   // });
 
   if(navigator.geolocation) {
