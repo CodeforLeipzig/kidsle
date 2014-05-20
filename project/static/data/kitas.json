@@ -1,0 +1,3755 @@
+[
+    {
+        "id": 1,
+        "address": {
+            "full": "Ahlfeldstraße  2, Leipzig",
+            "street": "Ahlfeldstraße",
+            "zipcode": "04177",
+            "city": "Leipzig",
+            "lng": 12.3227367,
+            "lat": 51.3424227
+        },"name": "Kita Ahlfeldstraße  2",
+        "district": "Alt-West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 2,
+        "address": {
+            "full": "Alte Straße 2, Leipzig",
+            "street": "Alte Straße",
+            "streetNumber": "2",
+            "lng": 12.34192,
+            "lat": 51.3316
+        },
+        "lng": 12.34192,
+        "lat": 51.3316,
+        "name": "Kita Alte Straße 2",
+        "district": "Südwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 3,
+        "address": {
+            "full": "Alte Thekalerstr. 13a, Leipzig",
+            "lng": 12.433440000000019,
+            "lat": 51.37855
+        },
+        "lng": 12.433440000000019,
+        "lat": 51.37855,
+        "name": "Kita Alte Thekalerstr. 13a",
+        "district": "Nordost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 4,
+        "address": {
+            "full": "Altenburger Str.  3, Leipzig",
+            "street": "Altenburger Str. ",
+            "streetNumber": "3",
+            "lng": 12.38368,
+            "lat": 51.31795
+        },
+        "lng": 12.38368,
+        "lat": 51.31795,
+        "name": "Kita Altenburger Str.  3",
+        "district": "Süd",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 5,
+        "address": {
+            "full": "Althener Anger  18, Leipzig",
+            "street": "Althener Anger ",
+            "streetNumber": "18",
+            "lng": 12.51926,
+            "lat": 51.33971
+        },
+        "lng": 12.51926,
+        "lat": 51.33971,
+        "name": "Kita Althener Anger  18",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 6,
+        "address": {
+            "full": "Althener Straße 18, Leipzig",
+            "street": "Althener Straße",
+            "streetNumber": "18",
+            "lng": 12.48493,
+            "lat": 51.33368
+        },
+        "lng": 12.48493,
+        "lat": 51.33368,
+        "name": "Kita Althener Straße 18",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 7,
+        "address": {
+            "full": "Am Hohlweg 2, Leipzig",
+            "street": "Am Hohlweg",
+            "zipcode": "04159",
+            "city": "Leipzig",
+            "lng": 12.3057261,
+            "lat": 51.3809395
+        },
+        "lng": 12.30507,
+        "lat": 51.38082,
+        "name": "Kita Am Hohlweg 2",
+        "district": "Nordwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 8,
+        "address": {
+            "full": "Am Kirschberg 39, Leipzig",
+            "street": "Am Kirschberg",
+            "streetNumber": "39",
+            "lng": 12.28225,
+            "lat": 51.31854
+        },
+        "lng": 12.28225,
+        "lat": 51.31854,
+        "name": "Kita Am Kirschberg 39",
+        "district": "West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 9,
+        "address": {
+            "full": "Am Kirschberg  37, Leipzig",
+            "street": "Am Kirschberg ",
+            "streetNumber": "37",
+            "lng": 12.282181400000013,
+            "lat": 51.319375
+        },
+        "lng": 12.282181400000013,
+        "lat": 51.319375,
+        "name": "Kita Am Kirschberg  37",
+        "district": "West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 10,
+        "address": {
+            "full": "Am Langen Felde 29, Leipzig",
+            "street": "Am langen Felde",
+            "streetNumber": "29",
+            "zipcode": "04179",
+            "city": "Leipzig",
+            "lng": 12.3151594671807,
+            "lat": 51.34311695
+        },
+        "lng": 12.31512,
+        "lat": 51.343,
+        "name": "Kita Am Langen Felde 29",
+        "district": "Alt-West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 11,
+        "address": {
+            "full": "Am langen Felde  8, Leipzig",
+            "street": "Am langen Felde",
+            "streetNumber": "8",
+            "zipcode": "04179",
+            "city": "Leipzig",
+            "lng": 12.3162495707996,
+            "lat": 51.3454275
+        },
+        "lng": 12.3163,
+        "lat": 51.34537,
+        "name": "Kita Am langen Felde  8",
+        "district": "Alt-West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 12,
+        "address": {
+            "full": "An der Hauptstraße 40 a, Leipzig",
+            "street": "An der Hauptstraße",
+            "streetNumber": "40a",
+            "zipcode": "04356",
+            "city": "Leipzig",
+            "lng": 12.4447162203217,
+            "lat": 51.42038475
+        },
+        "lng": 12.44462,
+        "lat": 51.42048,
+        "name": "Kita An der Hauptstraße 40 a",
+        "district": "Nord",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 13,
+        "address": {
+            "full": "An der Lehde 12, Leipzig",
+            "street": "An der Lehde",
+            "zipcode": "04179",
+            "city": "Leipzig",
+            "lng": 12.3218422,
+            "lat": 51.3459457
+        },
+        "lng": 12.32199,
+        "lat": 51.3458,
+        "name": "Kita An der Lehde 12",
+        "district": "Alt-West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 14,
+        "address": {
+            "full": "An der Lehde 14, Leipzig",
+            "street": "An der Lehde",
+            "zipcode": "04179",
+            "city": "Leipzig",
+            "lng": 12.3218422,
+            "lat": 51.3459457
+        },
+        "lng": 12.32218,
+        "lat": 51.34556,
+        "name": "Kita An der Lehde 14",
+        "district": "Alt-West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 15,
+        "address": {
+            "full": "An der Märchenwiese 3, Leipzig",
+            "street": "An der Märchenwiese",
+            "streetNumber": "3",
+            "zipcode": "04277",
+            "city": "Leipzig",
+            "lng": 12.3921473141571,
+            "lat": 51.3056379
+        },
+        "lng": 12.39306,
+        "lat": 51.30574,
+        "name": "Kita An der Märchenwiese 3",
+        "district": "Süd",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 16,
+        "address": {
+            "full": "An der Querbreite 4, Leipzig",
+            "street": "An der Querbreite",
+            "zipcode": "04129",
+            "city": "Leipzig",
+            "lng": 12.388607,
+            "lat": 51.3713749
+        },
+        "lng": 12.3874,
+        "lat": 51.37097,
+        "name": "Kita An der Querbreite 4",
+        "district": "Nord",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 17,
+        "address": {
+            "full": "An der Schule 1, Leipzig",
+            "street": "An der Schule",
+            "streetNumber": "1",
+            "zipcode": "04828",
+            "city": "Leipzig",
+            "lng": 12.7128147697862,
+            "lat": 51.3578873
+        },
+        "lng": 12.33347,
+        "lat": 51.39204,
+        "name": "Kita An der Schule 1",
+        "district": "Nordwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 18,
+        "address": {
+            "full": "An der Tabaksmühle 30, Leipzig",
+            "street": "An der Tabaksmühle",
+            "streetNumber": "30",
+            "zipcode": "04277",
+            "city": "Leipzig",
+            "lng": 12.4001930193894,
+            "lat": 51.31113765
+        },"name": "Kita An der Tabaksmühle 30",
+        "district": "Süd",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 19,
+        "address": {
+            "full": "An der Teichmühle 2, Leipzig",
+            "street": "An der Teichmühle",
+            "zipcode": "04178",
+            "city": "Leipzig",
+            "lng": 12.2517003,
+            "lat": 51.3407627
+        },
+        "lng": 12.25032,
+        "lat": 51.34078,
+        "name": "Kita An der Teichmühle 2",
+        "district": "Alt-West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 20,
+        "address": {
+            "full": "Arthur-Nagel-Straße 1 a/b, Leipzig",
+            "lng": 12.323870400000033,
+            "lat": 51.307364
+        },
+        "lng": 12.323870400000033,
+        "lat": 51.307364,
+        "name": "Kita Arthur-Nagel-Straße 1 a/b",
+        "district": "Südwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 21,
+        "address": {
+            "full": "Auenstraße 10, Leipzig",
+            "street": "Auenstraße",
+            "streetNumber": "10",
+            "lng": 12.2978,
+            "lat": 51.35897
+        },
+        "lng": 12.2978,
+        "lat": 51.35897,
+        "name": "Kita Auenstraße 10",
+        "district": "Alt-West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 22,
+        "address": {
+            "full": "Bästleinstraße 18, Leipzig",
+            "street": "Bästleinstraße",
+            "streetNumber": "18",
+            "zipcode": "04347",
+            "city": "Leipzig",
+            "lng": 12.4290056769048,
+            "lat": 51.35505135
+        },"name": "Kita Bästleinstraße 18",
+        "district": "Nordost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 23,
+        "address": {
+            "full": "Bernburger Straße 22, Leipzig",
+            "street": "Bernburger Straße",
+            "streetNumber": "22",
+            "zipcode": "04129",
+            "city": "Leipzig",
+            "lng": 12.3920937,
+            "lat": 51.3643375
+        },
+        "lng": 12.39214,
+        "lat": 51.36438,
+        "name": "Kita Bernburger Straße 22",
+        "district": "Nord",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 24,
+        "address": {
+            "full": "Bertolt-Brecht-Straße 11, Leipzig",
+            "street": "Bertolt-Brecht-Straße",
+            "zipcode": "04347",
+            "city": "Leipzig",
+            "lng": 12.4279568,
+            "lat": 51.3579502
+        },
+        "lng": 12.42947,
+        "lat": 51.35653,
+        "name": "Kita Bertolt-Brecht-Straße 11",
+        "district": "Nordost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 25,
+        "address": {
+            "full": "Biedermannstraße 23, Leipzig",
+            "street": "Biedermannstraße",
+            "streetNumber": "23",
+            "zipcode": "04277",
+            "city": "Leipzig",
+            "lng": 12.3760840062394,
+            "lat": 51.3076935
+        },
+        "lng": 12.37584,
+        "lat": 51.30789,
+        "name": "Kita Biedermannstraße 23",
+        "district": "Süd",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 26,
+        "address": {
+            "full": "Bisamstraße 17, Leipzig",
+            "street": "Bisamstraße",
+            "streetNumber": "17",
+            "zipcode": "04329",
+            "city": "Leipzig",
+            "lng": 12.4718236,
+            "lat": 51.3561142
+        },
+        "lng": 12.4725052,
+        "lat": 51.3566593,
+        "name": "Kita Bisamstraße 17",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 27,
+        "address": {
+            "full": "Bockstraße 8, Leipzig",
+            "street": "Bockstraße",
+            "zipcode": "04289",
+            "city": "Leipzig",
+            "lng": 12.4265767,
+            "lat": 51.305144
+        },
+        "lng": 12.42694,
+        "lat": 51.30359,
+        "name": "Kita Bockstraße 8",
+        "district": "Südost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 28,
+        "address": {
+            "full": "Bornaische Straße 184, Leipzig",
+            "street": "Bornaische Straße",
+            "streetNumber": "184",
+            "zipcode": "04279",
+            "city": "Leipzig",
+            "lng": 12.3915553782436,
+            "lat": 51.2880063
+        },
+        "lng": 12.39239,
+        "lat": 51.28732,
+        "name": "Kita Bornaische Straße 184",
+        "district": "Süd",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 29,
+        "address": {
+            "full": "Bornaische Straße 138, Leipzig",
+            "street": "Bornaische Straße",
+            "streetNumber": "138",
+            "zipcode": "04279",
+            "city": "Leipzig",
+            "lng": 12.38505775,
+            "lat": 51.29346285
+        },
+        "lng": 12.38685,
+        "lat": 51.29381,
+        "name": "Kita Bornaische Straße 138",
+        "district": "Süd",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 30,
+        "address": {
+            "full": "Bornaische Straße  186 c, Leipzig",
+            "lng": 12.39211,
+            "lat": 51.28663
+        },
+        "lng": 12.39211,
+        "lat": 51.28663,
+        "name": "Kita Bornaische Straße  186 c",
+        "district": "Süd",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 31,
+        "address": {
+            "full": "Bothestraße 17/19, Leipzig",
+            "street": "Bothestraße",
+            "zipcode": "04155",
+            "city": "Leipzig",
+            "lng": 12.3540357,
+            "lat": 51.3637611
+        },
+        "lng": 12.35402,
+        "lat": 51.36433,
+        "name": "Kita Bothestraße 17/19",
+        "district": "Nord",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 32,
+        "address": {
+            "full": "Brandiser Straße 20, Leipzig",
+            "street": "Brandiser Straße",
+            "streetNumber": "20",
+            "lng": 12.47453,
+            "lat": 51.32294
+        },
+        "lng": 12.47453,
+        "lat": 51.32294,
+        "name": "Kita Brandiser Straße 20",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 33,
+        "address": {
+            "full": "Breisgaustraße 21 a, Leipzig",
+            "street": "Breisgaustraße",
+            "streetNumber": "21a",
+            "lng": 12.292730000000006,
+            "lat": 51.31778
+        },
+        "lng": 12.292730000000006,
+        "lat": 51.31778,
+        "name": "Kita Breisgaustraße 21 a",
+        "district": "West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 34,
+        "address": {
+            "full": "Bremer Straße 17, Leipzig",
+            "street": "Bremer Straße",
+            "zipcode": "04157",
+            "city": "Leipzig",
+            "lng": 12.3648737,
+            "lat": 51.3770222
+        },
+        "lng": 12.3648,
+        "lat": 51.37699,
+        "name": "Kita Bremer Straße 17",
+        "district": "Nord",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 35,
+        "address": {
+            "full": "Bremer Weg 17, Leipzig",
+            "street": "Bremer Weg",
+            "zipcode": "04148",
+            "city": "Leipzig",
+            "lng": 12.3626263,
+            "lat": 51.3838721
+        },
+        "lng": 12.36316,
+        "lat": 51.38376,
+        "name": "Kita Bremer Weg 17",
+        "district": "Nord",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 36,
+        "address": {
+            "full": "Coppistraße 19, Leipzig",
+            "street": "Coppistraße",
+            "streetNumber": "19",
+            "lng": 12.38138,
+            "lat": 51.36586
+        },
+        "lng": 12.38138,
+        "lat": 51.36586,
+        "name": "Kita Coppistraße 19",
+        "district": "Nord",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 37,
+        "address": {
+            "full": "Dahlienstraße 75, Leipzig",
+            "street": "Dahlienstraße",
+            "streetNumber": "75",
+            "zipcode": "04209",
+            "city": "Leipzig",
+            "lng": 12.3044138,
+            "lat": 51.324275
+        },
+        "lng": 12.30432,
+        "lat": 51.32433,
+        "name": "Kita Dahlienstraße 75",
+        "district": "West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 38,
+        "address": {
+            "full": "Delitzscher Str. 141, Leipzig",
+            "street": "Delitzscher Str.",
+            "streetNumber": "141",
+            "lng": 12.3788,
+            "lat": 51.38466
+        },
+        "lng": 12.3788,
+        "lat": 51.38466,
+        "name": "Kita Delitzscher Str. 141",
+        "district": "Nord",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 39,
+        "address": {
+            "full": "Demmeringstraße 35, Leipzig",
+            "street": "Demmeringstraße",
+            "streetNumber": "35",
+            "lng": 12.33009,
+            "lat": 51.337
+        },
+        "lng": 12.33009,
+        "lat": 51.337,
+        "name": "Kita Demmeringstraße 35",
+        "district": "Alt-West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 40,
+        "address": {
+            "full": "Demmeringstraße  18, Leipzig",
+            "street": "Demmeringstraße",
+            "streetNumber": "18",
+            "zipcode": "04177",
+            "city": "Leipzig",
+            "lng": 12.3342568,
+            "lat": 51.3384143
+        },
+        "lng": 12.33419,
+        "lat": 51.33838,
+        "name": "Kita Demmeringstraße  18",
+        "district": "Alt-West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 41,
+        "address": {
+            "full": "Demmeringstraße 125, Leipzig",
+            "street": "Demmeringstraße",
+            "streetNumber": "125",
+            "zipcode": "04179",
+            "city": "Leipzig",
+            "lng": 12.3191712769415,
+            "lat": 51.3331326
+        },
+        "lng": 12.31946,
+        "lat": 51.33331,
+        "name": "Kita Demmeringstraße 125",
+        "district": "Alt-West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 42,
+        "address": {
+            "full": "Diderotstraße 13, Leipzig",
+            "street": "Diderotstraße",
+            "streetNumber": "13",
+            "zipcode": "04159",
+            "city": "Leipzig",
+            "lng": 12.3465480445025,
+            "lat": 51.3706541
+        },
+        "lng": 12.34614,
+        "lat": 51.37084,
+        "name": "Kita Diderotstraße 13",
+        "district": "Nordwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 43,
+        "address": {
+            "full": "Diezmannstraße 87a, Leipzig",
+            "street": "Diezmannstraße",
+            "streetNumber": "87a",
+            "zipcode": "04207",
+            "city": "Leipzig",
+            "lng": 12.31070785,
+            "lat": 51.3137728
+        },
+        "lng": 12.31075,
+        "lat": 51.31387,
+        "name": "Kita Diezmannstraße 87a",
+        "district": "Südwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 44,
+        "address": {
+            "full": "Dölling Straße  21, Leipzig",
+            "street": "Dölling Straße ",
+            "streetNumber": "21",
+            "lng": 12.44851,
+            "lat": 51.3482
+        },
+        "lng": 12.44851,
+        "lat": 51.3482,
+        "name": "Kita Dölling Straße  21",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 45,
+        "address": {
+            "full": "Dorfstraße 41, Leipzig",
+            "street": "Dorfstraße",
+            "streetNumber": "41",
+            "zipcode": "04808",
+            "city": "Leipzig",
+            "lng": 12.8566232691236,
+            "lat": 51.32999965
+        },
+        "lng": 12.51748,
+        "lat": 51.30866,
+        "name": "Kita Dorfstraße 41",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 46,
+        "address": {
+            "full": "Eduard-von-Hartmann-Straße 29/31, Leipzig",
+            "street": "Eduard-von-Hartmann-Straße",
+            "zipcode": "04157",
+            "city": "Leipzig",
+            "lng": 12.3796391,
+            "lat": 51.3705252
+        },
+        "lng": 12.3795,
+        "lat": 51.37073,
+        "name": "Kita Eduard-von-Hartmann-Straße 29/31",
+        "district": "Nord",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 47,
+        "address": {
+            "full": "Eichlerstraße  10, Leipzig",
+            "street": "Eichlerstraße",
+            "streetNumber": "10",
+            "zipcode": "04317",
+            "city": "Leipzig",
+            "lng": 12.4013038,
+            "lat": 51.3279214
+        },
+        "lng": 12.4012,
+        "lat": 51.32794,
+        "name": "Kita Eichlerstraße  10",
+        "district": "Südost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 48,
+        "address": {
+            "full": "Eisenacher Straße 38, Leipzig",
+            "street": "Eisenacher Straße",
+            "streetNumber": "38",
+            "zipcode": "04155",
+            "city": "Leipzig",
+            "lng": 12.3643732188144,
+            "lat": 51.3614942
+        },
+        "lng": 12.36438,
+        "lat": 51.36155,
+        "name": "Kita Eisenacher Straße 38",
+        "district": "Nord",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 49,
+        "address": {
+            "full": "Eisenbahnstraße 52, Leipzig",
+            "street": "Eisenbahnstraße",
+            "streetNumber": "52",
+            "lng": 12.4024,
+            "lat": 51.3458
+        },
+        "lng": 12.4024,
+        "lat": 51.3458,
+        "name": "Kita Eisenbahnstraße 52",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 50,
+        "address": {
+            "full": "Elsbethstraße 38, Leipzig",
+            "street": "Elsbethstraße",
+            "streetNumber": "38",
+            "zipcode": "04155",
+            "city": "Leipzig",
+            "lng": 12.3627533882621,
+            "lat": 51.36392415
+        },
+        "lng": 12.36276,
+        "lat": 51.36395,
+        "name": "Kita Elsbethstraße 38",
+        "district": "Nord",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 51,
+        "address": {
+            "full": "Enderststraße  32, Leipzig",
+            "street": "Enderststraße ",
+            "streetNumber": "32",
+            "lng": 12.327857999999992,
+            "lat": 51.3335036
+        },
+        "lng": 12.327857999999992,
+        "lat": 51.3335036,
+        "name": "Kita Enderststraße  32",
+        "district": "Alt-West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 52,
+        "address": {
+            "full": "Engelsdorfer Straße  279, Leipzig",
+            "street": "Engelsdorfer Straße ",
+            "streetNumber": "279",
+            "lng": 12.48326,
+            "lat": 51.33456
+        },
+        "lng": 12.48326,
+        "lat": 51.33456,
+        "name": "Kita Engelsdorfer Straße  279",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 53,
+        "address": {
+            "full": "Engelsdorfer-Straße 130, Leipzig",
+            "street": "Engelsdorfer Straße",
+            "streetNumber": "130",
+            "zipcode": "04316",
+            "city": "Leipzig",
+            "lng": 12.4456653,
+            "lat": 51.3318324
+        },
+        "lng": 12.44532,
+        "lat": 51.33171,
+        "name": "Kita Engelsdorfer-Straße 130",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 54,
+        "address": {
+            "full": "Erhardstraße 6, Leipzig",
+            "street": "Erhardstraße",
+            "streetNumber": "6",
+            "zipcode": "04229",
+            "city": "Leipzig",
+            "lng": 12.3426508,
+            "lat": 51.3182475
+        },
+        "lng": 12.34272,
+        "lat": 51.31826,
+        "name": "Kita Erhardstraße 6",
+        "district": "Südwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 55,
+        "address": {
+            "full": "Erich-Zeigner-Allee 77 a, Leipzig",
+            "street": "Erich-Zeigner-Allee",
+            "streetNumber": "77a",
+            "lng": 12.337130000000002,
+            "lat": 51.32332
+        },
+        "lng": 12.337130000000002,
+        "lat": 51.32332,
+        "name": "Kita Erich-Zeigner-Allee 77 a",
+        "district": "Südwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 56,
+        "address": {
+            "full": "Erich-Zeigner-Allee 77, Leipzig",
+            "street": "Erich-Zeigner-Allee",
+            "streetNumber": "77",
+            "lng": 12.33697,
+            "lat": 51.32266
+        },
+        "lng": 12.33697,
+        "lat": 51.32266,
+        "name": "Kita Erich-Zeigner-Allee 77",
+        "district": "Südwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 57,
+        "address": {
+            "full": "Ferdinand-Rhode-Straße 17, Leipzig",
+            "street": "Ferdinand-Rhode-Straße",
+            "zipcode": "04107",
+            "city": "Leipzig",
+            "lng": 12.3665524,
+            "lat": 51.3299711
+        },
+        "lng": 12.36666,
+        "lat": 51.33046,
+        "name": "Kita Ferdinand-Rhode-Straße 17",
+        "district": "Mitte",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 58,
+        "address": {
+            "full": "Ferdinand-Rhode-Straße 17 a, Leipzig",
+            "street": "Ferdinand-Rhode-Straße",
+            "streetNumber": "17a",
+            "zipcode": "04107",
+            "city": "Leipzig",
+            "lng": 12.367010327007,
+            "lat": 51.3305161
+        },
+        "lng": 12.36666,
+        "lat": 51.33046,
+        "name": "Kita Ferdinand-Rhode-Straße 17 a",
+        "district": "Mitte",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 59,
+        "address": {
+            "full": "Freiodaer Weg 2, Leipzig",
+            "street": "Freiodaer Weg",
+            "streetNumber": "2",
+            "lng": 12.27376,
+            "lat": 51.385
+        },
+        "lng": 12.27376,
+        "lat": 51.385,
+        "name": "Kita Freiodaer Weg 2",
+        "district": "Nordwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 60,
+        "address": {
+            "full": "Friedrich-Bosse-Straße 19, Leipzig",
+            "street": "Friedrich-Bosse-Straße",
+            "streetNumber": "19",
+            "lng": 12.33437,
+            "lat": 51.36985
+        },
+        "lng": 12.33437,
+        "lat": 51.36985,
+        "name": "Kita Friedrich-Bosse-Straße 19",
+        "district": "Nordwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 61,
+        "address": {
+            "full": "Friedrich-Bosse-Straße 87a, Leipzig",
+            "lng": 12.32585,
+            "lat": 51.37238
+        },
+        "lng": 12.32585,
+        "lat": 51.37238,
+        "name": "Kita Friedrich-Bosse-Straße 87a",
+        "district": "Nordwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 62,
+        "address": {
+            "full": "Friedrich-Ludwig-Jahn-Straße 5, Leipzig",
+            "street": "Friedrich-Ludwig-Jahn-Straße",
+            "streetNumber": "5",
+            "zipcode": "04808",
+            "city": "Leipzig",
+            "lng": 12.7451761,
+            "lat": 51.3713739
+        },
+        "lng": 12.25071,
+        "lat": 51.32732,
+        "name": "Kita Friedrich-Ludwig-Jahn-Straße 5",
+        "district": "West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 63,
+        "address": {
+            "full": "Friedrichshafner Str. 21, Leipzig",
+            "street": "Friedrichshafner Str.",
+            "streetNumber": "21",
+            "lng": 12.41791,
+            "lat": 51.35412
+        },
+        "lng": 12.41791,
+        "lat": 51.35412,
+        "name": "Kita Friedrichshafner Str. 21",
+        "district": "Nordost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 64,
+        "address": {
+            "full": "Friedrichshafner Straße 25, Leipzig",
+            "street": "Friedrichshafner Straße",
+            "streetNumber": "25",
+            "lng": 12.40708989999996,
+            "lat": 51.3655051
+        },
+        "lng": 12.40708989999996,
+        "lat": 51.3655051,
+        "name": "Kita Friedrichshafner Straße 25",
+        "district": "Nordost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 65,
+        "address": {
+            "full": "Friedrichshafner Straße 147, Leipzig",
+            "street": "Friedrichshafner Straße",
+            "streetNumber": "147",
+            "lng": 12.40502,
+            "lat": 51.3774
+        },
+        "lng": 12.40502,
+        "lat": 51.3774,
+        "name": "Kita Friedrichshafner Straße 147",
+        "district": "Nord",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 66,
+        "address": {
+            "full": "Frohburger Straße  33 D, Leipzig",
+            "lng": 12.381160000000023,
+            "lat": 51.31106
+        },
+        "lng": 12.381160000000023,
+        "lat": 51.31106,
+        "name": "Kita Frohburger Straße  33 D",
+        "district": "Süd",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 67,
+        "address": {
+            "full": "Gabelsbergerstraße 28, Leipzig",
+            "street": "Gabelsbergerstraße",
+            "streetNumber": "28",
+            "zipcode": "04315",
+            "city": "Leipzig",
+            "lng": 12.3966636,
+            "lat": 51.3422858
+        },
+        "lng": 12.3961148,
+        "lat": 51.3393213,
+        "name": "Kita Gabelsbergerstraße 28",
+        "district": "Mitte",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 68,
+        "address": {
+            "full": "Garskestraße 17, Leipzig",
+            "street": "Garskestraße",
+            "streetNumber": "17",
+            "zipcode": "04205",
+            "city": "Leipzig",
+            "lng": 12.2879222448608,
+            "lat": 51.325878
+        },
+        "lng": 12.287789999999973,
+        "lat": 51.32586,
+        "name": "Kita Garskestraße 17",
+        "district": "West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 69,
+        "address": {
+            "full": "Georg-Große-Straße 1a, Leipzig",
+            "street": "Georg-Große-Straße",
+            "zipcode": "04319",
+            "city": "Leipzig",
+            "lng": 12.477844,
+            "lat": 51.3342952
+        },
+        "lng": 12.47863,
+        "lat": 51.33472,
+        "name": "Kita Georg-Große-Straße 1a",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 70,
+        "address": {
+            "full": "Gerhard-Ellrodt-Straße 17 a, Leipzig",
+            "street": "Gerhard-Ellrodt-Straße",
+            "streetNumber": "17a",
+            "lng": 12.32139,
+            "lat": 51.29962
+        },
+        "lng": 12.32139,
+        "lat": 51.29962,
+        "name": "Kita Gerhard-Ellrodt-Straße 17 a",
+        "district": "Südwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 71,
+        "address": {
+            "full": "Gersterstraße  9, Leipzig",
+            "street": "Gersterstraße",
+            "streetNumber": "9",
+            "zipcode": "04279",
+            "city": "Leipzig",
+            "lng": 12.3896621448888,
+            "lat": 51.2946904
+        },
+        "lng": 12.39014,
+        "lat": 51.2949,
+        "name": "Kita Gersterstraße  9",
+        "district": "Süd",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 72,
+        "address": {
+            "full": "Gleisstraße 1, Leipzig",
+            "street": "Gleisstraße",
+            "streetNumber": "1",
+            "zipcode": "04229",
+            "city": "Leipzig",
+            "lng": 12.3454895,
+            "lat": 51.3309033
+        },"name": "Kita Gleisstraße 1",
+        "district": "Südwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 73,
+        "address": {
+            "full": "Goldsternstraße  21 a, Leipzig",
+            "street": "Goldsternstraße ",
+            "streetNumber": "21a",
+            "lng": 12.45573,
+            "lat": 51.35554
+        },
+        "lng": 12.45573,
+        "lat": 51.35554,
+        "name": "Kita Goldsternstraße  21 a",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 74,
+        "address": {
+            "full": "Goldsternstraße 21 b, Leipzig",
+            "street": "Goldsternstraße",
+            "streetNumber": "21b",
+            "lng": 12.45573,
+            "lat": 51.35554
+        },
+        "lng": 12.45573,
+        "lat": 51.35554,
+        "name": "Kita Goldsternstraße 21 b",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 75,
+        "address": {
+            "full": "Goyastraße 8, Leipzig",
+            "street": "Goyastraße",
+            "zipcode": "04105",
+            "city": "Leipzig",
+            "lng": 12.3523336,
+            "lat": 51.3491873
+        },
+        "lng": 12.35638,
+        "lat": 51.36279,
+        "name": "Kita Goyastraße 8",
+        "district": "Nordwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 76,
+        "address": {
+            "full": "Grünauer Allee 18, Leipzig",
+            "streetNumber": "18",
+            "zipcode": "04209",
+            "city": "Leipzig",
+            "lng": 12.3071407,
+            "lat": 51.3177579
+        },
+        "lng": 12.30697,
+        "lat": 51.31824,
+        "name": "Kita Grünauer Allee 18",
+        "district": "West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 77,
+        "address": {
+            "full": "Grünauer Allee 18 a, Leipzig",
+            "street": "Grünauer Allee",
+            "streetNumber": "18a",
+            "lng": 12.30697,
+            "lat": 51.31824
+        },
+        "lng": 12.30697,
+        "lat": 51.31824,
+        "name": "Kita Grünauer Allee 18 a",
+        "district": "West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 78,
+        "address": {
+            "full": "Güldengossaer Straße 6 - 8, Leipzig",
+            "street": "Güldengossaer Straße 6 -",
+            "streetNumber": "8",
+            "lng": 12.45913,
+            "lat": 51.28224
+        },
+        "lng": 12.45913,
+        "lat": 51.28224,
+        "name": "Kita Güldengossaer Straße 6 - 8",
+        "district": "Südost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 79,
+        "address": {
+            "full": "Gundermannstr. 16, Leipzig",
+            "street": "Gundermannstraße",
+            "zipcode": "04328",
+            "city": "Leipzig",
+            "lng": 12.459252,
+            "lat": 51.351018
+        },
+        "lng": 12.46307,
+        "lat": 51.35132,
+        "name": "Kita Gundermannstr. 16",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 80,
+        "address": {
+            "full": "Gundermannstr.  18, Leipzig",
+            "street": "Gundermannstraße",
+            "zipcode": "04328",
+            "city": "Leipzig",
+            "lng": 12.459252,
+            "lat": 51.351018
+        },"name": "Kita Gundermannstr.  18",
+        "district": "Nordost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 81,
+        "address": {
+            "full": "Gustav-Freytag-Straße 33  a, Leipzig",
+            "lng": 12.370840000000044,
+            "lat": 51.31359
+        },
+        "lng": 12.370840000000044,
+        "lat": 51.31359,
+        "name": "Kita Gustav-Freytag-Straße 33  a",
+        "district": "Süd",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 82,
+        "address": {
+            "full": "Hannoversche Straße 52, Leipzig",
+            "street": "Hannoversche Straße",
+            "zipcode": "04157",
+            "city": "Leipzig",
+            "lng": 12.3703314,
+            "lat": 51.3751865
+        },
+        "lng": 12.3735,
+        "lat": 51.37438,
+        "name": "Kita Hannoversche Straße 52",
+        "district": "Nord",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 83,
+        "address": {
+            "full": "Hannoversche Straße 50, Leipzig",
+            "street": "Hannoversche Straße",
+            "zipcode": "04157",
+            "city": "Leipzig",
+            "lng": 12.3703314,
+            "lat": 51.3751865
+        },
+        "lng": 12.37370999999996,
+        "lat": 51.37497,
+        "name": "Kita Hannoversche Straße 50",
+        "district": "Nord",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 84,
+        "address": {
+            "full": "Hans-Beimler-Straße 17, Leipzig",
+            "street": "Hans-Beimler-Straße",
+            "zipcode": "04159",
+            "city": "Leipzig",
+            "lng": 12.3366678,
+            "lat": 51.3725287
+        },
+        "lng": 12.33556,
+        "lat": 51.37235,
+        "name": "Kita Hans-Beimler-Straße 17",
+        "district": "Nordwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 85,
+        "address": {
+            "full": "Hans-Beimler-Straße 3, Leipzig",
+            "street": "Hans-Beimler-Straße",
+            "zipcode": "04159",
+            "city": "Leipzig",
+            "lng": 12.3366678,
+            "lat": 51.3725287
+        },
+        "lng": 12.33783,
+        "lat": 51.37165,
+        "name": "Kita Hans-Beimler-Straße 3",
+        "district": "Nordwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 86,
+        "address": {
+            "full": "Hans-Marchwitza-Straße 10, Leipzig",
+            "street": "Hans-Marchwitza-Straße",
+            "streetNumber": "10",
+            "zipcode": "04279",
+            "city": "Leipzig",
+            "lng": 12.3994039907564,
+            "lat": 51.2995571
+        },
+        "lng": 12.39935,
+        "lat": 51.29975,
+        "name": "Kita Hans-Marchwitza-Straße 10",
+        "district": "Süd",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 87,
+        "address": {
+            "full": "Hans-Oster-Strasse 16, Leipzig",
+            "street": "Hans-Oster-Straße",
+            "streetNumber": "16",
+            "zipcode": "04157",
+            "city": "Leipzig",
+            "lng": 12.3603685,
+            "lat": 51.370362
+        },"name": "Kita Hans-Oster-Strasse 16",
+        "district": "Nord",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 88,
+        "address": {
+            "full": "Hans-Otto-Straße 2 a, Leipzig",
+            "street": "Hans-Otto-Straße",
+            "streetNumber": "2a",
+            "zipcode": "04279",
+            "city": "Leipzig",
+            "lng": 12.3945887,
+            "lat": 51.3024271
+        },
+        "lng": 12.39385,
+        "lat": 51.30261,
+        "name": "Kita Hans-Otto-Straße 2 a",
+        "district": "Süd",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 89,
+        "address": {
+            "full": "Hans-Otto-Straße 2 b, Leipzig",
+            "street": "Hans-Otto-Straße",
+            "streetNumber": "2b",
+            "zipcode": "04279",
+            "city": "Leipzig",
+            "lng": 12.3950629,
+            "lat": 51.3024222
+        },
+        "lng": 12.39385,
+        "lat": 51.30261,
+        "name": "Kita Hans-Otto-Straße 2 b",
+        "district": "Süd",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 90,
+        "address": {
+            "full": "Haydnstraße  20, Leipzig",
+            "street": "Haydnstraße",
+            "streetNumber": "20",
+            "zipcode": "04107",
+            "city": "Leipzig",
+            "lng": 12.3639994030829,
+            "lat": 51.3295037
+        },
+        "lng": 12.3641725,
+        "lat": 51.3293493,
+        "name": "Kita Haydnstraße  20",
+        "district": "Mitte",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 91,
+        "address": {
+            "full": "Heilemannstraße  19, Leipzig",
+            "street": "Heilemannstraße",
+            "streetNumber": "19",
+            "zipcode": "04277",
+            "city": "Leipzig",
+            "lng": 12.3676506447995,
+            "lat": 51.31191865
+        },
+        "lng": 12.367339,
+        "lat": 51.3119598,
+        "name": "Kita Heilemannstraße  19",
+        "district": "Süd",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 92,
+        "address": {
+            "full": "Herloßsohnstraße 20, Leipzig",
+            "street": "Herloßsohnstraße",
+            "streetNumber": "20",
+            "lng": 12.35509,
+            "lat": 51.36017
+        },
+        "lng": 12.35509,
+        "lat": 51.36017,
+        "name": "Kita Herloßsohnstraße 20",
+        "district": "Nord",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 93,
+        "address": {
+            "full": "Hermann-Liebmann-Straße 99, Leipzig",
+            "street": "Hermann-Liebmann-Straße",
+            "streetNumber": "99",
+            "zipcode": "04315",
+            "city": "Leipzig",
+            "lng": 12.4059339796401,
+            "lat": 51.34782505
+        },
+        "lng": 12.406157,
+        "lat": 51.3478263,
+        "name": "Kita Hermann-Liebmann-Straße 99",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 94,
+        "address": {
+            "full": "Hohe Straße 21, Leipzig",
+            "street": "Hohe Straße",
+            "streetNumber": "21",
+            "zipcode": "04107",
+            "city": "Leipzig",
+            "lng": 12.3768974,
+            "lat": 51.3291257
+        },
+        "lng": 12.37647,
+        "lat": 51.32914,
+        "name": "Kita Hohe Straße 21",
+        "district": "Mitte",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 95,
+        "address": {
+            "full": "Holsteinstraße 62/64, Leipzig",
+            "street": "Holsteinstraße",
+            "zipcode": "04317",
+            "city": "Leipzig",
+            "lng": 12.410563,
+            "lat": 51.3299302
+        },
+        "lng": 12.40687,
+        "lat": 51.32663,
+        "name": "Kita Holsteinstraße 62/64",
+        "district": "Südost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 96,
+        "address": {
+            "full": "Holunderweg 38, Leipzig",
+            "street": "Holunderweg",
+            "streetNumber": "38",
+            "lng": 12.29138,
+            "lat": 51.26826
+        },
+        "lng": 12.29138,
+        "lat": 51.26826,
+        "name": "Kita Holunderweg 38",
+        "district": "Südwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 97,
+        "address": {
+            "full": "Holzhäuser Str. 15, Leipzig",
+            "street": "Holzhäuser Str.",
+            "streetNumber": "15",
+            "lng": 12.41134,
+            "lat": 51.31933
+        },
+        "lng": 12.41134,
+        "lat": 51.31933,
+        "name": "Kita Holzhäuser Str. 15",
+        "district": "Südost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 98,
+        "address": {
+            "full": "Jadassohnstraße 2, Leipzig",
+            "street": "Jadassohnstraße",
+            "streetNumber": "2",
+            "zipcode": "04179",
+            "city": "Leipzig",
+            "lng": 12.3072233450323,
+            "lat": 51.3346385
+        },
+        "lng": 12.30724,
+        "lat": 51.33464,
+        "name": "Kita Jadassohnstraße 2",
+        "district": "Alt-West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 99,
+        "address": {
+            "full": "Jaspisstrasse 52, Leipzig",
+            "street": "Jaspisstrasse",
+            "streetNumber": "52",
+            "lng": 12.48236,
+            "lat": 51.33624
+        },
+        "lng": 12.48236,
+        "lat": 51.33624,
+        "name": "Kita Jaspisstrasse 52",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 100,
+        "address": {
+            "full": "Jörgen-Schmidtchen-Weg 4, Leipzig",
+            "street": "Jörgen-Schmidtchen-Weg",
+            "zipcode": "04148",
+            "city": "Leipzig",
+            "lng": 12.3612668,
+            "lat": 51.3800479
+        },
+        "lng": 12.360522,
+        "lat": 51.3799585,
+        "name": "Kita Jörgen-Schmidtchen-Weg 4",
+        "district": "Nord",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 101,
+        "address": {
+            "full": "Jörgen-Schmidtchen-Weg 6, Leipzig",
+            "street": "Jörgen-Schmidtchen-Weg",
+            "zipcode": "04148",
+            "city": "Leipzig",
+            "lng": 12.3612668,
+            "lat": 51.3800479
+        },
+        "lng": 12.36111,
+        "lat": 51.3799,
+        "name": "Kita Jörgen-Schmidtchen-Weg 6",
+        "district": "Nord",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 102,
+        "address": {
+            "full": "Jupiterstraße 37, Leipzig",
+            "street": "Jupiterstraße",
+            "zipcode": "04205",
+            "city": "Leipzig",
+            "lng": 12.2709814,
+            "lat": 51.3209074
+        },
+        "lng": 12.26919,
+        "lat": 51.32058,
+        "name": "Kita Jupiterstraße 37",
+        "district": "West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 103,
+        "address": {
+            "full": "Kändlerstraße 11, Leipzig",
+            "street": "Kändlerstraße",
+            "zipcode": "04205",
+            "city": "Leipzig",
+            "lng": 12.2695133,
+            "lat": 51.3124849
+        },
+        "lng": 12.26867,
+        "lat": 51.31232,
+        "name": "Kita Kändlerstraße 11",
+        "district": "West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 104,
+        "address": {
+            "full": "Kantatenweg 41 b, Leipzig",
+            "street": "Kantatenweg",
+            "streetNumber": "41b",
+            "lng": 12.33363,
+            "lat": 51.31817
+        },
+        "lng": 12.33363,
+        "lat": 51.31817,
+        "name": "Kita Kantatenweg 41 b",
+        "district": "Südwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 105,
+        "address": {
+            "full": "Kantatenweg 41 a, Leipzig",
+            "street": "Kantatenweg",
+            "streetNumber": "41a",
+            "lng": 12.33363,
+            "lat": 51.31817
+        },
+        "lng": 12.33363,
+        "lat": 51.31817,
+        "name": "Kita Kantatenweg 41 a",
+        "district": "Südwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 106,
+        "address": {
+            "full": "Kantor-Andrä-Straße  16, Leipzig",
+            "street": "Kantor-Andrä-Straße",
+            "streetNumber": "16",
+            "zipcode": "04178",
+            "city": "Leipzig",
+            "lng": 12.2879298,
+            "lat": 51.3548646
+        },
+        "lng": 12.2880642,
+        "lat": 51.3543999,
+        "name": "Kita Kantor-Andrä-Straße  16",
+        "district": "Alt-West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 107,
+        "address": {
+            "full": "Karl-Heine-Straße 34, Leipzig",
+            "street": "Karl-Heine-Straße",
+            "streetNumber": "34",
+            "zipcode": "04229",
+            "city": "Leipzig",
+            "lng": 12.3375871,
+            "lat": 51.3325916
+        },
+        "lng": 12.33762,
+        "lat": 51.3326,
+        "name": "Kita Karl-Heine-Straße 34",
+        "district": "Südwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 108,
+        "address": {
+            "full": "Karl-Mannsfeld-Straße 7-8, Leipzig",
+            "street": "Karl-Mannsfeld-Straße",
+            "zipcode": "04159",
+            "city": "Leipzig",
+            "lng": 12.3219241,
+            "lat": 51.3873751
+        },
+        "lng": 12.32173,
+        "lat": 51.38709,
+        "name": "Kita Karl-Mannsfeld-Straße 7-8",
+        "district": "Nordwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 109,
+        "address": {
+            "full": "Kelbestraße  3, Leipzig",
+            "street": "Kelbestraße",
+            "streetNumber": "3",
+            "zipcode": "04316",
+            "city": "Leipzig",
+            "lng": 12.4522172,
+            "lat": 51.3267059
+        },
+        "lng": 12.45162,
+        "lat": 51.32685,
+        "name": "Kita Kelbestraße  3",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 110,
+        "address": {
+            "full": "Kleiststraße 12, Leipzig",
+            "street": "Kleiststraße",
+            "streetNumber": "12",
+            "zipcode": "04157",
+            "city": "Leipzig",
+            "lng": 12.3794932583491,
+            "lat": 51.3646185
+        },
+        "lng": 12.37957,
+        "lat": 51.36465,
+        "name": "Kita Kleiststraße 12",
+        "district": "Nord",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 111,
+        "address": {
+            "full": "Knautnaundorfer Straße 4 f, Leipzig",
+            "street": "Knautnaundorfer Straße",
+            "streetNumber": "4f"
+        },"name": "Kita Knautnaundorfer Straße 4 f",
+        "district": "Südwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 112,
+        "address": {
+            "full": "Koehlerstraße  7, Leipzig",
+            "street": "Koehlerstraße ",
+            "streetNumber": "7",
+            "lng": 12.40365,
+            "lat": 51.3396
+        },
+        "lng": 12.40365,
+        "lat": 51.3396,
+        "name": "Kita Koehlerstraße  7",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 113,
+        "address": {
+            "full": "Kohlgartenweg 3, Leipzig",
+            "street": "Kohlgartenweg",
+            "streetNumber": "3",
+            "zipcode": "04318",
+            "city": "Leipzig",
+            "lng": 12.4122592793624,
+            "lat": 51.33503635
+        },"name": "Kita Kohlgartenweg 3",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 114,
+        "address": {
+            "full": "Königsteinstraße 70, Leipzig",
+            "street": "Königsteinstraße",
+            "streetNumber": "70",
+            "zipcode": "04207",
+            "city": "Leipzig",
+            "lng": 12.2641018,
+            "lat": 51.3051878
+        },
+        "lng": 12.2652472,
+        "lat": 51.3055427,
+        "name": "Kita Königsteinstraße 70",
+        "district": "West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 115,
+        "address": {
+            "full": "Königsteinstraße 72, Leipzig",
+            "street": "Königsteinstraße",
+            "streetNumber": "72",
+            "zipcode": "04207",
+            "city": "Leipzig",
+            "lng": 12.2646537,
+            "lat": 51.3052785
+        },
+        "lng": 12.26437,
+        "lat": 51.3055,
+        "name": "Kita Königsteinstraße 72",
+        "district": "West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 116,
+        "address": {
+            "full": "Könneritzstraße 47, Leipzig",
+            "street": "Könneritzstraße",
+            "streetNumber": "47"
+        },"name": "Kita Könneritzstraße 47",
+        "district": "Südwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 117,
+        "address": {
+            "full": "Konradstraße 70-72, Leipzig",
+            "street": "Konradstraße",
+            "streetNumber": "70-72",
+            "zipcode": "04315",
+            "city": "Leipzig",
+            "lng": 12.4118550905578,
+            "lat": 51.34415285
+        },
+        "lng": 12.41173,
+        "lat": 51.3442,
+        "name": "Kita Konradstraße 70-72",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 118,
+        "address": {
+            "full": "Krönerstraße 43/45, Leipzig",
+            "streetNumber": "45",
+            "lng": 12.41636,
+            "lat": 51.3397
+        },
+        "lng": 12.41636,
+        "lat": 51.3397,
+        "name": "Kita Krönerstraße 43/45",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 119,
+        "address": {
+            "full": "Kunzestraße 4, Leipzig",
+            "street": "Kunzestraße",
+            "zipcode": "04229",
+            "city": "Leipzig",
+            "lng": 12.3308078,
+            "lat": 51.3053098
+        },
+        "lng": 12.3288,
+        "lat": 51.30503,
+        "name": "Kita Kunzestraße 4",
+        "district": "Südwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 120,
+        "address": {
+            "full": "Kunzestraße 6, Leipzig",
+            "street": "Kunzestraße",
+            "zipcode": "04229",
+            "city": "Leipzig",
+            "lng": 12.3308078,
+            "lat": 51.3053098
+        },
+        "lng": 12.32964,
+        "lat": 51.30515,
+        "name": "Kita Kunzestraße 6",
+        "district": "Südwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 121,
+        "address": {
+            "full": "Kurt-Tucholsky-Straße 12, Leipzig",
+            "street": "Kurt-Tucholsky-Straße",
+            "streetNumber": "12",
+            "lng": 12.40336000000002,
+            "lat": 51.30185
+        },
+        "lng": 12.40336000000002,
+        "lat": 51.30185,
+        "name": "Kita Kurt-Tucholsky-Straße 12",
+        "district": "Südost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 122,
+        "address": {
+            "full": "Lange Straße 23, Leipzig",
+            "street": "Lange Straße",
+            "streetNumber": "23",
+            "lng": 12.39353,
+            "lat": 51.3416
+        },
+        "lng": 12.39353,
+        "lat": 51.3416,
+        "name": "Kita Lange Straße 23",
+        "district": "Mitte",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 123,
+        "address": {
+            "full": "Leipziger Straße 21, Leipzig",
+            "street": "Leipziger Straße",
+            "streetNumber": "21",
+            "zipcode": "04178",
+            "city": "Leipzig",
+            "lng": 12.2985197,
+            "lat": 51.3561645
+        },
+        "lng": 12.29866,
+        "lat": 51.35613,
+        "name": "Kita Leipziger Straße 21",
+        "district": "Alt-West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 124,
+        "address": {
+            "full": "Leonhard-Frank-Straße 24b, Leipzig",
+            "lng": 12.4292,
+            "lat": 51.34931
+        },
+        "lng": 12.4292,
+        "lat": 51.34931,
+        "name": "Kita Leonhard-Frank-Straße 24b",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 125,
+        "address": {
+            "full": "Lerchenrain 14-16, Leipzig",
+            "streetNumber": "16",
+            "lng": 12.40204,
+            "lat": 51.30883
+        },
+        "lng": 12.40204,
+        "lat": 51.30883,
+        "name": "Kita Lerchenrain 14-16",
+        "district": "Süd",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 126,
+        "address": {
+            "full": "Lichtenbergweg 3, Leipzig",
+            "street": "Lichtenbergweg",
+            "zipcode": "04299",
+            "city": "Leipzig",
+            "lng": 12.4112986,
+            "lat": 51.3201012
+        },
+        "lng": 12.41096,
+        "lat": 51.32024,
+        "name": "Kita Lichtenbergweg 3",
+        "district": "Südost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 127,
+        "address": {
+            "full": "Liebigstraße 22 b, Leipzig",
+            "lng": 12.3897,
+            "lat": 51.3312
+        },
+        "lng": 12.3897,
+        "lat": 51.3312,
+        "name": "Kita Liebigstraße 22 b",
+        "district": "Mitte",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 128,
+        "address": {
+            "full": "Lindenallee 3 a, Leipzig",
+            "street": "Lindenallee",
+            "streetNumber": "3a",
+            "lng": 12.34059,
+            "lat": 51.40378
+        },
+        "lng": 12.34059,
+        "lat": 51.40378,
+        "name": "Kita Lindenallee 3 a",
+        "district": "Nordwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 129,
+        "address": {
+            "full": "Lindenstraße 54, Leipzig",
+            "street": "Lindenstraße",
+            "streetNumber": "54",
+            "lng": 12.3788,
+            "lat": 51.39743
+        },
+        "lng": 12.3788,
+        "lat": 51.39743,
+        "name": "Kita Lindenstraße 54",
+        "district": "Nord",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 130,
+        "address": {
+            "full": "Linnéstraße 12, Leipzig",
+            "street": "Linnéstraße",
+            "streetNumber": "12",
+            "zipcode": "04103",
+            "city": "Leipzig",
+            "lng": 12.39254952437,
+            "lat": 51.3258525
+        },
+        "lng": 12.39243,
+        "lat": 51.32602,
+        "name": "Kita Linnéstraße 12",
+        "district": "Mitte",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 131,
+        "address": {
+            "full": "Lobstädter Str.  14, Leipzig",
+            "street": "Lobstädter Str. ",
+            "streetNumber": "14",
+            "lng": 12.38911,
+            "lat": 51.29802
+        },
+        "lng": 12.38911,
+        "lat": 51.29802,
+        "name": "Kita Lobstädter Str.  14",
+        "district": "Süd",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 132,
+        "address": {
+            "full": "Löhrstraße 9, Leipzig",
+            "street": "Löhrstraße",
+            "streetNumber": "9",
+            "lng": 12.37322,
+            "lat": 51.34571
+        },
+        "lng": 12.37322,
+        "lat": 51.34571,
+        "name": "Kita Löhrstraße 9",
+        "district": "Mitte",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 133,
+        "address": {
+            "full": "Lößniger Straße 8, Leipzig",
+            "street": "Lößniger Straße",
+            "streetNumber": "8",
+            "zipcode": "04416",
+            "city": "Leipzig",
+            "lng": 12.3744741465321,
+            "lat": 51.28918975
+        },
+        "lng": 12.380634099999952,
+        "lat": 51.32551429999999,
+        "name": "Kita Lößniger Straße 8",
+        "district": "Mitte",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 134,
+        "address": {
+            "full": "Louis-Fürnberg-Straße 19, Leipzig",
+            "street": "Louis-Fürnberg-Straße",
+            "zipcode": "04138",
+            "city": "Leipzig",
+            "lng": 12.4276295,
+            "lat": 51.348765
+        },
+        "lng": 12.42648,
+        "lat": 51.34855,
+        "name": "Kita Louis-Fürnberg-Straße 19",
+        "district": "Südost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 135,
+        "address": {
+            "full": "Louis-Fürnberg-Straße 21, Leipzig",
+            "street": "Louis-Fürnberg-Straße",
+            "streetNumber": "21",
+            "zipcode": "04318",
+            "city": "Leipzig",
+            "lng": 12.425997,
+            "lat": 51.3481902
+        },
+        "lng": 12.42658,
+        "lat": 51.34847,
+        "name": "Kita Louis-Fürnberg-Straße 21",
+        "district": "Südost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 136,
+        "address": {
+            "full": "Marschnerstraße 21, Leipzig",
+            "street": "Marschnerstraße",
+            "streetNumber": "21",
+            "lng": 12.35606,
+            "lat": 51.33669
+        },
+        "lng": 12.35606,
+        "lat": 51.33669,
+        "name": "Kita Marschnerstraße 21",
+        "district": "Mitte",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 137,
+        "address": {
+            "full": "Meininger Ring 41, Leipzig",
+            "street": "Meininger Ring",
+            "zipcode": "04205",
+            "city": "Leipzig",
+            "lng": 12.2790497,
+            "lat": 51.3198952
+        },
+        "lng": 12.26894,
+        "lat": 51.31947,
+        "name": "Kita Meininger Ring 41",
+        "district": "Nordwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 138,
+        "address": {
+            "full": "Meusdorfer Straße 47 b, Leipzig",
+            "street": "Meusdorfer Straße",
+            "zipcode": "04277",
+            "city": "Leipzig",
+            "lng": 12.376086,
+            "lat": 51.3047518
+        },
+        "lng": 12.3784411,
+        "lat": 51.3057709,
+        "name": "Kita Meusdorfer Straße 47 b",
+        "district": "Süd",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 139,
+        "address": {
+            "full": "Mothesstraße 2, Leipzig",
+            "street": "Mothesstraße",
+            "zipcode": "04129",
+            "city": "Leipzig",
+            "lng": 12.3854064,
+            "lat": 51.3737377
+        },
+        "lng": 12.38379,
+        "lat": 51.37316,
+        "name": "Kita Mothesstraße 2",
+        "district": "Nord",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 140,
+        "address": {
+            "full": "Naunhofer Straße 31, Leipzig",
+            "street": "Naunhofer Straße",
+            "streetNumber": "31",
+            "lng": 12.41496,
+            "lat": 51.31691
+        },
+        "lng": 12.41496,
+        "lat": 51.31691,
+        "name": "Kita Naunhofer Straße 31",
+        "district": "Südost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 141,
+        "address": {
+            "full": "Neptunweg  29a, Leipzig",
+            "lng": 12.2691,
+            "lat": 51.32442
+        },
+        "lng": 12.2691,
+        "lat": 51.32442,
+        "name": "Kita Neptunweg  29a",
+        "district": "West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 142,
+        "address": {
+            "full": "Neue Leipziger Straße 37 a, Leipzig",
+            "street": "Neue Leipziger Straße",
+            "zipcode": "04205",
+            "city": "Leipzig",
+            "lng": 12.2654375,
+            "lat": 51.3201831
+        },
+        "lng": 12.26542,
+        "lat": 51.31985,
+        "name": "Kita Neue Leipziger Straße 37 a",
+        "district": "West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 143,
+        "address": {
+            "full": "Neue Leipziger Straße 39 a, Leipzig",
+            "street": "Neue Leipziger Straße",
+            "zipcode": "04205",
+            "city": "Leipzig",
+            "lng": 12.2654375,
+            "lat": 51.3201831
+        },
+        "lng": 12.26482999999996,
+        "lat": 51.32024000000001,
+        "name": "Kita Neue Leipziger Straße 39 a",
+        "district": "West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 144,
+        "address": {
+            "full": "Nordplatz 14, Leipzig",
+            "streetNumber": "14",
+            "zipcode": "04105",
+            "city": "Leipzig",
+            "lng": 12.3740353800538,
+            "lat": 51.35278285
+        },
+        "lng": 12.374685,
+        "lat": 51.3530614,
+        "name": "Kita Nordplatz 14",
+        "district": "Mitte",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 145,
+        "address": {
+            "full": "Nordstraße 43 a/b, Leipzig",
+            "lng": 12.3739,
+            "lat": 51.35002
+        },
+        "lng": 12.3739,
+        "lat": 51.35002,
+        "name": "Kita Nordstraße 43 a/b",
+        "district": "Mitte",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 146,
+        "address": {
+            "full": "Nordweg  9, Leipzig",
+            "street": "Nordweg ",
+            "streetNumber": "9",
+            "lng": 12.37535,
+            "lat": 51.39477
+        },
+        "lng": 12.37535,
+        "lat": 51.39477,
+        "name": "Kita Nordweg  9",
+        "district": "Nord",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 147,
+        "address": {
+            "full": "Odermannstraße 4, Leipzig",
+            "street": "Odermannstraße",
+            "streetNumber": "4",
+            "zipcode": "04177",
+            "city": "Leipzig",
+            "lng": 12.3324212,
+            "lat": 51.3372964
+        },
+        "lng": 12.33249,
+        "lat": 51.3373,
+        "name": "Kita Odermannstraße 4",
+        "district": "Alt-West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 148,
+        "address": {
+            "full": "Oststraße  128, Leipzig",
+            "street": "Oststraße",
+            "streetNumber": "128",
+            "zipcode": "04299",
+            "city": "Leipzig",
+            "lng": 12.4182879267896,
+            "lat": 51.3268705
+        },
+        "lng": 12.418378800000028,
+        "lat": 51.3273603,
+        "name": "Kita Oststraße  128",
+        "district": "Südost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 149,
+        "address": {
+            "full": "Oststraße 185, Leipzig",
+            "street": "Oststraße",
+            "streetNumber": "185",
+            "zipcode": "04299",
+            "city": "Leipzig",
+            "lng": 12.42209875,
+            "lat": 51.3236893
+        },
+        "lng": 12.42175,
+        "lat": 51.32342,
+        "name": "Kita Oststraße 185",
+        "district": "Südost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 150,
+        "address": {
+            "full": "Palmstraße 4, Leipzig",
+            "street": "Palmstraße",
+            "streetNumber": "4",
+            "zipcode": "04317",
+            "city": "Leipzig",
+            "lng": 12.4114069829236,
+            "lat": 51.3289537
+        },
+        "lng": 12.41173,
+        "lat": 51.32921,
+        "name": "Kita Palmstraße 4",
+        "district": "Südost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 151,
+        "address": {
+            "full": "Paul-List-Straße 11 c, Leipzig"
+        },"name": "Kita Paul-List-Straße 11 c",
+        "district": "Mitte",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 152,
+        "address": {
+            "full": "Paul-Michael-Str. 15, Leipzig",
+            "street": "Paul-Michael-Straße",
+            "streetNumber": "15",
+            "zipcode": "04179",
+            "city": "Leipzig",
+            "lng": 12.3148857010721,
+            "lat": 51.35305
+        },
+        "lng": 12.3148,
+        "lat": 51.35303,
+        "name": "Kita Paul-Michael-Str. 15",
+        "district": "Alt-West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 153,
+        "address": {
+            "full": "Pistorisstraße 10, Leipzig",
+            "street": "Pistorisstraße",
+            "streetNumber": "10",
+            "zipcode": "04229",
+            "city": "Leipzig",
+            "lng": 12.3423115,
+            "lat": 51.3157598
+        },
+        "lng": 12.34227,
+        "lat": 51.31567,
+        "name": "Kita Pistorisstraße 10",
+        "district": "Südwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 154,
+        "address": {
+            "full": "Platnerstraße 11, Leipzig",
+            "street": "Platnerstraße",
+            "streetNumber": "11",
+            "lng": 12.360733100000061,
+            "lat": 51.3587892
+        },
+        "lng": 12.360733100000061,
+        "lat": 51.3587892,
+        "name": "Kita Platnerstraße 11",
+        "district": "Nord",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 155,
+        "address": {
+            "full": "Poetenweg 22, Leipzig",
+            "street": "Poetenweg",
+            "streetNumber": "22",
+            "zipcode": "04155",
+            "city": "Leipzig",
+            "lng": 12.3659189992343,
+            "lat": 51.35652465
+        },
+        "lng": 12.36595,
+        "lat": 51.35654,
+        "name": "Kita Poetenweg 22",
+        "district": "Nord",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 156,
+        "address": {
+            "full": "Poserstraße 55, Leipzig",
+            "street": "Poserstraße",
+            "streetNumber": "55",
+            "lng": 12.42545,
+            "lat": 51.35373
+        },
+        "lng": 12.42545,
+        "lat": 51.35373,
+        "name": "Kita Poserstraße 55",
+        "district": "Nordost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 157,
+        "address": {
+            "full": "Prager Straße 224, Leipzig",
+            "street": "Prager Straße",
+            "streetNumber": "224",
+            "lng": 12.42099,
+            "lat": 51.30781
+        },
+        "lng": 12.42099,
+        "lat": 51.30781,
+        "name": "Kita Prager Straße 224",
+        "district": "Südost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 158,
+        "address": {
+            "full": "Raschwitzer Str. 4, Leipzig",
+            "street": "Raschwitzer Straße",
+            "streetNumber": "4",
+            "zipcode": "04416",
+            "city": "Leipzig",
+            "lng": 12.3739786,
+            "lat": 51.2855487
+        },
+        "lng": 12.383675400000016,
+        "lat": 51.2950144,
+        "name": "Kita Raschwitzer Str. 4",
+        "district": "Süd",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 159,
+        "address": {
+            "full": "Raschwitzer Straße 15, Leipzig",
+            "street": "Raschwitzer Straße",
+            "streetNumber": "15",
+            "lng": 12.38396,
+            "lat": 51.29487
+        },
+        "lng": 12.38396,
+        "lat": 51.29487,
+        "name": "Kita Raschwitzer Straße 15",
+        "district": "Süd",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 160,
+        "address": {
+            "full": "Rathenaustraße 21, Leipzig",
+            "street": "Rathenaustraße",
+            "streetNumber": "21",
+            "lng": 12.31444,
+            "lat": 51.35497
+        },
+        "lng": 12.31444,
+        "lat": 51.35497,
+        "name": "Kita Rathenaustraße 21",
+        "district": "Alt-West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 161,
+        "address": {
+            "full": "Reichelstr. 3, Leipzig",
+            "street": "Reichelstraße",
+            "zipcode": "04109",
+            "city": "Leipzig",
+            "lng": 12.3671569,
+            "lat": 51.3369744
+        },
+        "lng": 12.3679181,
+        "lat": 51.3375476,
+        "name": "Kita Reichelstr. 3",
+        "district": "Mitte",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 162,
+        "address": {
+            "full": "Reichelstraße 3-5, Leipzig",
+            "street": "Reichelstraße",
+            "zipcode": "04109",
+            "city": "Leipzig",
+            "lng": 12.3671569,
+            "lat": 51.3369744
+        },
+        "lng": 12.3679181,
+        "lat": 51.3375476,
+        "name": "Kita Reichelstraße 3-5",
+        "district": "Mitte",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 163,
+        "address": {
+            "full": "Richard-Lehmann-Str. 30 A, Leipzig",
+            "lng": 12.37092,
+            "lat": 51.31449
+        },
+        "lng": 12.37092,
+        "lat": 51.31449,
+        "name": "Kita Richard-Lehmann-Str. 30 A",
+        "district": "Süd",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 164,
+        "address": {
+            "full": "Rietschelstraße 12, Leipzig",
+            "street": "Rietschelstraße",
+            "streetNumber": "12",
+            "lng": 12.33283,
+            "lat": 51.33959
+        },
+        "lng": 12.33283,
+        "lat": 51.33959,
+        "name": "Kita Rietschelstraße 12",
+        "district": "Alt-West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 165,
+        "address": {
+            "full": "Rietschelstraße 52, Leipzig",
+            "street": "Rietschelstraße",
+            "streetNumber": "52",
+            "lng": 12.324687900000072,
+            "lat": 51.3455582
+        },
+        "lng": 12.324687900000072,
+        "lat": 51.3455582,
+        "name": "Kita Rietschelstraße 52",
+        "district": "Alt-West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 166,
+        "address": {
+            "full": "Ringstraße  213, Leipzig",
+            "street": "Ringstraße",
+            "streetNumber": "213",
+            "zipcode": "04209",
+            "city": "Leipzig",
+            "lng": 12.2938791615963,
+            "lat": 51.31572115
+        },
+        "lng": 12.29386,
+        "lat": 51.31569,
+        "name": "Kita Ringstraße  213",
+        "district": "West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 167,
+        "address": {
+            "full": "Roßmarktstraße 6, Leipzig",
+            "street": "Roßmarktstraße",
+            "streetNumber": "6",
+            "zipcode": "04177",
+            "city": "Leipzig",
+            "lng": 12.3353732971101,
+            "lat": 51.33958255
+        },"name": "Kita Roßmarktstraße 6",
+        "district": "Alt-West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 168,
+        "address": {
+            "full": "Rudolph-Sack-Straße 12, Leipzig",
+            "street": "Rudolph-Sack-Straße",
+            "streetNumber": "12",
+            "zipcode": "04229",
+            "city": "Leipzig",
+            "lng": 12.3412623,
+            "lat": 51.3308021
+        },"name": "Kita Rudolph-Sack-Straße 12",
+        "district": "Südwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 169,
+        "address": {
+            "full": "Russenstraße 135, Leipzig",
+            "street": "Russenstraße",
+            "streetNumber": "135",
+            "lng": 12.44936,
+            "lat": 51.30413
+        },
+        "lng": 12.44936,
+        "lat": 51.30413,
+        "name": "Kita Russenstraße 135",
+        "district": "Südost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 170,
+        "address": {
+            "full": "Salomonstraße 10, Leipzig",
+            "street": "Salomonstraße",
+            "streetNumber": "10",
+            "zipcode": "04103",
+            "city": "Leipzig",
+            "lng": 12.3890014,
+            "lat": 51.3396025
+        },
+        "lng": 12.390867299999968,
+        "lat": 51.3397203,
+        "name": "Kita Salomonstraße 10",
+        "district": "Mitte",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 171,
+        "address": {
+            "full": "Samuel-Lampel-Straße 2, Leipzig",
+            "street": "Samuel-Lampel-Straße",
+            "zipcode": "04357",
+            "city": "Leipzig",
+            "lng": 12.420163,
+            "lat": 51.3786618
+        },
+        "lng": 12.42013,
+        "lat": 51.37754,
+        "name": "Kita Samuel-Lampel-Straße 2",
+        "district": "Nordost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 172,
+        "address": {
+            "full": "Schenkendorfstraße 30, Leipzig",
+            "street": "Schenkendorfstraße",
+            "streetNumber": "30",
+            "zipcode": "04275",
+            "city": "Leipzig",
+            "lng": 12.3747539694122,
+            "lat": 51.32399005
+        },
+        "lng": 12.37464,
+        "lat": 51.32415,
+        "name": "Kita Schenkendorfstraße 30",
+        "district": "Süd",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 173,
+        "address": {
+            "full": "Schenkendorfstraße 10, Leipzig",
+            "street": "Schenkendorfstraße",
+            "streetNumber": "10",
+            "zipcode": "04275",
+            "city": "Leipzig",
+            "lng": 12.3711697715899,
+            "lat": 51.32421435
+        },
+        "lng": 12.3712593,
+        "lat": 51.3243465,
+        "name": "Kita Schenkendorfstraße 10",
+        "district": "Süd",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 174,
+        "address": {
+            "full": "Schönauer Ring 23, Leipzig",
+            "street": "Schönauer Ring",
+            "streetNumber": "23",
+            "zipcode": "04209",
+            "city": "Leipzig",
+            "lng": 12.287106109203,
+            "lat": 51.32831065
+        },
+        "lng": 12.28691,
+        "lat": 51.32838,
+        "name": "Kita Schönauer Ring 23",
+        "district": "West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 175,
+        "address": {
+            "full": "Schönbachstraße 63, Leipzig",
+            "street": "Schönbachstraße",
+            "streetNumber": "63",
+            "lng": 12.4131,
+            "lat": 51.3222
+        },
+        "lng": 12.4131,
+        "lat": 51.3222,
+        "name": "Kita Schönbachstraße 63",
+        "district": "Südost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 176,
+        "address": {
+            "full": "Schönefelder Allee 23 a, Leipzig",
+            "street": "Schönefelder Allee",
+            "streetNumber": "23a",
+            "lng": 12.40533,
+            "lat": 51.35729
+        },
+        "lng": 12.40533,
+        "lat": 51.35729,
+        "name": "Kita Schönefelder Allee 23 a",
+        "district": "Nordost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 177,
+        "address": {
+            "full": "Schröderstraße 1, Leipzig",
+            "street": "Schröderstraße",
+            "zipcode": "04178",
+            "city": "Leipzig",
+            "lng": 12.2636613,
+            "lat": 51.3567302
+        },
+        "lng": 12.2634,
+        "lat": 51.35661,
+        "name": "Kita Schröderstraße 1",
+        "district": "Alt-West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 178,
+        "address": {
+            "full": "Schulzeweg 11, Leipzig",
+            "street": "Schulzeweg",
+            "streetNumber": "11",
+            "lng": 12.41743,
+            "lat": 51.35322
+        },
+        "lng": 12.41743,
+        "lat": 51.35322,
+        "name": "Kita Schulzeweg 11",
+        "district": "Nordost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 179,
+        "address": {
+            "full": "Schützstraße 2, Leipzig",
+            "street": "Schützstraße",
+            "streetNumber": "2",
+            "lng": 12.32063,
+            "lat": 51.35304
+        },
+        "lng": 12.32063,
+        "lat": 51.35304,
+        "name": "Kita Schützstraße 2",
+        "district": "Alt-West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 180,
+        "address": {
+            "full": "Sebastian-Bach-Straße 1 a, Leipzig",
+            "street": "Sebastian-Bach-Straße",
+            "streetNumber": "1a",
+            "zipcode": "04109",
+            "city": "Leipzig",
+            "lng": 12.3610027457829,
+            "lat": 51.3366902
+        },
+        "lng": 12.36131,
+        "lat": 51.33705,
+        "name": "Kita Sebastian-Bach-Straße 1 a",
+        "district": "Mitte",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 181,
+        "address": {
+            "full": "Seidelstraße 1/3, Leipzig",
+            "street": "Seidelstraße",
+            "zipcode": "04289",
+            "city": "Leipzig",
+            "lng": 12.4302299,
+            "lat": 51.2978644
+        },
+        "lng": 12.431069999999977,
+        "lat": 51.2977571,
+        "name": "Kita Seidelstraße 1/3",
+        "district": "Südost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 182,
+        "address": {
+            "full": "Seipelweg 16 b, Leipzig",
+            "street": "Seipelweg",
+            "zipcode": "04347",
+            "city": "Leipzig",
+            "lng": 12.4167,
+            "lat": 51.354155
+        },
+        "lng": 12.41791,
+        "lat": 51.35412,
+        "name": "Kita Seipelweg 16 b",
+        "district": "Nordost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 183,
+        "address": {
+            "full": "Seitengasse 2, Leipzig",
+            "street": "Seitengasse",
+            "zipcode": "04129",
+            "city": "Leipzig",
+            "lng": 12.3856278,
+            "lat": 51.3676978
+        },
+        "lng": 12.38543,
+        "lat": 51.36754,
+        "name": "Kita Seitengasse 2",
+        "district": "Nord",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 184,
+        "address": {
+            "full": "Seumestraße 99, Leipzig",
+            "street": "Seumestraße",
+            "streetNumber": "99",
+            "zipcode": "04249",
+            "city": "Leipzig",
+            "lng": 12.3120318567561,
+            "lat": 51.27807825
+        },
+        "lng": 12.3118,
+        "lat": 51.27823,
+        "name": "Kita Seumestraße 99",
+        "district": "Südwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 185,
+        "address": {
+            "full": "Sommerfelder Straße 29, Leipzig",
+            "street": "Sommerfelder Straße",
+            "streetNumber": "29",
+            "zipcode": "04299",
+            "city": "Leipzig",
+            "lng": 12.427593,
+            "lat": 51.3209638
+        },
+        "lng": 12.4275,
+        "lat": 51.32093,
+        "name": "Kita Sommerfelder Straße 29",
+        "district": "Südost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 186,
+        "address": {
+            "full": "Sophie-Scholl-Straße 6, Leipzig",
+            "street": "Sophie-Scholl-Straße",
+            "streetNumber": "6",
+            "zipcode": "04316",
+            "city": "Leipzig",
+            "lng": 12.4389685,
+            "lat": 51.326737
+        },
+        "lng": 12.43892,
+        "lat": 51.32677,
+        "name": "Kita Sophie-Scholl-Straße 6",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 187,
+        "address": {
+            "full": "Spinnereistraße 8, Leipzig",
+            "street": "Spinnereistraße",
+            "streetNumber": "8",
+            "zipcode": "04179",
+            "city": "Leipzig",
+            "lng": 12.3180869187144,
+            "lat": 51.32802545
+        },
+        "lng": 12.31809,
+        "lat": 51.3272,
+        "name": "Kita Spinnereistraße 8",
+        "district": "Alt-West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 188,
+        "address": {
+            "full": "Spinnereistraße 10, Leipzig",
+            "street": "Spinnereistraße",
+            "streetNumber": "10",
+            "zipcode": "04179",
+            "city": "Leipzig",
+            "lng": 12.317528848488,
+            "lat": 51.32769105
+        },
+        "lng": 12.31771,
+        "lat": 51.32771,
+        "name": "Kita Spinnereistraße 10",
+        "district": "Alt-West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 189,
+        "address": {
+            "full": "Spittastraße 7, Leipzig",
+            "street": "Spittastraße",
+            "streetNumber": "7",
+            "zipcode": "04177",
+            "city": "Leipzig",
+            "lng": 12.3251041,
+            "lat": 51.3401986
+        },
+        "lng": 12.3251,
+        "lat": 51.34019,
+        "name": "Kita Spittastraße 7",
+        "district": "Alt-West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 190,
+        "address": {
+            "full": "Sternwartenstraße 30 a/b, Leipzig",
+            "lng": 12.38492,
+            "lat": 51.33369
+        },
+        "lng": 12.38492,
+        "lat": 51.33369,
+        "name": "Kita Sternwartenstraße 30 a/b",
+        "district": "Mitte",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 191,
+        "address": {
+            "full": "Stollberger Straße 8, Leipzig",
+            "street": "Stollberger Straße",
+            "streetNumber": "8",
+            "zipcode": "04357",
+            "city": "Leipzig",
+            "lng": 12.4337667356307,
+            "lat": 51.37846765
+        },
+        "lng": 12.43344,
+        "lat": 51.37855,
+        "name": "Kita Stollberger Straße 8",
+        "district": "Nordost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 192,
+        "address": {
+            "full": "Stötteritzer Straße 1, Leipzig",
+            "street": "Stötteritzer Straße",
+            "streetNumber": "1",
+            "zipcode": "04317",
+            "city": "Leipzig",
+            "lng": 12.4006168,
+            "lat": 51.3293899
+        },
+        "lng": 12.40032,
+        "lat": 51.32931,
+        "name": "Kita Stötteritzer Straße 1",
+        "district": "Südost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 193,
+        "address": {
+            "full": "Südblick 5, Leipzig",
+            "street": "Südblick",
+            "zipcode": "04328",
+            "city": "Leipzig",
+            "lng": 12.45478,
+            "lat": 51.35132
+        },
+        "lng": 12.45565,
+        "lat": 51.35113,
+        "name": "Kita Südblick 5",
+        "district": "Südost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 194,
+        "address": {
+            "full": "Tarostraße 7, Leipzig",
+            "street": "Tarostraße",
+            "streetNumber": "7",
+            "zipcode": "04103",
+            "city": "Leipzig",
+            "lng": 12.3876033765244,
+            "lat": 51.3245381
+        },
+        "lng": 12.38702,
+        "lat": 51.32428,
+        "name": "Kita Tarostraße 7",
+        "district": "Mitte",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 195,
+        "address": {
+            "full": "Tarostraße 9, Leipzig",
+            "street": "Tarostraße",
+            "streetNumber": "9",
+            "zipcode": "04103",
+            "city": "Leipzig",
+            "lng": 12.3873800164356,
+            "lat": 51.32435545
+        },
+        "lng": 12.3874,
+        "lat": 51.32471,
+        "name": "Kita Tarostraße 9",
+        "district": "Mitte",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 196,
+        "address": {
+            "full": "Tarostraße 17-19, Leipzig",
+            "street": "Tarostraße",
+            "zipcode": "04103",
+            "city": "Leipzig",
+            "lng": 12.3884584,
+            "lat": 51.3247901
+        },
+        "lng": 12.388308,
+        "lat": 51.323277,
+        "name": "Kita Tarostraße 17-19",
+        "district": "Mitte",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 197,
+        "address": {
+            "full": "Täubchenweg 30, Leipzig",
+            "street": "Täubchenweg",
+            "streetNumber": "30",
+            "lng": 12.40165,
+            "lat": 51.33566
+        },
+        "lng": 12.40165,
+        "lat": 51.33566,
+        "name": "Kita Täubchenweg 30",
+        "district": "Südost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 198,
+        "address": {
+            "full": "Theodor-Neubauer-Straße 18, Leipzig",
+            "street": "Theodor-Neubauer-Straße",
+            "streetNumber": "18",
+            "zipcode": "04318",
+            "city": "Leipzig",
+            "lng": 12.413676,
+            "lat": 51.3353405
+        },
+        "lng": 12.4135,
+        "lat": 51.33533,
+        "name": "Kita Theodor-Neubauer-Straße 18",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 199,
+        "address": {
+            "full": "Thietmarstraße 13, Leipzig",
+            "street": "Thietmarstraße",
+            "streetNumber": "13",
+            "zipcode": "04179",
+            "city": "Leipzig",
+            "lng": 12.3155805691363,
+            "lat": 51.3290522
+        },"name": "Kita Thietmarstraße 13",
+        "district": "Alt-West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 200,
+        "address": {
+            "full": "Thünenstraße 2, Leipzig",
+            "street": "Thünenstraße",
+            "streetNumber": "2",
+            "lng": 12.39481,
+            "lat": 51.36912
+        },
+        "lng": 12.39481,
+        "lat": 51.36912,
+        "name": "Kita Thünenstraße 2",
+        "district": "Nord",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 201,
+        "address": {
+            "full": "Tschaikowskistrasse 28, Leipzig",
+            "street": "Tschaikowskistraße",
+            "streetNumber": "28",
+            "zipcode": "04105",
+            "city": "Leipzig",
+            "lng": 12.3603667275403,
+            "lat": 51.3461423
+        },
+        "lng": 12.3603,
+        "lat": 51.3462,
+        "name": "Kita Tschaikowskistrasse 28",
+        "district": "Mitte",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 202,
+        "address": {
+            "full": "Vollhardtstraße 16, Leipzig",
+            "street": "Vollhardtstraße",
+            "streetNumber": "16",
+            "zipcode": "04279",
+            "city": "Leipzig",
+            "lng": 12.3879386070951,
+            "lat": 51.28892155
+        },
+        "lng": 12.38815,
+        "lat": 51.28914,
+        "name": "Kita Vollhardtstraße 16",
+        "district": "Süd",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 203,
+        "address": {
+            "full": "Waldkerbelstraße 2, Leipzig",
+            "street": "Waldkerbelstraße",
+            "zipcode": "04328",
+            "city": "Leipzig",
+            "lng": 12.4598978,
+            "lat": 51.3585126
+        },
+        "lng": 12.4594,
+        "lat": 51.35869,
+        "name": "Kita Waldkerbelstraße 2",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 204,
+        "address": {
+            "full": "Waldrebenweg 9, Leipzig",
+            "street": "Waldrebenweg",
+            "zipcode": "04319",
+            "city": "Leipzig",
+            "lng": 12.4833916,
+            "lat": 51.3478911
+        },
+        "lng": 12.483098,
+        "lat": 51.3487367,
+        "name": "Kita Waldrebenweg 9",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 205,
+        "address": {
+            "full": "Walter-Heinze-Straße 22, Leipzig",
+            "street": "Walter-Heinze-Straße",
+            "streetNumber": "22",
+            "lng": 12.33503,
+            "lat": 51.33027
+        },
+        "lng": 12.33503,
+        "lat": 51.33027,
+        "name": "Kita Walter-Heinze-Straße 22",
+        "district": "Südwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 206,
+        "address": {
+            "full": "Weißdornstraße  2, Leipzig",
+            "street": "Weißdornstraße ",
+            "streetNumber": "2",
+            "lng": 12.29445,
+            "lat": 51.32182
+        },
+        "lng": 12.29445,
+        "lat": 51.32182,
+        "name": "Kita Weißdornstraße  2",
+        "district": "West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 207,
+        "address": {
+            "full": "Wiesenstraße 18, Leipzig",
+            "street": "Wiesenstraße",
+            "streetNumber": "18",
+            "lng": 12.46526,
+            "lat": 51.35638
+        },
+        "lng": 12.46526,
+        "lat": 51.35638,
+        "name": "Kita Wiesenstraße 18",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 208,
+        "address": {
+            "full": "Wilhelm-Sammet-Str. 4, Leipzig",
+            "street": "Wilhelm-Sammet-Straße",
+            "streetNumber": "4",
+            "zipcode": "04129",
+            "city": "Leipzig",
+            "lng": 12.3805763097187,
+            "lat": 51.3618051
+        },
+        "lng": 12.38072,
+        "lat": 51.36188,
+        "name": "Kita Wilhelm-Sammet-Str. 4",
+        "district": "Nord",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 209,
+        "address": {
+            "full": "William-Zipperer-Straße 149, Leipzig",
+            "street": "William-Zipperer-Straße",
+            "streetNumber": "149",
+            "zipcode": "04179",
+            "city": "Leipzig",
+            "lng": 12.3133479,
+            "lat": 51.3488866
+        },
+        "lng": 12.31317,
+        "lat": 51.34889,
+        "name": "Kita William-Zipperer-Straße 149",
+        "district": "Alt-West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 210,
+        "address": {
+            "full": "Willmar-Schwabe-Straße 4, Leipzig",
+            "street": "Willmar-Schwabe-Straße",
+            "streetNumber": "4",
+            "zipcode": "04105",
+            "city": "Leipzig",
+            "lng": 12.3577698659173,
+            "lat": 51.34106215
+        },
+        "lng": 12.35762,
+        "lat": 51.34168,
+        "name": "Kita Willmar-Schwabe-Straße 4",
+        "district": "Mitte",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 211,
+        "address": {
+            "full": "Windscheidstraße 32, Leipzig",
+            "street": "Windscheidstraße",
+            "streetNumber": "32",
+            "zipcode": "04277",
+            "city": "Leipzig",
+            "lng": 12.3686734802249,
+            "lat": 51.3107675
+        },
+        "lng": 12.36868,
+        "lat": 51.31087,
+        "name": "Kita Windscheidstraße 32",
+        "district": "Süd",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 212,
+        "address": {
+            "full": "Wurzner Straße 122, Leipzig",
+            "street": "Wurzner Straße",
+            "streetNumber": "122",
+            "lng": 12.4182128,
+            "lat": 51.3438316
+        },
+        "lng": 12.4182128,
+        "lat": 51.3438316,
+        "name": "Kita Wurzner Straße 122",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 213,
+        "address": {
+            "full": "Yorckstraße  43 b, Leipzig",
+            "street": "Yorckstraße ",
+            "streetNumber": "43b",
+            "lng": 12.34357,
+            "lat": 51.37001
+        },
+        "lng": 12.34357,
+        "lat": 51.37001,
+        "name": "Kita Yorckstraße  43 b",
+        "district": "Nordwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 214,
+        "address": {
+            "full": "Yorckstraße  43 a, Leipzig",
+            "street": "Yorckstraße ",
+            "streetNumber": "43a",
+            "lng": 12.34357,
+            "lat": 51.37001
+        },
+        "lng": 12.34357,
+        "lat": 51.37001,
+        "name": "Kita Yorckstraße  43 a",
+        "district": "Nordwest",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 215,
+        "address": {
+            "full": "Zeumer Straße 5, Leipzig",
+            "street": "Zeumer Straße",
+            "streetNumber": "5",
+            "lng": 12.4072,
+            "lat": 51.35799
+        },
+        "lng": 12.4072,
+        "lat": 51.35799,
+        "name": "Kita Zeumer Straße 5",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 216,
+        "address": {
+            "full": "Zeumerstraße 1, Leipzig",
+            "street": "Zeumerstraße",
+            "streetNumber": "1",
+            "zipcode": "04347",
+            "city": "Leipzig",
+            "lng": 12.4068927,
+            "lat": 51.3596377
+        },
+        "lng": 12.40607,
+        "lat": 51.35943,
+        "name": "Kita Zeumerstraße 1",
+        "district": "Nordost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 217,
+        "address": {
+            "full": "Zingster Straße 02, Leipzig",
+            "street": "Zingster Straße",
+            "streetNumber": "02",
+            "lng": 12.2599238,
+            "lat": 51.3106625
+        },
+        "lng": 12.2599238,
+        "lat": 51.3106625,
+        "name": "Kita Zingster Straße 02",
+        "district": "West",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 218,
+        "address": {
+            "full": "Zittauer Straße 2 a, Leipzig",
+            "street": "Zittauer Straße",
+            "zipcode": "04347",
+            "city": "Leipzig",
+            "lng": 12.4103927,
+            "lat": 51.3560341
+        },
+        "lng": 12.41429,
+        "lat": 51.35575,
+        "name": "Kita Zittauer Straße 2 a",
+        "district": "Nordost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 219,
+        "address": {
+            "full": "Zum Kleingartenpark  15, Leipzig",
+            "street": "Zum Kleingartenpark",
+            "streetNumber": "15",
+            "zipcode": "04318",
+            "city": "Leipzig",
+            "lng": 12.4233467,
+            "lat": 51.342407
+        },
+        "lng": 12.423459999999977,
+        "lat": 51.34256,
+        "name": "Kita Zum Kleingartenpark  15",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 220,
+        "address": {
+            "full": "Zur Schule  10, Leipzig",
+            "street": "Zur Schule ",
+            "streetNumber": "10",
+            "lng": 12.372747,
+            "lat": 51.3933745
+        },
+        "lng": 12.372747,
+        "lat": 51.3933745,
+        "name": "Kita Zur Schule  10",
+        "district": "Nord",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 221,
+        "address": {
+            "full": "Zweinauendorfer Straße 167, Leipzig",
+            "street": "Zweinauendorfer Straße",
+            "streetNumber": "167",
+            "lng": 12.44172,
+            "lat": 51.32713
+        },
+        "lng": 12.44172,
+        "lat": 51.32713,
+        "name": "Kita Zweinauendorfer Straße 167",
+        "district": "Ost",
+        "type": "Kindertagesstätte"
+    },
+    {
+        "id": 222,
+        "name": "1",
+        "district": "Nordost",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 223,
+        "name": "2",
+        "district": "Nordost",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 224,
+        "name": "3",
+        "district": "Nordost",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 225,
+        "name": "BBW-TPP16",
+        "district": "Südost",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 226,
+        "name": "FAIRbund TPP03",
+        "district": "Nord",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 227,
+        "name": "FAIRbund TPP05",
+        "district": "Nord",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 228,
+        "name": "FAIRbund TPP06",
+        "district": "Nord",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 229,
+        "name": "FAIRbund TPP07",
+        "district": "Ost",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 230,
+        "name": "FAIRbund TPP09",
+        "district": "Nord",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 231,
+        "name": "FJ-FRÖBEL-Lößnig",
+        "district": "Süd",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 232,
+        "address": {
+            "full": "Schulze-Boysen-Straße 12, Leipzig",
+            "street": "Schulze-Boysen-Straße",
+            "streetNumber": "12",
+            "zipcode": "04317",
+            "city": "Leipzig",
+            "lng": 12.3997725666667,
+            "lat": 51.3306576333333
+        },"name": "int-bsw 80100",
+        "district": "Südost",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 233,
+        "name": "int-bsw 83900",
+        "district": "Ost",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 234,
+        "name": "KüchollKa",
+        "district": "Nord",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 235,
+        "name": "MüllerMa",
+        "district": "Nordost",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 236,
+        "name": "MuruchiGe",
+        "district": "Südwest",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 237,
+        "name": "NieschAn",
+        "district": "West",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 238,
+        "name": "OUTLAW-LIE",
+        "district": "Ost",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 239,
+        "name": "OUTLAW-MER",
+        "district": "Südwest",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 240,
+        "name": "OUTLAW-ORT",
+        "district": "Nordwest",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 241,
+        "name": "OUTLAW-SCHM",
+        "district": "Südwest",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 242,
+        "address": {
+            "full": "Demmeringstraße 157, Leipzig",
+            "street": "Demmeringstraße",
+            "streetNumber": "157",
+            "zipcode": "04179",
+            "city": "Leipzig",
+            "lng": 12.312381207753,
+            "lat": 51.3312781
+        },
+        "lng": 12.29548,
+        "lat": 51.36031,
+        "name": "OUTLAW-WÖC",
+        "district": "Alt-West",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 243,
+        "name": "Rahn01",
+        "district": "West",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 244,
+        "name": "Rahn02",
+        "district": "Nordost",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 245,
+        "name": "Rahn03",
+        "district": "Nord",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 246,
+        "name": "Rahn04",
+        "district": "Nordwest",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 247,
+        "name": "Rahn05",
+        "district": "Nord",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 248,
+        "name": "Rahn06",
+        "district": "West",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 249,
+        "name": "Rahn07",
+        "district": "Südost",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 250,
+        "name": "Rahn09",
+        "district": "Südwest",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 251,
+        "name": "Rahn10",
+        "district": "Südost",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 252,
+        "name": "SchakatJa",
+        "district": "West",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 253,
+        "name": "SchwippsSa",
+        "district": "Nord",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 254,
+        "name": "Tagesmützel_04",
+        "district": "Südwest",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 255,
+        "name": "Tagesmützel_07",
+        "district": "Nordost",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 256,
+        "name": "Tagesmützel_08",
+        "district": "Ost",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 257,
+        "name": "Tagesmützel_13",
+        "district": "Südwest",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 258,
+        "name": "Tagesmützel_16",
+        "district": "Ost",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 259,
+        "name": "Tagesmützel_18",
+        "district": "Nord",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 260,
+        "name": "Tagesmützel_21",
+        "district": "Nord",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 261,
+        "name": "Tagesmützel_23",
+        "district": "Südwest",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 262,
+        "name": "Tagesmützel_25",
+        "district": "Nordost",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 263,
+        "name": "Tagesmützel_26",
+        "district": "Nordwest",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 264,
+        "name": "VJ - FRÖBEL",
+        "district": "Süd",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 265,
+        "name": "VKKJ Nordwest13",
+        "district": "Nordwest",
+        "type": "Tagesmutter"
+    },
+    {
+        "id": 266,
+        "name": "VKKJ Südwest4",
+        "district": "Südwest",
+        "type": "Tagesmutter"
+    }
+]
