@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     # third party apps
     'compressor',
     'grappelli',
+    'rest_framework',
     'django.contrib.admin',
 
     # own apps
