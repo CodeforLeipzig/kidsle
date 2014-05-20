@@ -40,7 +40,8 @@ INSTALLED_APPS = (
     'django.contrib.admin',
 
     # own apps
-    'core'
+    'core',
+    'schools'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -100,7 +101,7 @@ DATABASES = {
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'de'
 
 TIME_ZONE = 'UTC'
 
