@@ -6,11 +6,12 @@ Kitas, Kindergärten, Spielplätze und Schulen in Leipzig
 
 ### preparations
 
-#### Python
+#### Python & npm
 
-Make sure you have the latest version of python 2.7 installed.
+Make sure you have the latest version of python 2.7 installed. You also will need npm to install less.
 
-#### PIP and virtualenvwrapper
+
+#### PIP, virtualenvwrapper
 
 If you want to setup and start the backend, you have to install django and it's requirements. To do so, it is recommended to install and use the python package manager `pip`. For the installation, you need root privileges:
 
@@ -40,6 +41,14 @@ Finally, reload the `.bashrc` by running the following command:
 $ source .bashrc
 ```
 
+### less
+
+You will need less to compile the less files to css. To install it, use npm and run the following command as root:
+
+```
+$ npm install -g less;
+```
+
 ### creating the virtualenv and installing requirements
 
 Now you can use the virtualenvwrapper to create a new virtualenv:
@@ -50,22 +59,14 @@ $ mkvirtualenv kidsle
 
 You now see your prompt prefixed with the current virtualenv. You can deactivate it with `deactivate`. To reactivate it later on, simply use `workon kidsle`.
 
-To install all requirements, simply run the following command from the project directory:
+To install all requirements, and load the data into your database, you can run the make command. It will take care of installing and updating all requirements, creating the development database and loading the provided data. You also will get asked to create a admin account:
 
 ```
-$ pip install -r requirements/base.txt
+make install
 ```
 
-### Setup database and start the server
-
-To generate the database for local development, you can run the following command. This command will create a sqlite3 database. On production, please use a proper database like PostgreSQL.
+To run the server you also can use the Makefile:
 
 ```
-$ python project/manage.py syncdb
-```
-
-To start the Server, you just can do it with the following command:
-
-```
-$ python project/manage.py runserver
+make runserver
 ```
