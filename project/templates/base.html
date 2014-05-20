@@ -1,3 +1,4 @@
+{% load compress %}
 {% load staticfiles %}
 <!DOCTYPE html>
 <html>
@@ -11,8 +12,18 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
 
     {% block styles %}
-      <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" media="screen" title="no title" charset="utf-8">
+
+    {% if debug %}
+      <!-- This is the client-side way to compile less and an ok choice for local dev -->
+      <link rel="stylesheet/less" type="text/css" media="all" href="{% static 'less/style.less' %}" />
       <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+    {% else %}
+      {% compress css %}
+      <!-- This is the nifty django-compressor way to compile your less files in css -->
+      <link rel="stylesheet" type="text/less" media="all" href="{% static 'less/style.less' %}" />
+      <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+      {% endcompress %}
+    {% endif %}
     {% endblock %}
   </head>
   <body>
@@ -109,6 +120,9 @@
     <script src="//google-maps-utility-library-v3.googlecode.com/svn/trunk/geolocationmarker/src/geolocationmarker-compiled.js"></script>
     <script type="text/javascript" charset="utf-8" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    {% if debug %}
+    <script type="text/javascript" charset="utf-8" src="{% static 'js/less-1.7.0.min.js' %}"></script>
+    {% endif %}
     <script type="text/javascript" charset="utf-8" src="{% static 'js/custom.js' %}"></script>
     <script type="text/javascript" charset="utf-8" src="{% static 'js/bootstrap-slider.js' %}"></script>
     <script type="text/javascript" charset="utf-8" src="{% static 'js/map.js' %}"></script>

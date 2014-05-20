@@ -36,6 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # third party apps
+    'compressor',
     'grappelli',
     'django.contrib.admin',
 
@@ -81,12 +82,20 @@ STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
     'django.contrib.staticfiles.finders.FileSystemFinder',
     #    'django.contrib.staticfiles.finders.DefaultStorageFinder',
+    'compressor.finders.CompressorFinder'
 )
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 
+COMPRESS_ROOT = os.path.join(BASE_DIR, 'compressed_static')
+
+COMPRESS_PRECOMPILERS = (
+   ('text/less', 'lessc {infile} {outfile}'),
+)
+
+INTERNAL_IPS = ('127.0.0.1',)
 
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
