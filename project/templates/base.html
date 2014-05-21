@@ -122,6 +122,10 @@
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     {% if debug %}
     <script type="text/javascript" charset="utf-8" src="{% static 'js/less-1.7.0.min.js' %}"></script>
+    <script type="text/javascript">
+         less.env = "development";
+	 less.watch();
+    </script>
     {% endif %}
     <script type="text/javascript" charset="utf-8" src="{% static 'js/custom.js' %}"></script>
     <script type="text/javascript" charset="utf-8" src="{% static 'js/bootstrap-slider.js' %}"></script>
