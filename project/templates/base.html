@@ -62,6 +62,9 @@
         <form class="navbar-form navbar-left">
             <input type="text" class="form-control" placeholder="Suchen...">
         </form>
+        <form class="navbar-form navbar-left">
+            <input type="text" class="form-control" placeholder="PLZ">
+        </form>
 
     </div>
 
@@ -71,6 +74,10 @@
         <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas">
           Menu
         </button>
+        <button id="locate" type="button" class="navbar-toggle">
+          <span class="glyphicon glyphicon-screenshot"></span>
+        </button>
+        
       </div>
 
 
@@ -113,23 +120,23 @@
 
     <!-- Google Maps API -->
     {% block js %}
-    <script src="//maps.googleapis.com/maps/api/js?sensor=false"></script>
+   <!--   <script src="//maps.googleapis.com/maps/api/js?sensor=false"></script> -->
     <!-- Leaflet -->
     <script src="//cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
 
-    <script src="//google-maps-utility-library-v3.googlecode.com/svn/trunk/geolocationmarker/src/geolocationmarker-compiled.js"></script>
+     <!-- <script src="//google-maps-utility-library-v3.googlecode.com/svn/trunk/geolocationmarker/src/geolocationmarker-compiled.js"></script> -->
     <script type="text/javascript" charset="utf-8" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     {% if debug %}
     <script type="text/javascript" charset="utf-8" src="{% static 'js/less-1.7.0.min.js' %}"></script>
     <script type="text/javascript">
-         less.env = "development";
-	 less.watch();
+      //less.env = "development";
+	     //less.watch();
     </script>
     {% endif %}
-    <script type="text/javascript" charset="utf-8" src="{% static 'js/custom.js' %}"></script>
+     <!-- <script type="text/javascript" charset="utf-8" src="{% static 'js/custom.js' %}"></script> -->
     <script type="text/javascript" charset="utf-8" src="{% static 'js/bootstrap-slider.js' %}"></script>
-    <script type="text/javascript" charset="utf-8" src="{% static 'js/map.js' %}"></script>
+     <!-- <script type="text/javascript" charset="utf-8" src="{% static 'js/map.js' %}"></script> -->
     <script type="text/javascript" charset="utf-8" src="{% static 'js/leaveme.js' %}"></script>
     <script type="text/javascript" charset="utf-8" src="{% static 'js/offcanvas.js' %}"></script>
     <script type="text/javascript" charset="utf-8">
@@ -140,6 +147,7 @@
       });
 
     </script>
+
     {% endblock %}
   </body>
 </html>
