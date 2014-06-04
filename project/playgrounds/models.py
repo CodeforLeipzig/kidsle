@@ -6,7 +6,7 @@ PLZ aus Koordinaten mappen?
 '''
 
 
-class Playgrounds(models.Model):
+class Playground(models.Model):
     name = models.CharField(max_length=100, verbose_name='Name')
     district = models.CharField(max_length=100, verbose_name='Stadtteil')
     location = models.CharField(max_length=100, verbose_name='Gegend')

@@ -1,0 +1,32 @@
+#!/usr/bin/python
+#-*-coding: utf-8 -*-
+
+import os
+import json
+
+INPUT_DIR = os.path.join('project', 'static', 'data')
+
+INPUT_FILE = os.path.join(INPUT_DIR, 'playgrounds.json')
+
+ATTRIBUTES = ['town', 'district', 'title',
+ 'local_traffic', 'gaming_devices', 'equipment', 'address', 'lat', 'lng']
+
+OUTPUT_DIR = INPUT_DIR
+
+OUTPUT_FILE = os.path.join(OUTPUT_DIR, 'playgrounds.geo.json')
+
+outputdata = ''
+
+with open(INPUT_FILE, 'r') as f:
+    read_data = f.read()
+    data = json.loads(read_data)
+    for feature in data:
+        for attribute in ATTRIBUTES:
+            try:
+                print(feature[attribute])
+
+            except Exception, e:
+                print('#####attribute:' + attribute + '@feature:' + str(feature) + 'not found')
+
+
+#{"features": [{"geometry": {"coordinates":
