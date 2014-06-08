@@ -2,48 +2,58 @@
 #-*-coding: utf-8 -*-
 
 import os
-import json
+from json import JSONEncoder, dumps
+import yaml
 from geojson import Feature, FeatureCollection, Point
+import re
+
 
 INPUT_DIR = os.path.join('project', 'static', 'data')
 INPUT_FILE = os.path.join(INPUT_DIR, 'playgrounds.json')
 OUTPUT_DIR = os.path.join('project', 'playgrounds', 'data')
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, 'playgrounds.geo.json')
-BREAK_LINE = '<br />'
 
 outputdata = []
+jsonEnc = JSONEncoder()
 
 with open(INPUT_FILE, 'r') as f:
     read_data = f.read()
     f.close()
-    data = json.loads(read_data)
+    data = yaml.load(read_data)
     for information in data:
-        additional_information = BREAK_LINE + information['district']
+        district = jsonEnc.encode(information['district'])
         try:
-            for gaming_device in information['gaming_devices']:
-                additional_information += gaming_device + BREAK_LINE
+            gaming_devices = jsonEnc.encode(information['gaming_devices'])
+        except Exception, e:
+            pass
+        try:
+            equipment = jsonEnc.encode(information['equipment'])
         except Exception, e:
             pass
 
-        try:
-            for equipment_item in information['equipment']:
-                additional_information += equipment_item + BREAK_LINE
-        except Exception, e:
-            pass
-
-        additional_information += information['address']
-
-        for local_traffic_item in information['local_traffic']:
-            additional_information += local_traffic_item + BREAK_LINE
+        address = jsonEnc.encode(information['address'])
+        linie_pattern = re.compile('[A-Z]{0,1}[0-9]{1,3}[E]{0,1}')
+        local_traffic = {}
+        for stop_ in information['local_traffic']:
+            #print("stop: {}".format(stop_.encode('utf-8')))
+            lines = re.findall(linie_pattern, stop_)
+            stop_name = stop_.split('(')[1][0:-1]
+            if(re.search('Bus', stop_.encode('utf-8'))):
+                local_traffic["bus"] = {"lines": lines, "stop": stop_name}
+            elif(re.search('Straßenbahn', stop_.encode('utf-8'))):
+                local_traffic["tram"] = {"lines": lines, "stop": stop_name}
+            elif(re.search('S-Bahn', stop_.encode('utf-8'))):
+                local_traffic["s-bahn"] = {"lines": lines, "stop": stop_name}
 
         feature = Feature(
             geometry=Point(
                 (information['lng'], information['lat'])),
             properties={
                 "name": information['title'],
-            "popupContent": additional_information})
+            "district": district, "address": address, "local_traffic": local_traffic,
+             "gaming_devices": gaming_devices, "equipment": equipment})
         #print(feature)
         outputdata.append(feature)
 
 with open(OUTPUT_FILE, 'w') as f:
-    f.write(unicode(json.dumps(FeatureCollection(outputdata))))
+    f.write(unicode(dumps(FeatureCollection(outputdata))))
