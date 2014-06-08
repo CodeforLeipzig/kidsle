@@ -11,6 +11,7 @@ install:
 	cd project; \
 	python manage.py syncdb; \
 	python manage.py load_school_data;
+	python manage.py load_playground_data;
 	@echo "Install done. Use 'make runserver' to start the server."
 
 runserver:

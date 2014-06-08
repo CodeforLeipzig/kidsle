@@ -15,6 +15,7 @@ OUTPUT_FILE = os.path.join(OUTPUT_DIR, 'playgrounds.geo.json')
 
 outputdata = []
 jsonEnc = JSONEncoder()
+TOWN = 'Leipzig'
 
 with open(INPUT_FILE, 'r') as f:
     read_data = f.read()
@@ -31,7 +32,7 @@ with open(INPUT_FILE, 'r') as f:
         except Exception, e:
             pass
 
-        address = jsonEnc.encode(information['address'])
+        location = jsonEnc.encode(information['address'])
         linie_pattern = re.compile('[A-Z]{0,1}[0-9]{1,3}[E]{0,1}')
         local_traffic = {}
         for stop_ in information['local_traffic']:
@@ -50,7 +51,7 @@ with open(INPUT_FILE, 'r') as f:
                 (information['lng'], information['lat'])),
             properties={
                 "name": information['title'],
-            "district": district, "address": address, "local_traffic": local_traffic,
+            "district": district, "town": TOWN, "location": location, "local_traffic": local_traffic,
              "gaming_devices": gaming_devices, "equipment": equipment})
         #print(feature)
         outputdata.append(feature)

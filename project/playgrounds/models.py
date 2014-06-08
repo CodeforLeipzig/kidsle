@@ -1,3 +1,4 @@
+# encoding: utf-8
 from django.db import models
 
 '''
@@ -13,7 +14,7 @@ class Playground(models.Model):
     town = models.CharField(max_length=100, verbose_name='Stadt')
     gaming_devices = models.CharField(max_length=200, verbose_name='Spielgeräte')
     equipment = models.CharField(max_length=200, verbose_name='Ausstattung')
-    line = models.SmallIntegerField(max_length=100, verbose_name='Linie')
-    stop = models.SmallIntegerField(max_length=100, verbose_name='Haltestelle')
+    lines = models.SmallIntegerField(max_length=100, verbose_name='Linien')
+    stops = models.SmallIntegerField(max_length=100, verbose_name='Haltestellen')
     latitude = models.CharField(max_length=100, verbose_name='')
     longitude = models.CharField(max_length=100, verbose_name='')
