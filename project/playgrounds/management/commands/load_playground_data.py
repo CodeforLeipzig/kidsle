@@ -26,16 +26,16 @@ class Command(BaseCommand):
                 gaming_devices = playground_information['properties']['gaming_devices']
                 equipment = playground_information['properties']['equipment']
                 lines = ''
-                stops = ''
+                stops_ = set()
                 local_traffic = playground_information['properties']['local_traffic']
-                #print(local_traffic)
-                #for traffic_choice in local_traffic:
-                    #print(traffic_choice['lines'])
-                    #for line in traffic_choice['lines']:
-                    #    lines = lines + line
-                    #for stop in traffic_choice['lines']:
-                    #    if(not (stop in stops)):
-                    #        stops += stop
+                for traffic_choice in local_traffic.keys():
+                    for line in local_traffic[traffic_choice]['lines']:
+                        lines = lines + line + ', '
+                    new_stop = local_traffic[traffic_choice]['stop']
+                    stops_.add(new_stop)
+                stops = ''
+                for stop in stops_:
+                    stops += stop + ', '
                 latitude = playground_information["geometry"]["coordinates"][1]
                 longitude = playground_information["geometry"]["coordinates"][0]
                 obj, created = Playground.objects.get_or_create(
@@ -45,8 +45,8 @@ class Command(BaseCommand):
                     location=location,
                     gaming_devices=gaming_devices,
                     equipment=equipment,
-                    lines=5,#lines,
-                    stops=2,#stops,
+                    lines=lines,
+                    stops=stops,
                     latitude=latitude,
                     longitude=longitude
                 )

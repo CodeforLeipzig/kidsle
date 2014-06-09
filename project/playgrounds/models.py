@@ -1,11 +1,6 @@
 # encoding: utf-8
 from django.db import models
 
-'''
-Spielplätze in Kategorien zusammenfassen? Bsp. nach Alter anhand der gaming devices/ des equipments
-PLZ aus Koordinaten mappen?
-'''
-
 
 class Playground(models.Model):
     name = models.CharField(max_length=100, verbose_name='Name')
@@ -14,7 +9,7 @@ class Playground(models.Model):
     town = models.CharField(max_length=100, verbose_name='Stadt')
     gaming_devices = models.CharField(max_length=200, verbose_name='Spielgeräte')
     equipment = models.CharField(max_length=200, verbose_name='Ausstattung')
-    lines = models.SmallIntegerField(max_length=100, verbose_name='Linien')
-    stops = models.SmallIntegerField(max_length=100, verbose_name='Haltestellen')
+    lines = models.CharField(max_length=100, verbose_name='Linien')
+    stops = models.CharField(max_length=100, verbose_name='Haltestellen')
     latitude = models.CharField(max_length=100, verbose_name='')
     longitude = models.CharField(max_length=100, verbose_name='')
