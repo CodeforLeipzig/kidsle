@@ -1,8 +1,10 @@
 Django==1.6.5
+PyYAML==3.11
 argparse==1.2.1
 django-appconf==0.6
 django-compressor==1.4
 django-grappelli==2.5.3
 djangorestframework==2.3.13
+geojson==1.0.7
 six==1.6.1
 wsgiref==0.1.2
