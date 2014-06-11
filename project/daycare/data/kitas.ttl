@@ -1,0 +1,1724 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix okl: <http://codefor.de/leipzig/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+
+<> a owl:Ontology . 
+
+okl:Kita a owl:Class .
+<http://codefor.de/leipzig/Kiat/1>  a okl:Kita ; 
+	rdfs:label "Kita Ahlfeldstraße  2"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Alt-West> ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Ahlfeldstraße  2" ] .
+
+<http://codefor.de/leipzig/Kiat/2>  a okl:Kita ; 
+	rdfs:label "Kita Alte Straße 2"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedwest> ; 
+	geo:lat "51.3316" ; 
+	geo:long "12.34192" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Alte Straße 2" ] .
+
+<http://codefor.de/leipzig/Kiat/3>  a okl:Kita ; 
+	rdfs:label "Kita Alte Thekalerstr. 13a"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordost> ; 
+	geo:lat "51.37855" ; 
+	geo:long "12.433440000000019" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Alte Thekalerstr. 13a" ] .
+
+<http://codefor.de/leipzig/Kiat/4>  a okl:Kita ; 
+	rdfs:label "Kita Altenburger Str.  3"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Sued> ; 
+	geo:lat "51.31795" ; 
+	geo:long "12.38368" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Altenburger Str.  3" ] .
+
+<http://codefor.de/leipzig/Kiat/5>  a okl:Kita ; 
+	rdfs:label "Kita Althener Anger  18"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.33971" ; 
+	geo:long "12.51926" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Althener Anger  18" ] .
+
+<http://codefor.de/leipzig/Kiat/6>  a okl:Kita ; 
+	rdfs:label "Kita Althener Straße 18"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.33368" ; 
+	geo:long "12.48493" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Althener Straße 18" ] .
+
+<http://codefor.de/leipzig/Kiat/7>  a okl:Kita ; 
+	rdfs:label "Kita Am Hohlweg 2"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordwest> ; 
+	geo:lat "51.38082" ; 
+	geo:long "12.30507" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Am Hohlweg 2" ] .
+
+<http://codefor.de/leipzig/Kiat/8>  a okl:Kita ; 
+	rdfs:label "Kita Am Kirschberg 39"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/West> ; 
+	geo:lat "51.31854" ; 
+	geo:long "12.28225" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Am Kirschberg 39" ] .
+
+<http://codefor.de/leipzig/Kiat/9>  a okl:Kita ; 
+	rdfs:label "Kita Am Kirschberg  37"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/West> ; 
+	geo:lat "51.319375" ; 
+	geo:long "12.282181400000013" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Am Kirschberg  37" ] .
+
+<http://codefor.de/leipzig/Kiat/10>  a okl:Kita ; 
+	rdfs:label "Kita Am Langen Felde 29"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Alt-West> ; 
+	geo:lat "51.343" ; 
+	geo:long "12.31512" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Am Langen Felde 29" ] .
+
+<http://codefor.de/leipzig/Kiat/11>  a okl:Kita ; 
+	rdfs:label "Kita Am langen Felde  8"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Alt-West> ; 
+	geo:lat "51.34537" ; 
+	geo:long "12.3163" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Am langen Felde  8" ] .
+
+<http://codefor.de/leipzig/Kiat/12>  a okl:Kita ; 
+	rdfs:label "Kita An der Hauptstraße 40 a"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> ; 
+	geo:lat "51.42048" ; 
+	geo:long "12.44462" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "An der Hauptstraße 40 a" ] .
+
+<http://codefor.de/leipzig/Kiat/13>  a okl:Kita ; 
+	rdfs:label "Kita An der Lehde 12"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Alt-West> ; 
+	geo:lat "51.3458" ; 
+	geo:long "12.32199" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "An der Lehde 12" ] .
+
+<http://codefor.de/leipzig/Kiat/14>  a okl:Kita ; 
+	rdfs:label "Kita An der Lehde 14"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Alt-West> ; 
+	geo:lat "51.34556" ; 
+	geo:long "12.32218" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "An der Lehde 14" ] .
+
+<http://codefor.de/leipzig/Kiat/15>  a okl:Kita ; 
+	rdfs:label "Kita An der Märchenwiese 3"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Sued> ; 
+	geo:lat "51.30574" ; 
+	geo:long "12.39306" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "An der Märchenwiese 3" ] .
+
+<http://codefor.de/leipzig/Kiat/16>  a okl:Kita ; 
+	rdfs:label "Kita An der Querbreite 4"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> ; 
+	geo:lat "51.37097" ; 
+	geo:long "12.3874" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "An der Querbreite 4" ] .
+
+<http://codefor.de/leipzig/Kiat/17>  a okl:Kita ; 
+	rdfs:label "Kita An der Schule 1"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordwest> ; 
+	geo:lat "51.39204" ; 
+	geo:long "12.33347" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "An der Schule 1" ] .
+
+<http://codefor.de/leipzig/Kiat/18>  a okl:Kita ; 
+	rdfs:label "Kita An der Tabaksmühle 30"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Sued> ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "An der Tabaksmühle 30" ] .
+
+<http://codefor.de/leipzig/Kiat/19>  a okl:Kita ; 
+	rdfs:label "Kita An der Teichmühle 2"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Alt-West> ; 
+	geo:lat "51.34078" ; 
+	geo:long "12.25032" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "An der Teichmühle 2" ] .
+
+<http://codefor.de/leipzig/Kiat/20>  a okl:Kita ; 
+	rdfs:label "Kita Arthur-Nagel-Straße 1 a/b"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedwest> ; 
+	geo:lat "51.307364" ; 
+	geo:long "12.323870400000033" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Arthur-Nagel-Straße 1 a/b" ] .
+
+<http://codefor.de/leipzig/Kiat/21>  a okl:Kita ; 
+	rdfs:label "Kita Auenstraße 10"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Alt-West> ; 
+	geo:lat "51.35897" ; 
+	geo:long "12.2978" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Auenstraße 10" ] .
+
+<http://codefor.de/leipzig/Kiat/22>  a okl:Kita ; 
+	rdfs:label "Kita Bästleinstraße 18"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordost> ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Bästleinstraße 18" ] .
+
+<http://codefor.de/leipzig/Kiat/23>  a okl:Kita ; 
+	rdfs:label "Kita Bernburger Straße 22"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> ; 
+	geo:lat "51.36438" ; 
+	geo:long "12.39214" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Bernburger Straße 22" ] .
+
+<http://codefor.de/leipzig/Kiat/24>  a okl:Kita ; 
+	rdfs:label "Kita Bertolt-Brecht-Straße 11"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordost> ; 
+	geo:lat "51.35653" ; 
+	geo:long "12.42947" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Bertolt-Brecht-Straße 11" ] .
+
+<http://codefor.de/leipzig/Kiat/25>  a okl:Kita ; 
+	rdfs:label "Kita Biedermannstraße 23"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Sued> ; 
+	geo:lat "51.30789" ; 
+	geo:long "12.37584" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Biedermannstraße 23" ] .
+
+<http://codefor.de/leipzig/Kiat/26>  a okl:Kita ; 
+	rdfs:label "Kita Bisamstraße 17"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.3566593" ; 
+	geo:long "12.4725052" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Bisamstraße 17" ] .
+
+<http://codefor.de/leipzig/Kiat/27>  a okl:Kita ; 
+	rdfs:label "Kita Bockstraße 8"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedost> ; 
+	geo:lat "51.30359" ; 
+	geo:long "12.42694" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Bockstraße 8" ] .
+
+<http://codefor.de/leipzig/Kiat/28>  a okl:Kita ; 
+	rdfs:label "Kita Bornaische Straße 184"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Sued> ; 
+	geo:lat "51.28732" ; 
+	geo:long "12.39239" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Bornaische Straße 184" ] .
+
+<http://codefor.de/leipzig/Kiat/29>  a okl:Kita ; 
+	rdfs:label "Kita Bornaische Straße 138"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Sued> ; 
+	geo:lat "51.29381" ; 
+	geo:long "12.38685" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Bornaische Straße 138" ] .
+
+<http://codefor.de/leipzig/Kiat/30>  a okl:Kita ; 
+	rdfs:label "Kita Bornaische Straße  186 c"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Sued> ; 
+	geo:lat "51.28663" ; 
+	geo:long "12.39211" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Bornaische Straße  186 c" ] .
+
+<http://codefor.de/leipzig/Kiat/31>  a okl:Kita ; 
+	rdfs:label "Kita Bothestraße 17/19"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> ; 
+	geo:lat "51.36433" ; 
+	geo:long "12.35402" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Bothestraße 17/19" ] .
+
+<http://codefor.de/leipzig/Kiat/32>  a okl:Kita ; 
+	rdfs:label "Kita Brandiser Straße 20"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.32294" ; 
+	geo:long "12.47453" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Brandiser Straße 20" ] .
+
+<http://codefor.de/leipzig/Kiat/33>  a okl:Kita ; 
+	rdfs:label "Kita Breisgaustraße 21 a"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/West> ; 
+	geo:lat "51.31778" ; 
+	geo:long "12.292730000000006" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Breisgaustraße 21 a" ] .
+
+<http://codefor.de/leipzig/Kiat/34>  a okl:Kita ; 
+	rdfs:label "Kita Bremer Straße 17"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> ; 
+	geo:lat "51.37699" ; 
+	geo:long "12.3648" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Bremer Straße 17" ] .
+
+<http://codefor.de/leipzig/Kiat/35>  a okl:Kita ; 
+	rdfs:label "Kita Bremer Weg 17"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> ; 
+	geo:lat "51.38376" ; 
+	geo:long "12.36316" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Bremer Weg 17" ] .
+
+<http://codefor.de/leipzig/Kiat/36>  a okl:Kita ; 
+	rdfs:label "Kita Coppistraße 19"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> ; 
+	geo:lat "51.36586" ; 
+	geo:long "12.38138" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Coppistraße 19" ] .
+
+<http://codefor.de/leipzig/Kiat/37>  a okl:Kita ; 
+	rdfs:label "Kita Dahlienstraße 75"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/West> ; 
+	geo:lat "51.32433" ; 
+	geo:long "12.30432" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Dahlienstraße 75" ] .
+
+<http://codefor.de/leipzig/Kiat/38>  a okl:Kita ; 
+	rdfs:label "Kita Delitzscher Str. 141"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> ; 
+	geo:lat "51.38466" ; 
+	geo:long "12.3788" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Delitzscher Str. 141" ] .
+
+<http://codefor.de/leipzig/Kiat/39>  a okl:Kita ; 
+	rdfs:label "Kita Demmeringstraße 35"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Alt-West> ; 
+	geo:lat "51.337" ; 
+	geo:long "12.33009" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Demmeringstraße 35" ] .
+
+<http://codefor.de/leipzig/Kiat/40>  a okl:Kita ; 
+	rdfs:label "Kita Demmeringstraße  18"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Alt-West> ; 
+	geo:lat "51.33838" ; 
+	geo:long "12.33419" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Demmeringstraße  18" ] .
+
+<http://codefor.de/leipzig/Kiat/41>  a okl:Kita ; 
+	rdfs:label "Kita Demmeringstraße 125"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Alt-West> ; 
+	geo:lat "51.33331" ; 
+	geo:long "12.31946" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Demmeringstraße 125" ] .
+
+<http://codefor.de/leipzig/Kiat/42>  a okl:Kita ; 
+	rdfs:label "Kita Diderotstraße 13"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordwest> ; 
+	geo:lat "51.37084" ; 
+	geo:long "12.34614" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Diderotstraße 13" ] .
+
+<http://codefor.de/leipzig/Kiat/43>  a okl:Kita ; 
+	rdfs:label "Kita Diezmannstraße 87a"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedwest> ; 
+	geo:lat "51.31387" ; 
+	geo:long "12.31075" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Diezmannstraße 87a" ] .
+
+<http://codefor.de/leipzig/Kiat/44>  a okl:Kita ; 
+	rdfs:label "Kita Dölling Straße  21"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.3482" ; 
+	geo:long "12.44851" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Dölling Straße  21" ] .
+
+<http://codefor.de/leipzig/Kiat/45>  a okl:Kita ; 
+	rdfs:label "Kita Dorfstraße 41"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.30866" ; 
+	geo:long "12.51748" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Dorfstraße 41" ] .
+
+<http://codefor.de/leipzig/Kiat/46>  a okl:Kita ; 
+	rdfs:label "Kita Eduard-von-Hartmann-Straße 29/31"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> ; 
+	geo:lat "51.37073" ; 
+	geo:long "12.3795" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Eduard-von-Hartmann-Straße 29/31" ] .
+
+<http://codefor.de/leipzig/Kiat/47>  a okl:Kita ; 
+	rdfs:label "Kita Eichlerstraße  10"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedost> ; 
+	geo:lat "51.32794" ; 
+	geo:long "12.4012" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Eichlerstraße  10" ] .
+
+<http://codefor.de/leipzig/Kiat/48>  a okl:Kita ; 
+	rdfs:label "Kita Eisenacher Straße 38"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> ; 
+	geo:lat "51.36155" ; 
+	geo:long "12.36438" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Eisenacher Straße 38" ] .
+
+<http://codefor.de/leipzig/Kiat/49>  a okl:Kita ; 
+	rdfs:label "Kita Eisenbahnstraße 52"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.3458" ; 
+	geo:long "12.4024" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Eisenbahnstraße 52" ] .
+
+<http://codefor.de/leipzig/Kiat/50>  a okl:Kita ; 
+	rdfs:label "Kita Elsbethstraße 38"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> ; 
+	geo:lat "51.36395" ; 
+	geo:long "12.36276" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Elsbethstraße 38" ] .
+
+<http://codefor.de/leipzig/Kiat/51>  a okl:Kita ; 
+	rdfs:label "Kita Enderststraße  32"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Alt-West> ; 
+	geo:lat "51.3335036" ; 
+	geo:long "12.327857999999992" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Enderststraße  32" ] .
+
+<http://codefor.de/leipzig/Kiat/52>  a okl:Kita ; 
+	rdfs:label "Kita Engelsdorfer Straße  279"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.33456" ; 
+	geo:long "12.48326" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Engelsdorfer Straße  279" ] .
+
+<http://codefor.de/leipzig/Kiat/53>  a okl:Kita ; 
+	rdfs:label "Kita Engelsdorfer-Straße 130"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.33171" ; 
+	geo:long "12.44532" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Engelsdorfer-Straße 130" ] .
+
+<http://codefor.de/leipzig/Kiat/54>  a okl:Kita ; 
+	rdfs:label "Kita Erhardstraße 6"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedwest> ; 
+	geo:lat "51.31826" ; 
+	geo:long "12.34272" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Erhardstraße 6" ] .
+
+<http://codefor.de/leipzig/Kiat/55>  a okl:Kita ; 
+	rdfs:label "Kita Erich-Zeigner-Allee 77 a"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedwest> ; 
+	geo:lat "51.32332" ; 
+	geo:long "12.337130000000002" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Erich-Zeigner-Allee 77 a" ] .
+
+<http://codefor.de/leipzig/Kiat/56>  a okl:Kita ; 
+	rdfs:label "Kita Erich-Zeigner-Allee 77"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedwest> ; 
+	geo:lat "51.32266" ; 
+	geo:long "12.33697" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Erich-Zeigner-Allee 77" ] .
+
+<http://codefor.de/leipzig/Kiat/57>  a okl:Kita ; 
+	rdfs:label "Kita Ferdinand-Rhode-Straße 17"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Mitte> ; 
+	geo:lat "51.33046" ; 
+	geo:long "12.36666" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Ferdinand-Rhode-Straße 17" ] .
+
+<http://codefor.de/leipzig/Kiat/58>  a okl:Kita ; 
+	rdfs:label "Kita Ferdinand-Rhode-Straße 17 a"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Mitte> ; 
+	geo:lat "51.33046" ; 
+	geo:long "12.36666" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Ferdinand-Rhode-Straße 17 a" ] .
+
+<http://codefor.de/leipzig/Kiat/59>  a okl:Kita ; 
+	rdfs:label "Kita Freiodaer Weg 2"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordwest> ; 
+	geo:lat "51.385" ; 
+	geo:long "12.27376" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Freiodaer Weg 2" ] .
+
+<http://codefor.de/leipzig/Kiat/60>  a okl:Kita ; 
+	rdfs:label "Kita Friedrich-Bosse-Straße 19"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordwest> ; 
+	geo:lat "51.36985" ; 
+	geo:long "12.33437" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Friedrich-Bosse-Straße 19" ] .
+
+<http://codefor.de/leipzig/Kiat/61>  a okl:Kita ; 
+	rdfs:label "Kita Friedrich-Bosse-Straße 87a"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordwest> ; 
+	geo:lat "51.37238" ; 
+	geo:long "12.32585" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Friedrich-Bosse-Straße 87a" ] .
+
+<http://codefor.de/leipzig/Kiat/62>  a okl:Kita ; 
+	rdfs:label "Kita Friedrich-Ludwig-Jahn-Straße 5"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/West> ; 
+	geo:lat "51.32732" ; 
+	geo:long "12.25071" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Friedrich-Ludwig-Jahn-Straße 5" ] .
+
+<http://codefor.de/leipzig/Kiat/63>  a okl:Kita ; 
+	rdfs:label "Kita Friedrichshafner Str. 21"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordost> ; 
+	geo:lat "51.35412" ; 
+	geo:long "12.41791" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Friedrichshafner Str. 21" ] .
+
+<http://codefor.de/leipzig/Kiat/64>  a okl:Kita ; 
+	rdfs:label "Kita Friedrichshafner Straße 25"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordost> ; 
+	geo:lat "51.3655051" ; 
+	geo:long "12.40708989999996" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Friedrichshafner Straße 25" ] .
+
+<http://codefor.de/leipzig/Kiat/65>  a okl:Kita ; 
+	rdfs:label "Kita Friedrichshafner Straße 147"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> ; 
+	geo:lat "51.3774" ; 
+	geo:long "12.40502" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Friedrichshafner Straße 147" ] .
+
+<http://codefor.de/leipzig/Kiat/66>  a okl:Kita ; 
+	rdfs:label "Kita Frohburger Straße  33 D"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Sued> ; 
+	geo:lat "51.31106" ; 
+	geo:long "12.381160000000023" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Frohburger Straße  33 D" ] .
+
+<http://codefor.de/leipzig/Kiat/67>  a okl:Kita ; 
+	rdfs:label "Kita Gabelsbergerstraße 28"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Mitte> ; 
+	geo:lat "51.3393213" ; 
+	geo:long "12.3961148" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Gabelsbergerstraße 28" ] .
+
+<http://codefor.de/leipzig/Kiat/68>  a okl:Kita ; 
+	rdfs:label "Kita Garskestraße 17"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/West> ; 
+	geo:lat "51.32586" ; 
+	geo:long "12.287789999999973" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Garskestraße 17" ] .
+
+<http://codefor.de/leipzig/Kiat/69>  a okl:Kita ; 
+	rdfs:label "Kita Georg-Große-Straße 1a"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.33472" ; 
+	geo:long "12.47863" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Georg-Große-Straße 1a" ] .
+
+<http://codefor.de/leipzig/Kiat/70>  a okl:Kita ; 
+	rdfs:label "Kita Gerhard-Ellrodt-Straße 17 a"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedwest> ; 
+	geo:lat "51.29962" ; 
+	geo:long "12.32139" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Gerhard-Ellrodt-Straße 17 a" ] .
+
+<http://codefor.de/leipzig/Kiat/71>  a okl:Kita ; 
+	rdfs:label "Kita Gersterstraße  9"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Sued> ; 
+	geo:lat "51.2949" ; 
+	geo:long "12.39014" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Gersterstraße  9" ] .
+
+<http://codefor.de/leipzig/Kiat/72>  a okl:Kita ; 
+	rdfs:label "Kita Gleisstraße 1"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedwest> ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Gleisstraße 1" ] .
+
+<http://codefor.de/leipzig/Kiat/73>  a okl:Kita ; 
+	rdfs:label "Kita Goldsternstraße  21 a"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.35554" ; 
+	geo:long "12.45573" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Goldsternstraße  21 a" ] .
+
+<http://codefor.de/leipzig/Kiat/74>  a okl:Kita ; 
+	rdfs:label "Kita Goldsternstraße 21 b"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.35554" ; 
+	geo:long "12.45573" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Goldsternstraße 21 b" ] .
+
+<http://codefor.de/leipzig/Kiat/75>  a okl:Kita ; 
+	rdfs:label "Kita Goyastraße 8"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordwest> ; 
+	geo:lat "51.36279" ; 
+	geo:long "12.35638" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Goyastraße 8" ] .
+
+<http://codefor.de/leipzig/Kiat/76>  a okl:Kita ; 
+	rdfs:label "Kita Grünauer Allee 18"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/West> ; 
+	geo:lat "51.31824" ; 
+	geo:long "12.30697" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Grünauer Allee 18" ] .
+
+<http://codefor.de/leipzig/Kiat/77>  a okl:Kita ; 
+	rdfs:label "Kita Grünauer Allee 18 a"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/West> ; 
+	geo:lat "51.31824" ; 
+	geo:long "12.30697" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Grünauer Allee 18 a" ] .
+
+<http://codefor.de/leipzig/Kiat/78>  a okl:Kita ; 
+	rdfs:label "Kita Güldengossaer Straße 6 - 8"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedost> ; 
+	geo:lat "51.28224" ; 
+	geo:long "12.45913" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Güldengossaer Straße 6 - 8" ] .
+
+<http://codefor.de/leipzig/Kiat/79>  a okl:Kita ; 
+	rdfs:label "Kita Gundermannstr. 16"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.35132" ; 
+	geo:long "12.46307" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Gundermannstr. 16" ] .
+
+<http://codefor.de/leipzig/Kiat/80>  a okl:Kita ; 
+	rdfs:label "Kita Gundermannstr.  18"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordost> ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Gundermannstr.  18" ] .
+
+<http://codefor.de/leipzig/Kiat/81>  a okl:Kita ; 
+	rdfs:label "Kita Gustav-Freytag-Straße 33  a"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Sued> ; 
+	geo:lat "51.31359" ; 
+	geo:long "12.370840000000044" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Gustav-Freytag-Straße 33  a" ] .
+
+<http://codefor.de/leipzig/Kiat/82>  a okl:Kita ; 
+	rdfs:label "Kita Hannoversche Straße 52"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> ; 
+	geo:lat "51.37438" ; 
+	geo:long "12.3735" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Hannoversche Straße 52" ] .
+
+<http://codefor.de/leipzig/Kiat/83>  a okl:Kita ; 
+	rdfs:label "Kita Hannoversche Straße 50"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> ; 
+	geo:lat "51.37497" ; 
+	geo:long "12.37370999999996" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Hannoversche Straße 50" ] .
+
+<http://codefor.de/leipzig/Kiat/84>  a okl:Kita ; 
+	rdfs:label "Kita Hans-Beimler-Straße 17"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordwest> ; 
+	geo:lat "51.37235" ; 
+	geo:long "12.33556" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Hans-Beimler-Straße 17" ] .
+
+<http://codefor.de/leipzig/Kiat/85>  a okl:Kita ; 
+	rdfs:label "Kita Hans-Beimler-Straße 3"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordwest> ; 
+	geo:lat "51.37165" ; 
+	geo:long "12.33783" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Hans-Beimler-Straße 3" ] .
+
+<http://codefor.de/leipzig/Kiat/86>  a okl:Kita ; 
+	rdfs:label "Kita Hans-Marchwitza-Straße 10"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Sued> ; 
+	geo:lat "51.29975" ; 
+	geo:long "12.39935" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Hans-Marchwitza-Straße 10" ] .
+
+<http://codefor.de/leipzig/Kiat/87>  a okl:Kita ; 
+	rdfs:label "Kita Hans-Oster-Strasse 16"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Hans-Oster-Strasse 16" ] .
+
+<http://codefor.de/leipzig/Kiat/88>  a okl:Kita ; 
+	rdfs:label "Kita Hans-Otto-Straße 2 a"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Sued> ; 
+	geo:lat "51.30261" ; 
+	geo:long "12.39385" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Hans-Otto-Straße 2 a" ] .
+
+<http://codefor.de/leipzig/Kiat/89>  a okl:Kita ; 
+	rdfs:label "Kita Hans-Otto-Straße 2 b"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Sued> ; 
+	geo:lat "51.30261" ; 
+	geo:long "12.39385" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Hans-Otto-Straße 2 b" ] .
+
+<http://codefor.de/leipzig/Kiat/90>  a okl:Kita ; 
+	rdfs:label "Kita Haydnstraße  20"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Mitte> ; 
+	geo:lat "51.3293493" ; 
+	geo:long "12.3641725" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Haydnstraße  20" ] .
+
+<http://codefor.de/leipzig/Kiat/91>  a okl:Kita ; 
+	rdfs:label "Kita Heilemannstraße  19"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Sued> ; 
+	geo:lat "51.3119598" ; 
+	geo:long "12.367339" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Heilemannstraße  19" ] .
+
+<http://codefor.de/leipzig/Kiat/92>  a okl:Kita ; 
+	rdfs:label "Kita Herloßsohnstraße 20"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> ; 
+	geo:lat "51.36017" ; 
+	geo:long "12.35509" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Herloßsohnstraße 20" ] .
+
+<http://codefor.de/leipzig/Kiat/93>  a okl:Kita ; 
+	rdfs:label "Kita Hermann-Liebmann-Straße 99"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.3478263" ; 
+	geo:long "12.406157" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Hermann-Liebmann-Straße 99" ] .
+
+<http://codefor.de/leipzig/Kiat/94>  a okl:Kita ; 
+	rdfs:label "Kita Hohe Straße 21"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Mitte> ; 
+	geo:lat "51.32914" ; 
+	geo:long "12.37647" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Hohe Straße 21" ] .
+
+<http://codefor.de/leipzig/Kiat/95>  a okl:Kita ; 
+	rdfs:label "Kita Holsteinstraße 62/64"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedost> ; 
+	geo:lat "51.32663" ; 
+	geo:long "12.40687" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Holsteinstraße 62/64" ] .
+
+<http://codefor.de/leipzig/Kiat/96>  a okl:Kita ; 
+	rdfs:label "Kita Holunderweg 38"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedwest> ; 
+	geo:lat "51.26826" ; 
+	geo:long "12.29138" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Holunderweg 38" ] .
+
+<http://codefor.de/leipzig/Kiat/97>  a okl:Kita ; 
+	rdfs:label "Kita Holzhäuser Str. 15"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedost> ; 
+	geo:lat "51.31933" ; 
+	geo:long "12.41134" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Holzhäuser Str. 15" ] .
+
+<http://codefor.de/leipzig/Kiat/98>  a okl:Kita ; 
+	rdfs:label "Kita Jadassohnstraße 2"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Alt-West> ; 
+	geo:lat "51.33464" ; 
+	geo:long "12.30724" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Jadassohnstraße 2" ] .
+
+<http://codefor.de/leipzig/Kiat/99>  a okl:Kita ; 
+	rdfs:label "Kita Jaspisstrasse 52"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.33624" ; 
+	geo:long "12.48236" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Jaspisstrasse 52" ] .
+
+<http://codefor.de/leipzig/Kiat/100>  a okl:Kita ; 
+	rdfs:label "Kita Jörgen-Schmidtchen-Weg 4"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> ; 
+	geo:lat "51.3799585" ; 
+	geo:long "12.360522" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Jörgen-Schmidtchen-Weg 4" ] .
+
+<http://codefor.de/leipzig/Kiat/101>  a okl:Kita ; 
+	rdfs:label "Kita Jörgen-Schmidtchen-Weg 6"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> ; 
+	geo:lat "51.3799" ; 
+	geo:long "12.36111" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Jörgen-Schmidtchen-Weg 6" ] .
+
+<http://codefor.de/leipzig/Kiat/102>  a okl:Kita ; 
+	rdfs:label "Kita Jupiterstraße 37"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/West> ; 
+	geo:lat "51.32058" ; 
+	geo:long "12.26919" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Jupiterstraße 37" ] .
+
+<http://codefor.de/leipzig/Kiat/103>  a okl:Kita ; 
+	rdfs:label "Kita Kändlerstraße 11"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/West> ; 
+	geo:lat "51.31232" ; 
+	geo:long "12.26867" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Kändlerstraße 11" ] .
+
+<http://codefor.de/leipzig/Kiat/104>  a okl:Kita ; 
+	rdfs:label "Kita Kantatenweg 41 b"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedwest> ; 
+	geo:lat "51.31817" ; 
+	geo:long "12.33363" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Kantatenweg 41 b" ] .
+
+<http://codefor.de/leipzig/Kiat/105>  a okl:Kita ; 
+	rdfs:label "Kita Kantatenweg 41 a"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedwest> ; 
+	geo:lat "51.31817" ; 
+	geo:long "12.33363" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Kantatenweg 41 a" ] .
+
+<http://codefor.de/leipzig/Kiat/106>  a okl:Kita ; 
+	rdfs:label "Kita Kantor-Andrä-Straße  16"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Alt-West> ; 
+	geo:lat "51.3543999" ; 
+	geo:long "12.2880642" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Kantor-Andrä-Straße  16" ] .
+
+<http://codefor.de/leipzig/Kiat/107>  a okl:Kita ; 
+	rdfs:label "Kita Karl-Heine-Straße 34"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedwest> ; 
+	geo:lat "51.3326" ; 
+	geo:long "12.33762" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Karl-Heine-Straße 34" ] .
+
+<http://codefor.de/leipzig/Kiat/108>  a okl:Kita ; 
+	rdfs:label "Kita Karl-Mannsfeld-Straße 7-8"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordwest> ; 
+	geo:lat "51.38709" ; 
+	geo:long "12.32173" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Karl-Mannsfeld-Straße 7-8" ] .
+
+<http://codefor.de/leipzig/Kiat/109>  a okl:Kita ; 
+	rdfs:label "Kita Kelbestraße  3"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.32685" ; 
+	geo:long "12.45162" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Kelbestraße  3" ] .
+
+<http://codefor.de/leipzig/Kiat/110>  a okl:Kita ; 
+	rdfs:label "Kita Kleiststraße 12"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> ; 
+	geo:lat "51.36465" ; 
+	geo:long "12.37957" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Kleiststraße 12" ] .
+
+<http://codefor.de/leipzig/Kiat/111>  a okl:Kita ; 
+	rdfs:label "Kita Knautnaundorfer Straße 4 f"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedwest> ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Knautnaundorfer Straße 4 f" ] .
+
+<http://codefor.de/leipzig/Kiat/112>  a okl:Kita ; 
+	rdfs:label "Kita Koehlerstraße  7"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.3396" ; 
+	geo:long "12.40365" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Koehlerstraße  7" ] .
+
+<http://codefor.de/leipzig/Kiat/113>  a okl:Kita ; 
+	rdfs:label "Kita Kohlgartenweg 3"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Kohlgartenweg 3" ] .
+
+<http://codefor.de/leipzig/Kiat/114>  a okl:Kita ; 
+	rdfs:label "Kita Königsteinstraße 70"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/West> ; 
+	geo:lat "51.3055427" ; 
+	geo:long "12.2652472" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Königsteinstraße 70" ] .
+
+<http://codefor.de/leipzig/Kiat/115>  a okl:Kita ; 
+	rdfs:label "Kita Königsteinstraße 72"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/West> ; 
+	geo:lat "51.3055" ; 
+	geo:long "12.26437" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Königsteinstraße 72" ] .
+
+<http://codefor.de/leipzig/Kiat/116>  a okl:Kita ; 
+	rdfs:label "Kita Könneritzstraße 47"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedwest> ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Könneritzstraße 47" ] .
+
+<http://codefor.de/leipzig/Kiat/117>  a okl:Kita ; 
+	rdfs:label "Kita Konradstraße 70-72"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.3442" ; 
+	geo:long "12.41173" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Konradstraße 70-72" ] .
+
+<http://codefor.de/leipzig/Kiat/118>  a okl:Kita ; 
+	rdfs:label "Kita Krönerstraße 43/45"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.3397" ; 
+	geo:long "12.41636" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Krönerstraße 43/45" ] .
+
+<http://codefor.de/leipzig/Kiat/119>  a okl:Kita ; 
+	rdfs:label "Kita Kunzestraße 4"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedwest> ; 
+	geo:lat "51.30503" ; 
+	geo:long "12.3288" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Kunzestraße 4" ] .
+
+<http://codefor.de/leipzig/Kiat/120>  a okl:Kita ; 
+	rdfs:label "Kita Kunzestraße 6"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedwest> ; 
+	geo:lat "51.30515" ; 
+	geo:long "12.32964" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Kunzestraße 6" ] .
+
+<http://codefor.de/leipzig/Kiat/121>  a okl:Kita ; 
+	rdfs:label "Kita Kurt-Tucholsky-Straße 12"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedost> ; 
+	geo:lat "51.30185" ; 
+	geo:long "12.40336000000002" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Kurt-Tucholsky-Straße 12" ] .
+
+<http://codefor.de/leipzig/Kiat/122>  a okl:Kita ; 
+	rdfs:label "Kita Lange Straße 23"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Mitte> ; 
+	geo:lat "51.3416" ; 
+	geo:long "12.39353" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Lange Straße 23" ] .
+
+<http://codefor.de/leipzig/Kiat/123>  a okl:Kita ; 
+	rdfs:label "Kita Leipziger Straße 21"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Alt-West> ; 
+	geo:lat "51.35613" ; 
+	geo:long "12.29866" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Leipziger Straße 21" ] .
+
+<http://codefor.de/leipzig/Kiat/124>  a okl:Kita ; 
+	rdfs:label "Kita Leonhard-Frank-Straße 24b"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.34931" ; 
+	geo:long "12.4292" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Leonhard-Frank-Straße 24b" ] .
+
+<http://codefor.de/leipzig/Kiat/125>  a okl:Kita ; 
+	rdfs:label "Kita Lerchenrain 14-16"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Sued> ; 
+	geo:lat "51.30883" ; 
+	geo:long "12.40204" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Lerchenrain 14-16" ] .
+
+<http://codefor.de/leipzig/Kiat/126>  a okl:Kita ; 
+	rdfs:label "Kita Lichtenbergweg 3"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedost> ; 
+	geo:lat "51.32024" ; 
+	geo:long "12.41096" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Lichtenbergweg 3" ] .
+
+<http://codefor.de/leipzig/Kiat/127>  a okl:Kita ; 
+	rdfs:label "Kita Liebigstraße 22 b"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Mitte> ; 
+	geo:lat "51.3312" ; 
+	geo:long "12.3897" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Liebigstraße 22 b" ] .
+
+<http://codefor.de/leipzig/Kiat/128>  a okl:Kita ; 
+	rdfs:label "Kita Lindenallee 3 a"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordwest> ; 
+	geo:lat "51.40378" ; 
+	geo:long "12.34059" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Lindenallee 3 a" ] .
+
+<http://codefor.de/leipzig/Kiat/129>  a okl:Kita ; 
+	rdfs:label "Kita Lindenstraße 54"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> ; 
+	geo:lat "51.39743" ; 
+	geo:long "12.3788" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Lindenstraße 54" ] .
+
+<http://codefor.de/leipzig/Kiat/130>  a okl:Kita ; 
+	rdfs:label "Kita Linnéstraße 12"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Mitte> ; 
+	geo:lat "51.32602" ; 
+	geo:long "12.39243" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Linnéstraße 12" ] .
+
+<http://codefor.de/leipzig/Kiat/131>  a okl:Kita ; 
+	rdfs:label "Kita Lobstädter Str.  14"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Sued> ; 
+	geo:lat "51.29802" ; 
+	geo:long "12.38911" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Lobstädter Str.  14" ] .
+
+<http://codefor.de/leipzig/Kiat/132>  a okl:Kita ; 
+	rdfs:label "Kita Löhrstraße 9"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Mitte> ; 
+	geo:lat "51.34571" ; 
+	geo:long "12.37322" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Löhrstraße 9" ] .
+
+<http://codefor.de/leipzig/Kiat/133>  a okl:Kita ; 
+	rdfs:label "Kita Lößniger Straße 8"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Mitte> ; 
+	geo:lat "51.32551429999999" ; 
+	geo:long "12.380634099999952" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Lößniger Straße 8" ] .
+
+<http://codefor.de/leipzig/Kiat/134>  a okl:Kita ; 
+	rdfs:label "Kita Louis-Fürnberg-Straße 19"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedost> ; 
+	geo:lat "51.34855" ; 
+	geo:long "12.42648" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Louis-Fürnberg-Straße 19" ] .
+
+<http://codefor.de/leipzig/Kiat/135>  a okl:Kita ; 
+	rdfs:label "Kita Louis-Fürnberg-Straße 21"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedost> ; 
+	geo:lat "51.34847" ; 
+	geo:long "12.42658" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Louis-Fürnberg-Straße 21" ] .
+
+<http://codefor.de/leipzig/Kiat/136>  a okl:Kita ; 
+	rdfs:label "Kita Marschnerstraße 21"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Mitte> ; 
+	geo:lat "51.33669" ; 
+	geo:long "12.35606" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Marschnerstraße 21" ] .
+
+<http://codefor.de/leipzig/Kiat/137>  a okl:Kita ; 
+	rdfs:label "Kita Meininger Ring 41"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordwest> ; 
+	geo:lat "51.31947" ; 
+	geo:long "12.26894" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Meininger Ring 41" ] .
+
+<http://codefor.de/leipzig/Kiat/138>  a okl:Kita ; 
+	rdfs:label "Kita Meusdorfer Straße 47 b"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Sued> ; 
+	geo:lat "51.3057709" ; 
+	geo:long "12.3784411" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Meusdorfer Straße 47 b" ] .
+
+<http://codefor.de/leipzig/Kiat/139>  a okl:Kita ; 
+	rdfs:label "Kita Mothesstraße 2"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> ; 
+	geo:lat "51.37316" ; 
+	geo:long "12.38379" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Mothesstraße 2" ] .
+
+<http://codefor.de/leipzig/Kiat/140>  a okl:Kita ; 
+	rdfs:label "Kita Naunhofer Straße 31"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedost> ; 
+	geo:lat "51.31691" ; 
+	geo:long "12.41496" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Naunhofer Straße 31" ] .
+
+<http://codefor.de/leipzig/Kiat/141>  a okl:Kita ; 
+	rdfs:label "Kita Neptunweg  29a"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/West> ; 
+	geo:lat "51.32442" ; 
+	geo:long "12.2691" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Neptunweg  29a" ] .
+
+<http://codefor.de/leipzig/Kiat/142>  a okl:Kita ; 
+	rdfs:label "Kita Neue Leipziger Straße 37 a"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/West> ; 
+	geo:lat "51.31985" ; 
+	geo:long "12.26542" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Neue Leipziger Straße 37 a" ] .
+
+<http://codefor.de/leipzig/Kiat/143>  a okl:Kita ; 
+	rdfs:label "Kita Neue Leipziger Straße 39 a"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/West> ; 
+	geo:lat "51.32024000000001" ; 
+	geo:long "12.26482999999996" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Neue Leipziger Straße 39 a" ] .
+
+<http://codefor.de/leipzig/Kiat/144>  a okl:Kita ; 
+	rdfs:label "Kita Nordplatz 14"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Mitte> ; 
+	geo:lat "51.3530614" ; 
+	geo:long "12.374685" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Nordplatz 14" ] .
+
+<http://codefor.de/leipzig/Kiat/145>  a okl:Kita ; 
+	rdfs:label "Kita Nordstraße 43 a/b"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Mitte> ; 
+	geo:lat "51.35002" ; 
+	geo:long "12.3739" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Nordstraße 43 a/b" ] .
+
+<http://codefor.de/leipzig/Kiat/146>  a okl:Kita ; 
+	rdfs:label "Kita Nordweg  9"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> ; 
+	geo:lat "51.39477" ; 
+	geo:long "12.37535" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Nordweg  9" ] .
+
+<http://codefor.de/leipzig/Kiat/147>  a okl:Kita ; 
+	rdfs:label "Kita Odermannstraße 4"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Alt-West> ; 
+	geo:lat "51.3373" ; 
+	geo:long "12.33249" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Odermannstraße 4" ] .
+
+<http://codefor.de/leipzig/Kiat/148>  a okl:Kita ; 
+	rdfs:label "Kita Oststraße  128"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedost> ; 
+	geo:lat "51.3273603" ; 
+	geo:long "12.418378800000028" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Oststraße  128" ] .
+
+<http://codefor.de/leipzig/Kiat/149>  a okl:Kita ; 
+	rdfs:label "Kita Oststraße 185"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedost> ; 
+	geo:lat "51.32342" ; 
+	geo:long "12.42175" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Oststraße 185" ] .
+
+<http://codefor.de/leipzig/Kiat/150>  a okl:Kita ; 
+	rdfs:label "Kita Palmstraße 4"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedost> ; 
+	geo:lat "51.32921" ; 
+	geo:long "12.41173" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Palmstraße 4" ] .
+
+<http://codefor.de/leipzig/Kiat/151>  a okl:Kita ; 
+	rdfs:label "Kita Paul-List-Straße 11 c"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Mitte> ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Paul-List-Straße 11 c" ] .
+
+<http://codefor.de/leipzig/Kiat/152>  a okl:Kita ; 
+	rdfs:label "Kita Paul-Michael-Str. 15"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Alt-West> ; 
+	geo:lat "51.35303" ; 
+	geo:long "12.3148" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Paul-Michael-Str. 15" ] .
+
+<http://codefor.de/leipzig/Kiat/153>  a okl:Kita ; 
+	rdfs:label "Kita Pistorisstraße 10"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedwest> ; 
+	geo:lat "51.31567" ; 
+	geo:long "12.34227" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Pistorisstraße 10" ] .
+
+<http://codefor.de/leipzig/Kiat/154>  a okl:Kita ; 
+	rdfs:label "Kita Platnerstraße 11"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> ; 
+	geo:lat "51.3587892" ; 
+	geo:long "12.360733100000061" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Platnerstraße 11" ] .
+
+<http://codefor.de/leipzig/Kiat/155>  a okl:Kita ; 
+	rdfs:label "Kita Poetenweg 22"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> ; 
+	geo:lat "51.35654" ; 
+	geo:long "12.36595" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Poetenweg 22" ] .
+
+<http://codefor.de/leipzig/Kiat/156>  a okl:Kita ; 
+	rdfs:label "Kita Poserstraße 55"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordost> ; 
+	geo:lat "51.35373" ; 
+	geo:long "12.42545" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Poserstraße 55" ] .
+
+<http://codefor.de/leipzig/Kiat/157>  a okl:Kita ; 
+	rdfs:label "Kita Prager Straße 224"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedost> ; 
+	geo:lat "51.30781" ; 
+	geo:long "12.42099" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Prager Straße 224" ] .
+
+<http://codefor.de/leipzig/Kiat/158>  a okl:Kita ; 
+	rdfs:label "Kita Raschwitzer Str. 4"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Sued> ; 
+	geo:lat "51.2950144" ; 
+	geo:long "12.383675400000016" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Raschwitzer Str. 4" ] .
+
+<http://codefor.de/leipzig/Kiat/159>  a okl:Kita ; 
+	rdfs:label "Kita Raschwitzer Straße 15"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Sued> ; 
+	geo:lat "51.29487" ; 
+	geo:long "12.38396" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Raschwitzer Straße 15" ] .
+
+<http://codefor.de/leipzig/Kiat/160>  a okl:Kita ; 
+	rdfs:label "Kita Rathenaustraße 21"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Alt-West> ; 
+	geo:lat "51.35497" ; 
+	geo:long "12.31444" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Rathenaustraße 21" ] .
+
+<http://codefor.de/leipzig/Kiat/161>  a okl:Kita ; 
+	rdfs:label "Kita Reichelstr. 3"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Mitte> ; 
+	geo:lat "51.3375476" ; 
+	geo:long "12.3679181" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Reichelstr. 3" ] .
+
+<http://codefor.de/leipzig/Kiat/162>  a okl:Kita ; 
+	rdfs:label "Kita Reichelstraße 3-5"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Mitte> ; 
+	geo:lat "51.3375476" ; 
+	geo:long "12.3679181" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Reichelstraße 3-5" ] .
+
+<http://codefor.de/leipzig/Kiat/163>  a okl:Kita ; 
+	rdfs:label "Kita Richard-Lehmann-Str. 30 A"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Sued> ; 
+	geo:lat "51.31449" ; 
+	geo:long "12.37092" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Richard-Lehmann-Str. 30 A" ] .
+
+<http://codefor.de/leipzig/Kiat/164>  a okl:Kita ; 
+	rdfs:label "Kita Rietschelstraße 12"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Alt-West> ; 
+	geo:lat "51.33959" ; 
+	geo:long "12.33283" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Rietschelstraße 12" ] .
+
+<http://codefor.de/leipzig/Kiat/165>  a okl:Kita ; 
+	rdfs:label "Kita Rietschelstraße 52"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Alt-West> ; 
+	geo:lat "51.3455582" ; 
+	geo:long "12.324687900000072" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Rietschelstraße 52" ] .
+
+<http://codefor.de/leipzig/Kiat/166>  a okl:Kita ; 
+	rdfs:label "Kita Ringstraße  213"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/West> ; 
+	geo:lat "51.31569" ; 
+	geo:long "12.29386" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Ringstraße  213" ] .
+
+<http://codefor.de/leipzig/Kiat/167>  a okl:Kita ; 
+	rdfs:label "Kita Roßmarktstraße 6"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Alt-West> ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Roßmarktstraße 6" ] .
+
+<http://codefor.de/leipzig/Kiat/168>  a okl:Kita ; 
+	rdfs:label "Kita Rudolph-Sack-Straße 12"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedwest> ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Rudolph-Sack-Straße 12" ] .
+
+<http://codefor.de/leipzig/Kiat/169>  a okl:Kita ; 
+	rdfs:label "Kita Russenstraße 135"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedost> ; 
+	geo:lat "51.30413" ; 
+	geo:long "12.44936" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Russenstraße 135" ] .
+
+<http://codefor.de/leipzig/Kiat/170>  a okl:Kita ; 
+	rdfs:label "Kita Salomonstraße 10"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Mitte> ; 
+	geo:lat "51.3397203" ; 
+	geo:long "12.390867299999968" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Salomonstraße 10" ] .
+
+<http://codefor.de/leipzig/Kiat/171>  a okl:Kita ; 
+	rdfs:label "Kita Samuel-Lampel-Straße 2"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordost> ; 
+	geo:lat "51.37754" ; 
+	geo:long "12.42013" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Samuel-Lampel-Straße 2" ] .
+
+<http://codefor.de/leipzig/Kiat/172>  a okl:Kita ; 
+	rdfs:label "Kita Schenkendorfstraße 30"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Sued> ; 
+	geo:lat "51.32415" ; 
+	geo:long "12.37464" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Schenkendorfstraße 30" ] .
+
+<http://codefor.de/leipzig/Kiat/173>  a okl:Kita ; 
+	rdfs:label "Kita Schenkendorfstraße 10"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Sued> ; 
+	geo:lat "51.3243465" ; 
+	geo:long "12.3712593" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Schenkendorfstraße 10" ] .
+
+<http://codefor.de/leipzig/Kiat/174>  a okl:Kita ; 
+	rdfs:label "Kita Schönauer Ring 23"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/West> ; 
+	geo:lat "51.32838" ; 
+	geo:long "12.28691" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Schönauer Ring 23" ] .
+
+<http://codefor.de/leipzig/Kiat/175>  a okl:Kita ; 
+	rdfs:label "Kita Schönbachstraße 63"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedost> ; 
+	geo:lat "51.3222" ; 
+	geo:long "12.4131" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Schönbachstraße 63" ] .
+
+<http://codefor.de/leipzig/Kiat/176>  a okl:Kita ; 
+	rdfs:label "Kita Schönefelder Allee 23 a"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordost> ; 
+	geo:lat "51.35729" ; 
+	geo:long "12.40533" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Schönefelder Allee 23 a" ] .
+
+<http://codefor.de/leipzig/Kiat/177>  a okl:Kita ; 
+	rdfs:label "Kita Schröderstraße 1"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Alt-West> ; 
+	geo:lat "51.35661" ; 
+	geo:long "12.2634" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Schröderstraße 1" ] .
+
+<http://codefor.de/leipzig/Kiat/178>  a okl:Kita ; 
+	rdfs:label "Kita Schulzeweg 11"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordost> ; 
+	geo:lat "51.35322" ; 
+	geo:long "12.41743" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Schulzeweg 11" ] .
+
+<http://codefor.de/leipzig/Kiat/179>  a okl:Kita ; 
+	rdfs:label "Kita Schützstraße 2"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Alt-West> ; 
+	geo:lat "51.35304" ; 
+	geo:long "12.32063" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Schützstraße 2" ] .
+
+<http://codefor.de/leipzig/Kiat/180>  a okl:Kita ; 
+	rdfs:label "Kita Sebastian-Bach-Straße 1 a"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Mitte> ; 
+	geo:lat "51.33705" ; 
+	geo:long "12.36131" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Sebastian-Bach-Straße 1 a" ] .
+
+<http://codefor.de/leipzig/Kiat/181>  a okl:Kita ; 
+	rdfs:label "Kita Seidelstraße 1/3"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedost> ; 
+	geo:lat "51.2977571" ; 
+	geo:long "12.431069999999977" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Seidelstraße 1/3" ] .
+
+<http://codefor.de/leipzig/Kiat/182>  a okl:Kita ; 
+	rdfs:label "Kita Seipelweg 16 b"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordost> ; 
+	geo:lat "51.35412" ; 
+	geo:long "12.41791" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Seipelweg 16 b" ] .
+
+<http://codefor.de/leipzig/Kiat/183>  a okl:Kita ; 
+	rdfs:label "Kita Seitengasse 2"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> ; 
+	geo:lat "51.36754" ; 
+	geo:long "12.38543" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Seitengasse 2" ] .
+
+<http://codefor.de/leipzig/Kiat/184>  a okl:Kita ; 
+	rdfs:label "Kita Seumestraße 99"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedwest> ; 
+	geo:lat "51.27823" ; 
+	geo:long "12.3118" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Seumestraße 99" ] .
+
+<http://codefor.de/leipzig/Kiat/185>  a okl:Kita ; 
+	rdfs:label "Kita Sommerfelder Straße 29"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedost> ; 
+	geo:lat "51.32093" ; 
+	geo:long "12.4275" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Sommerfelder Straße 29" ] .
+
+<http://codefor.de/leipzig/Kiat/186>  a okl:Kita ; 
+	rdfs:label "Kita Sophie-Scholl-Straße 6"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.32677" ; 
+	geo:long "12.43892" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Sophie-Scholl-Straße 6" ] .
+
+<http://codefor.de/leipzig/Kiat/187>  a okl:Kita ; 
+	rdfs:label "Kita Spinnereistraße 8"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Alt-West> ; 
+	geo:lat "51.3272" ; 
+	geo:long "12.31809" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Spinnereistraße 8" ] .
+
+<http://codefor.de/leipzig/Kiat/188>  a okl:Kita ; 
+	rdfs:label "Kita Spinnereistraße 10"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Alt-West> ; 
+	geo:lat "51.32771" ; 
+	geo:long "12.31771" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Spinnereistraße 10" ] .
+
+<http://codefor.de/leipzig/Kiat/189>  a okl:Kita ; 
+	rdfs:label "Kita Spittastraße 7"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Alt-West> ; 
+	geo:lat "51.34019" ; 
+	geo:long "12.3251" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Spittastraße 7" ] .
+
+<http://codefor.de/leipzig/Kiat/190>  a okl:Kita ; 
+	rdfs:label "Kita Sternwartenstraße 30 a/b"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Mitte> ; 
+	geo:lat "51.33369" ; 
+	geo:long "12.38492" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Sternwartenstraße 30 a/b" ] .
+
+<http://codefor.de/leipzig/Kiat/191>  a okl:Kita ; 
+	rdfs:label "Kita Stollberger Straße 8"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordost> ; 
+	geo:lat "51.37855" ; 
+	geo:long "12.43344" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Stollberger Straße 8" ] .
+
+<http://codefor.de/leipzig/Kiat/192>  a okl:Kita ; 
+	rdfs:label "Kita Stötteritzer Straße 1"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedost> ; 
+	geo:lat "51.32931" ; 
+	geo:long "12.40032" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Stötteritzer Straße 1" ] .
+
+<http://codefor.de/leipzig/Kiat/193>  a okl:Kita ; 
+	rdfs:label "Kita Südblick 5"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedost> ; 
+	geo:lat "51.35113" ; 
+	geo:long "12.45565" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Südblick 5" ] .
+
+<http://codefor.de/leipzig/Kiat/194>  a okl:Kita ; 
+	rdfs:label "Kita Tarostraße 7"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Mitte> ; 
+	geo:lat "51.32428" ; 
+	geo:long "12.38702" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Tarostraße 7" ] .
+
+<http://codefor.de/leipzig/Kiat/195>  a okl:Kita ; 
+	rdfs:label "Kita Tarostraße 9"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Mitte> ; 
+	geo:lat "51.32471" ; 
+	geo:long "12.3874" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Tarostraße 9" ] .
+
+<http://codefor.de/leipzig/Kiat/196>  a okl:Kita ; 
+	rdfs:label "Kita Tarostraße 17-19"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Mitte> ; 
+	geo:lat "51.323277" ; 
+	geo:long "12.388308" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Tarostraße 17-19" ] .
+
+<http://codefor.de/leipzig/Kiat/197>  a okl:Kita ; 
+	rdfs:label "Kita Täubchenweg 30"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedost> ; 
+	geo:lat "51.33566" ; 
+	geo:long "12.40165" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Täubchenweg 30" ] .
+
+<http://codefor.de/leipzig/Kiat/198>  a okl:Kita ; 
+	rdfs:label "Kita Theodor-Neubauer-Straße 18"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.33533" ; 
+	geo:long "12.4135" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Theodor-Neubauer-Straße 18" ] .
+
+<http://codefor.de/leipzig/Kiat/199>  a okl:Kita ; 
+	rdfs:label "Kita Thietmarstraße 13"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Alt-West> ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Thietmarstraße 13" ] .
+
+<http://codefor.de/leipzig/Kiat/200>  a okl:Kita ; 
+	rdfs:label "Kita Thünenstraße 2"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> ; 
+	geo:lat "51.36912" ; 
+	geo:long "12.39481" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Thünenstraße 2" ] .
+
+<http://codefor.de/leipzig/Kiat/201>  a okl:Kita ; 
+	rdfs:label "Kita Tschaikowskistrasse 28"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Mitte> ; 
+	geo:lat "51.3462" ; 
+	geo:long "12.3603" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Tschaikowskistrasse 28" ] .
+
+<http://codefor.de/leipzig/Kiat/202>  a okl:Kita ; 
+	rdfs:label "Kita Vollhardtstraße 16"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Sued> ; 
+	geo:lat "51.28914" ; 
+	geo:long "12.38815" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Vollhardtstraße 16" ] .
+
+<http://codefor.de/leipzig/Kiat/203>  a okl:Kita ; 
+	rdfs:label "Kita Waldkerbelstraße 2"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.35869" ; 
+	geo:long "12.4594" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Waldkerbelstraße 2" ] .
+
+<http://codefor.de/leipzig/Kiat/204>  a okl:Kita ; 
+	rdfs:label "Kita Waldrebenweg 9"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.3487367" ; 
+	geo:long "12.483098" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Waldrebenweg 9" ] .
+
+<http://codefor.de/leipzig/Kiat/205>  a okl:Kita ; 
+	rdfs:label "Kita Walter-Heinze-Straße 22"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedwest> ; 
+	geo:lat "51.33027" ; 
+	geo:long "12.33503" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Walter-Heinze-Straße 22" ] .
+
+<http://codefor.de/leipzig/Kiat/206>  a okl:Kita ; 
+	rdfs:label "Kita Weißdornstraße  2"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/West> ; 
+	geo:lat "51.32182" ; 
+	geo:long "12.29445" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Weißdornstraße  2" ] .
+
+<http://codefor.de/leipzig/Kiat/207>  a okl:Kita ; 
+	rdfs:label "Kita Wiesenstraße 18"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.35638" ; 
+	geo:long "12.46526" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Wiesenstraße 18" ] .
+
+<http://codefor.de/leipzig/Kiat/208>  a okl:Kita ; 
+	rdfs:label "Kita Wilhelm-Sammet-Str. 4"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> ; 
+	geo:lat "51.36188" ; 
+	geo:long "12.38072" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Wilhelm-Sammet-Str. 4" ] .
+
+<http://codefor.de/leipzig/Kiat/209>  a okl:Kita ; 
+	rdfs:label "Kita William-Zipperer-Straße 149"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Alt-West> ; 
+	geo:lat "51.34889" ; 
+	geo:long "12.31317" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "William-Zipperer-Straße 149" ] .
+
+<http://codefor.de/leipzig/Kiat/210>  a okl:Kita ; 
+	rdfs:label "Kita Willmar-Schwabe-Straße 4"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Mitte> ; 
+	geo:lat "51.34168" ; 
+	geo:long "12.35762" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Willmar-Schwabe-Straße 4" ] .
+
+<http://codefor.de/leipzig/Kiat/211>  a okl:Kita ; 
+	rdfs:label "Kita Windscheidstraße 32"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Sued> ; 
+	geo:lat "51.31087" ; 
+	geo:long "12.36868" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Windscheidstraße 32" ] .
+
+<http://codefor.de/leipzig/Kiat/212>  a okl:Kita ; 
+	rdfs:label "Kita Wurzner Straße 122"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.3438316" ; 
+	geo:long "12.4182128" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Wurzner Straße 122" ] .
+
+<http://codefor.de/leipzig/Kiat/213>  a okl:Kita ; 
+	rdfs:label "Kita Yorckstraße  43 b"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordwest> ; 
+	geo:lat "51.37001" ; 
+	geo:long "12.34357" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Yorckstraße  43 b" ] .
+
+<http://codefor.de/leipzig/Kiat/214>  a okl:Kita ; 
+	rdfs:label "Kita Yorckstraße  43 a"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordwest> ; 
+	geo:lat "51.37001" ; 
+	geo:long "12.34357" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Yorckstraße  43 a" ] .
+
+<http://codefor.de/leipzig/Kiat/215>  a okl:Kita ; 
+	rdfs:label "Kita Zeumer Straße 5"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.35799" ; 
+	geo:long "12.4072" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Zeumer Straße 5" ] .
+
+<http://codefor.de/leipzig/Kiat/216>  a okl:Kita ; 
+	rdfs:label "Kita Zeumerstraße 1"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordost> ; 
+	geo:lat "51.35943" ; 
+	geo:long "12.40607" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Zeumerstraße 1" ] .
+
+<http://codefor.de/leipzig/Kiat/217>  a okl:Kita ; 
+	rdfs:label "Kita Zingster Straße 02"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/West> ; 
+	geo:lat "51.3106625" ; 
+	geo:long "12.2599238" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Zingster Straße 02" ] .
+
+<http://codefor.de/leipzig/Kiat/218>  a okl:Kita ; 
+	rdfs:label "Kita Zittauer Straße 2 a"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordost> ; 
+	geo:lat "51.35575" ; 
+	geo:long "12.41429" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Zittauer Straße 2 a" ] .
+
+<http://codefor.de/leipzig/Kiat/219>  a okl:Kita ; 
+	rdfs:label "Kita Zum Kleingartenpark  15"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.34256" ; 
+	geo:long "12.423459999999977" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Zum Kleingartenpark  15" ] .
+
+<http://codefor.de/leipzig/Kiat/220>  a okl:Kita ; 
+	rdfs:label "Kita Zur Schule  10"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> ; 
+	geo:lat "51.3933745" ; 
+	geo:long "12.372747" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Zur Schule  10" ] .
+
+<http://codefor.de/leipzig/Kiat/221>  a okl:Kita ; 
+	rdfs:label "Kita Zweinauendorfer Straße 167"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> ; 
+	geo:lat "51.32713" ; 
+	geo:long "12.44172" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Zweinauendorfer Straße 167" ] .
+
+<http://codefor.de/leipzig/Kiat/222>  a okl:Kita ; 
+	rdfs:label "1"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordost> .
+
+<http://codefor.de/leipzig/Kiat/223>  a okl:Kita ; 
+	rdfs:label "2"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordost> .
+
+<http://codefor.de/leipzig/Kiat/224>  a okl:Kita ; 
+	rdfs:label "3"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordost> .
+
+<http://codefor.de/leipzig/Kiat/225>  a okl:Kita ; 
+	rdfs:label "BBW-TPP16"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedost> .
+
+<http://codefor.de/leipzig/Kiat/226>  a okl:Kita ; 
+	rdfs:label "FAIRbund TPP03"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> .
+
+<http://codefor.de/leipzig/Kiat/227>  a okl:Kita ; 
+	rdfs:label "FAIRbund TPP05"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> .
+
+<http://codefor.de/leipzig/Kiat/228>  a okl:Kita ; 
+	rdfs:label "FAIRbund TPP06"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> .
+
+<http://codefor.de/leipzig/Kiat/229>  a okl:Kita ; 
+	rdfs:label "FAIRbund TPP07"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> .
+
+<http://codefor.de/leipzig/Kiat/230>  a okl:Kita ; 
+	rdfs:label "FAIRbund TPP09"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> .
+
+<http://codefor.de/leipzig/Kiat/231>  a okl:Kita ; 
+	rdfs:label "FJ-FRÖBEL-Lößnig"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Sued> .
+
+<http://codefor.de/leipzig/Kiat/232>  a okl:Kita ; 
+	rdfs:label "int-bsw 83600"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Sued> .
+
+<http://codefor.de/leipzig/Kiat/233>  a okl:Kita ; 
+	rdfs:label "int-bsw 83900"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> .
+
+<http://codefor.de/leipzig/Kiat/234>  a okl:Kita ; 
+	rdfs:label "KüchollKa"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> .
+
+<http://codefor.de/leipzig/Kiat/235>  a okl:Kita ; 
+	rdfs:label "MüllerMa"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordost> .
+
+<http://codefor.de/leipzig/Kiat/236>  a okl:Kita ; 
+	rdfs:label "MuruchiGe"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedwest> .
+
+<http://codefor.de/leipzig/Kiat/237>  a okl:Kita ; 
+	rdfs:label "NieschAn"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/West> .
+
+<http://codefor.de/leipzig/Kiat/238>  a okl:Kita ; 
+	rdfs:label "OUTLAW-LIE"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> .
+
+<http://codefor.de/leipzig/Kiat/239>  a okl:Kita ; 
+	rdfs:label "OUTLAW-MER"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedwest> .
+
+<http://codefor.de/leipzig/Kiat/240>  a okl:Kita ; 
+	rdfs:label "OUTLAW-ORT"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordwest> .
+
+<http://codefor.de/leipzig/Kiat/241>  a okl:Kita ; 
+	rdfs:label "OUTLAW-SCHM"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedwest> .
+
+<http://codefor.de/leipzig/Kiat/242>  a okl:Kita ; 
+	rdfs:label "OUTLAW-WÖC"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Alt-West> ; 
+	geo:lat "51.36031" ; 
+	geo:long "12.29548" ; 
+	vcard:hasAddress [ a vcard:Work; vcard:country-name "Germany"@en; vcard:locality "Leipzig"; vcard:street-address "Demmeringstraße 157" ] .
+
+<http://codefor.de/leipzig/Kiat/243>  a okl:Kita ; 
+	rdfs:label "Rahn01"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/West> .
+
+<http://codefor.de/leipzig/Kiat/244>  a okl:Kita ; 
+	rdfs:label "Rahn02"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordost> .
+
+<http://codefor.de/leipzig/Kiat/245>  a okl:Kita ; 
+	rdfs:label "Rahn03"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> .
+
+<http://codefor.de/leipzig/Kiat/246>  a okl:Kita ; 
+	rdfs:label "Rahn04"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordwest> .
+
+<http://codefor.de/leipzig/Kiat/247>  a okl:Kita ; 
+	rdfs:label "Rahn05"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> .
+
+<http://codefor.de/leipzig/Kiat/248>  a okl:Kita ; 
+	rdfs:label "Rahn06"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/West> .
+
+<http://codefor.de/leipzig/Kiat/249>  a okl:Kita ; 
+	rdfs:label "Rahn07"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedost> .
+
+<http://codefor.de/leipzig/Kiat/250>  a okl:Kita ; 
+	rdfs:label "Rahn09"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedwest> .
+
+<http://codefor.de/leipzig/Kiat/251>  a okl:Kita ; 
+	rdfs:label "Rahn10"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedost> .
+
+<http://codefor.de/leipzig/Kiat/252>  a okl:Kita ; 
+	rdfs:label "SchakatJa"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/West> .
+
+<http://codefor.de/leipzig/Kiat/253>  a okl:Kita ; 
+	rdfs:label "SchwippsSa"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> .
+
+<http://codefor.de/leipzig/Kiat/254>  a okl:Kita ; 
+	rdfs:label "Tagesmützel_04"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedwest> .
+
+<http://codefor.de/leipzig/Kiat/255>  a okl:Kita ; 
+	rdfs:label "Tagesmützel_07"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordost> .
+
+<http://codefor.de/leipzig/Kiat/256>  a okl:Kita ; 
+	rdfs:label "Tagesmützel_08"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> .
+
+<http://codefor.de/leipzig/Kiat/257>  a okl:Kita ; 
+	rdfs:label "Tagesmützel_13"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedwest> .
+
+<http://codefor.de/leipzig/Kiat/258>  a okl:Kita ; 
+	rdfs:label "Tagesmützel_16"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Ost> .
+
+<http://codefor.de/leipzig/Kiat/259>  a okl:Kita ; 
+	rdfs:label "Tagesmützel_18"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> .
+
+<http://codefor.de/leipzig/Kiat/260>  a okl:Kita ; 
+	rdfs:label "Tagesmützel_21"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nord> .
+
+<http://codefor.de/leipzig/Kiat/261>  a okl:Kita ; 
+	rdfs:label "Tagesmützel_23"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedwest> .
+
+<http://codefor.de/leipzig/Kiat/262>  a okl:Kita ; 
+	rdfs:label "Tagesmützel_25"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordost> .
+
+<http://codefor.de/leipzig/Kiat/263>  a okl:Kita ; 
+	rdfs:label "Tagesmützel_26"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordwest> .
+
+<http://codefor.de/leipzig/Kiat/264>  a okl:Kita ; 
+	rdfs:label "VJ - FRÖBEL"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Sued> .
+
+<http://codefor.de/leipzig/Kiat/265>  a okl:Kita ; 
+	rdfs:label "VKKJ Nordwest13"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Nordwest> .
+
+<http://codefor.de/leipzig/Kiat/266>  a okl:Kita ; 
+	rdfs:label "VKKJ Südwest4"@de ; 
+	okl:isIn <http://leipzig-data.de/Data/Stadtbezirk/Suedwest> .
+
+
+okl:Kita rdfs:label "Kitas in Leipzig"@de .
+
+<>	rdfs:label "Kitas in Leipzig"@de ;
+	rdfs:comment "Stand 12.05.2014"@de ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	cc:attributionURL <http://codefor.de/leipzig/> ;
+	cc:attributionName "OK Lab Leipzig" ;
+	owl:versionInfo "Stand 12.05.2014"@de .

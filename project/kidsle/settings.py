@@ -42,6 +42,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
 
     # own apps
+    'daycare',
     'core',
     'schools'
 )
