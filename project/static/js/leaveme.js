@@ -2,18 +2,43 @@ var map = L.map('map', {
     zoomControl: false
 });
 
-new L.Control.Zoom({
-    position: 'topright'
-}).addTo(map);
+var posIcon = 'static/img/marker-circle.svg';
+//var schoolIcon = 'static/img/school.svg';
+var kitaIcon = 'static/img/kita.svg';
+var playIcon = 'static/img/playground.svg';
+
+var kitaData = 'static/data/kitas.json';
+var playData = 'static/data/playgrounds.json';
 
 var YouIcon = L.icon({
-    iconUrl: 'static/img/marker-circle.svg',
-    iconSize: [38, 95],
-    iconAnchor: [22, 94],
+    iconUrl: posIcon,
+    iconSize: [32, 32],
+    iconAnchor: [16, 16],
+});
+
+// var schoolMarker = L.icon({
+//     iconUrl: schoolIcon,
+//     iconSize: [32, 32],
+//     iconAnchor: [16, 16],
+// });
+
+var kitaMarker = L.icon({
+    iconUrl: kitaIcon,
+    iconSize: [40, 40],
+    iconAnchor: [20, 20],
+});
+
+var playMarker = L.icon({
+    iconUrl: playIcon,
+    iconSize: [40, 40],
+    iconAnchor: [20, 20],
 });
 
 map.setView([51.34, 12.37], 15);
 
+new L.Control.Zoom({
+    position: 'topright'
+}).addTo(map);
 
 $('#locate').on('click', function() {
     map.locate({
@@ -30,31 +55,66 @@ function onLocationFound(e) {
         icon: YouIcon,
         draggable: true
     }).addTo(map);
-}
+};
 
-L.tileLayer('http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.png', {
+L.tileLayer('http://{s}.www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png', {
     attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>,under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.',
     maxZoom: 18
 }).addTo(map);
 
+$.ajax({
+    type: 'GET',
+    url: kitaData,
+    success: function(data, latlng) {
+        for (var i = 0; i < data.length; i++) {
+            kita = data[i];
+            if (typeof kita['address'] == 'object') {
+                info_text = '<h4>' + kita.name + '</h4><br/>' + '<b>' + kita.address.street + '</b>';
+
+                var markerKita = L.marker({
+                    lng: kita['address']['lng'],
+                    lat: kita['address']['lat'],
+                }, {
+                    icon: kitaMarker
+                }).addTo(map);
+
+                markerKita.bindPopup(info_text);
+            }
+        }
+    }
+});
+
+$.ajax({
+    type: 'GET',
+    url: playData,
+    success: function(data, latlng) {
+        for (var i = 0; i < data.length; i++) {
+            play = data[i];
+            equipment = $.grep(play.equipment, function(element) {
+                return element.trim().length !== 0;
+            });
+            gaming_devices = $.grep(play.gaming_devices, function(element) {
+                return element.trim().length !== 0;
+            });
 
 
-// var schools = ' / schools / data / grundschule.geo.json ';
+            info_text = "<div class=\"res\"><h4>" + play.title + "</h4></div>" + "<b>" + play.address + "</b><br/><br/>" + "Ausstattung: <br/>" + equipment.join('<br>') + "<br/><br/>Spielgeräte: <br/>" + gaming_devices.join(',<br>');
 
-// var grundsch = L.geoJson(grundschulen, {
-//     pointToLayer: function(feature, latlng) {
-//         return L.marker(latlng, {
-//             icon: gsIcon
-//         });
-//     },
+            var markerPlay = L.marker({
+                lng: play['lng'],
+                lat: play['lat'],
+            }, {
+                icon: playMarker
+            }).addTo(map);
 
-//     onEachFeature: onEachFeature
-// });
+            markerPlay.bindPopup(info_text);
 
-// var overlays = {
-//     "Grundschulen": grundsch,
-//     "Oberschulen": obersch,
-//     "Gymnasien": gymnas
-// };
+            (function(text) {
+                $('.leaflet-marker-icon').click(function() {
+                    $('#infotext').html(text);
+                });
+            })(info_text);
 
-// L.control.layers(overlays).addTo(map);
+        }
+    }
+});
