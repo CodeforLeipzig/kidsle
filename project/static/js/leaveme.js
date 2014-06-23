@@ -1,6 +1,16 @@
+var kitas = new L.LayerGroup();
+var playgrounds = new L.LayerGroup();
+
+var overlays = {
+    'Kitas': kitas,
+    'Spielplaetze': playgrounds
+};
+
 var map = L.map('map', {
-    zoomControl: false
+    zoomControl: false,
+    layers: [kitas, playgrounds]
 });
+
 
 var posIcon = 'static/img/marker-circle.svg';
 //var schoolIcon = 'static/img/school.svg';
@@ -57,7 +67,10 @@ function onLocationFound(e) {
     }).addTo(map);
 };
 
-L.tileLayer('http://{s}.www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png', {
+var MapBox = 'https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png';
+var MapNik = 'http://{s}.www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png';
+
+L.tileLayer(MapNik, {
     attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>,under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.',
     maxZoom: 18
 }).addTo(map);
@@ -69,16 +82,14 @@ $.ajax({
         for (var i = 0; i < data.length; i++) {
             kita = data[i];
             if (typeof kita['address'] == 'object') {
-                info_text = '<h4>' + kita.name + '</h4><br/>' + '<b>' + kita.address.street + '</b>';
+                info_text = '<h4>' + kita.name + '</h4><br/>' + '<b>' + kita.address.street + '</b>' + kita.type + '</b>';
 
                 var markerKita = L.marker({
                     lng: kita['address']['lng'],
                     lat: kita['address']['lat'],
                 }, {
                     icon: kitaMarker
-                }).addTo(map);
-
-                markerKita.bindPopup(info_text);
+                }).bindPopup(info_text).addTo(kitas);
             }
         }
     }
@@ -105,16 +116,16 @@ $.ajax({
                 lat: play['lat'],
             }, {
                 icon: playMarker
-            }).addTo(map);
-
-            markerPlay.bindPopup(info_text);
-
-            (function(text) {
-                $('.leaflet-marker-icon').click(function() {
-                    $('#infotext').html(text);
-                });
-            })(info_text);
+            }).bindPopup(info_text).addTo(playgrounds);
+            // (function(text) {
+            //     $('.leaflet-marker-icon').click(function() {
+            //         $('#infotext').html(text);
+            //     });
+            // })(info_text);
 
         }
     }
 });
+
+
+L.control.layers(null, overlays).addTo(map);
