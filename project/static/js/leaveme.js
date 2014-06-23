@@ -8,7 +8,7 @@ var overlays = {
 
 var map = L.map('map', {
     zoomControl: false,
-    layers: [kitas, playgrounds]
+    //layers: [kitas, playgrounds]
 });
 
 
@@ -82,7 +82,7 @@ $.ajax({
         for (var i = 0; i < data.length; i++) {
             kita = data[i];
             if (typeof kita['address'] == 'object') {
-                info_text = '<h4>' + kita.name + '</h4><br/>' + '<b>' + kita.address.street + '</b>' + kita.type + '</b>';
+                info_text = '<div class=\"res kitas\"><h4>' + kita.name + '</h4></div>' + '<b>' + kita.address.street + '</b>' + kita.type + '</b>';
 
                 var markerKita = L.marker({
                     lng: kita['address']['lng'],
@@ -90,10 +90,12 @@ $.ajax({
                 }, {
                     icon: kitaMarker
                 }).bindPopup(info_text).addTo(kitas);
+                map.addLayer(kitas);
             }
         }
     }
 });
+
 
 $.ajax({
     type: 'GET',
@@ -109,7 +111,7 @@ $.ajax({
             });
 
 
-            info_text = "<div class=\"res\"><h4>" + play.title + "</h4></div>" + "<b>" + play.address + "</b><br/><br/>" + "Ausstattung: <br/>" + equipment.join('<br>') + "<br/><br/>Spielgeräte: <br/>" + gaming_devices.join(',<br>');
+            info_text = "<div class=\"res playground\"><h4>" + play.title + "</h4></div>" + "<b>" + play.address + "</b><br/><br/>" + "Ausstattung: <br/>" + equipment.join('<br>') + "<br/><br/>Spielgeräte: <br/>" + gaming_devices.join(',<br>');
 
             var markerPlay = L.marker({
                 lng: play['lng'],
@@ -117,6 +119,8 @@ $.ajax({
             }, {
                 icon: playMarker
             }).bindPopup(info_text).addTo(playgrounds);
+            map.addLayer(playgrounds);
+
             // (function(text) {
             //     $('.leaflet-marker-icon').click(function() {
             //         $('#infotext').html(text);
@@ -126,6 +130,20 @@ $.ajax({
         }
     }
 });
+//L.control.layers(null, overlays).addTo(map);
 
+function valplay() {
+    if (document.filter.playgrounds.checked == true) {
+        map.addLayer(playgrounds);
+    } else {
+        map.removeLayer(playgrounds);
+    }
+};
 
-L.control.layers(null, overlays).addTo(map);
+function valkita() {
+    if (document.filter.kitas.checked == true) {
+        map.addLayer(kitas);
+    } else {
+        map.removeLayer(kitas);
+    }
+};

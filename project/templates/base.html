@@ -10,39 +10,24 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />{% block styles %} {% if debug %}
     <!-- This is the client-side way to compile less and an ok choice for local dev -->
     <link rel="stylesheet/less" type="text/css" media="all" href="{% static 'less/style.less' %}" />
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />{% else %} {% compress css %}
+    <link rel="stylesheet" href="{% static 'css/leaflet.css' %}" />{% else %} {% compress css %}
     <!-- This is the nifty django-compressor way to compile your less files in css -->
     <link rel="stylesheet" type="text/less" media="all" href="{% static 'less/style.less' %}" />
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />{% endcompress %} {% endif %} {% endblock %}
+    >{% endcompress %} {% endif %} {% endblock %}
 </head>
 
 <body>
     <div class="navmenu navmenu-default navmenu-fixed-left">
         <a class="navmenu-brand" href="#">kidsle</a>
         Ergebnisse Filtern
-        <div class="checkbox">
-            <form action="">
-                <label>
-                    <input type="checkbox" value="kitas" name="kitas">Kitas
-                </label>
-                <label>
-                    <input type="checkbox" value="playgrounds" name="playgrounds">Spielplätze
-                </label>
+        <div class="filter">
+            <form name="filter">
+              <input type="checkbox" checked="checked" name="kitas" id="kitas" onclick="valkita()"><label for="kitas">Kitas</label>
+              <input type="checkbox" checked="checked" name="playgrounds" onclick="valplay()">
+              <label for="playgrounds">Spielplätze</label>
+                    
             </form>
         </div>
-
-        <div class="">
-            Umkreis
-        </div>
-
-        <input id="distance-slider" data-slider-id='slider' type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="14" />
-        <form class="navbar-form navbar-left">
-            <input type="text" class="form-control" placeholder="Suchen...">
-        </form>
-        <form class="navbar-form navbar-left">
-            <input type="text" class="form-control" placeholder="PLZ">
-        </form>
-
     </div>
 
     <div class="canvas">
@@ -60,11 +45,11 @@
 
 
         <div class="container">
-            <div class="results">
+            <!-- <div class="results">
                 <div class="col-xs-12 col-sm-10 col-sm-offset-1">
 
-                    <!--  <div class="infobox" id="infotext"></div> -->
-                    <!--<h1 class="">Nachbarschafts Schule</h1>
+                     <div class="infobox" id="infotext"></div>
+                    <h1 class="">Nachbarschafts Schule</h1>
             <div class="row">
               <div class="col-xs-12 col-md-6">
                 <h2 class="info">Beschreibung</h2>
@@ -86,9 +71,9 @@
                     </li>
                   </ul>
               </div>
-            </div>-->
-                </div>
             </div>
+                </div>
+            </div> -->
 
             <div id="map"></div>
 
