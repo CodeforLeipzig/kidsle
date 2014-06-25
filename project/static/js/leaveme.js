@@ -1,14 +1,8 @@
-var kitas = new L.LayerGroup();
-var playgrounds = new L.LayerGroup();
-
-var overlays = {
-    'Kitas': kitas,
-    'Spielplaetze': playgrounds
-};
+var kitas = new L.MarkerClusterGroup();
+var playgrounds = new L.MarkerClusterGroup();
 
 var map = L.map('map', {
     zoomControl: false,
-    //layers: [kitas, playgrounds]
 });
 
 
@@ -82,7 +76,7 @@ $.ajax({
         for (var i = 0; i < data.length; i++) {
             kita = data[i];
             if (typeof kita['address'] == 'object') {
-                info_text = '<div class=\"res kitas\"><h4>' + kita.name + '</h4></div>' + '<b>' + kita.address.street + '</b>' + kita.type + '</b>';
+                info_text = '<div class=\"res kita\"><h4>' + kita.name + '</h4></div>' + '<div class=\"kita-content\"><b>' + kita.address.street + '</b><br/>' + kita.type + '</b></div>';
 
                 var markerKita = L.marker({
                     lng: kita['address']['lng'],
@@ -110,8 +104,7 @@ $.ajax({
                 return element.trim().length !== 0;
             });
 
-
-            info_text = "<div class=\"res playground\"><h4>" + play.title + "</h4></div>" + "<b>" + play.address + "</b><br/><br/>" + "Ausstattung: <br/>" + equipment.join('<br>') + "<br/><br/>Spielgeräte: <br/>" + gaming_devices.join(',<br>');
+            info_text = '<div class=\"res playground\"><h4>' + play.title + '</h4></div>' + '<div class=\"playground-content\"><b>' + play.address + '</b><br/><br/>' + 'Ausstattung: <br/>' + equipment.join('<br>') + '<br/><br/>Spielgeräte: <br/>' + gaming_devices.join(', <br/> ') + '</div>';
 
             var markerPlay = L.marker({
                 lng: play['lng'],
@@ -120,30 +113,47 @@ $.ajax({
                 icon: playMarker
             }).bindPopup(info_text).addTo(playgrounds);
             map.addLayer(playgrounds);
-
-            // (function(text) {
-            //     $('.leaflet-marker-icon').click(function() {
-            //         $('#infotext').html(text);
-            //     });
-            // })(info_text);
-
         }
     }
 });
-//L.control.layers(null, overlays).addTo(map);
 
-function valplay() {
-    if (document.filter.playgrounds.checked == true) {
-        map.addLayer(playgrounds);
-    } else {
-        map.removeLayer(playgrounds);
-    }
-};
 
-function valkita() {
-    if (document.filter.kitas.checked == true) {
+
+var showplay = document.getElementById("play");
+var showkitas = document.getElementById("kit");
+
+showkitas.addEventListener("click", function() {
+    if (showkitas.clicked == false) {
+        showkitas.clicked = true;
+        showkitas.innerHTML = "Kitas ausblenden";
+        showkitas.className = showkitas.className.replace(/\bbtn-disabled\b/, 'btn-primary');
         map.addLayer(kitas);
     } else {
+        showkitas.clicked = false;
         map.removeLayer(kitas);
+        showkitas.className = showkitas.className.replace(/\bbtn-primary\b/, 'btn-disabled');
+        showkitas.innerHTML = "Kitas anzeigen";
     }
-};
+});
+
+showplay.addEventListener("click", function() {
+    if (showplay.clicked == false) {
+        showplay.clicked = true;
+        showplay.innerHTML = "Spielplätze ausblenden";
+        showplay.className = showplay.className.replace(/\bbtn-disabled\b/, 'btn-primary');
+        map.addLayer(playgrounds);
+    } else {
+        showplay.clicked = false;
+        map.removeLayer(playgrounds);
+        showplay.innerHTML = "Spielplätze anzeigen";
+        showplay.className = showplay.className.replace(/\bbtn-primary\b/, 'btn-disabled');
+    }
+});
+
+
+
+
+
+
+
+//spacer

@@ -10,7 +10,10 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />{% block styles %} {% if debug %}
     <!-- This is the client-side way to compile less and an ok choice for local dev -->
     <link rel="stylesheet/less" type="text/css" media="all" href="{% static 'less/style.less' %}" />
-    <link rel="stylesheet" href="{% static 'css/leaflet.css' %}" />{% else %} {% compress css %}
+    <link rel="stylesheet" href="{% static 'css/leaflet.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/MarkerCluster.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/MarkerCluster.Default.css' %}" />
+    {% else %} {% compress css %}
     <!-- This is the nifty django-compressor way to compile your less files in css -->
     <link rel="stylesheet" type="text/less" media="all" href="{% static 'less/style.less' %}" />
     >{% endcompress %} {% endif %} {% endblock %}
@@ -19,26 +22,30 @@
 <body>
     <div class="navmenu navmenu-default navmenu-fixed-left">
         <a class="navmenu-brand" href="#">kidsle</a>
-        Ergebnisse Filtern
+        <h5>Ergebnisse Filtern</h5>
         <div class="filter">
-            <form name="filter">
+            <button id="kit" type="button" class="btn btn-lg btn-primary btn-block" >Kitas ausblenden</button>
+            <button id="play" type="button" class="btn btn-lg btn-primary btn-block">Spielplätze ausblenden</button>
+            <!-- <form name="filter">
               <input type="checkbox" checked="checked" name="kitas" id="kitas" onclick="valkita()"><label for="kitas">Kitas</label>
               <input type="checkbox" checked="checked" name="playgrounds" onclick="valplay()">
               <label for="playgrounds">Spielplätze</label>
                     
-            </form>
+            </form> -->
         </div>
     </div>
 
     <div class="canvas">
 
         <div class="navbar navbar-default navbar-fixed-top">
-            <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas">
-                Menu
-            </button>
+            <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas"><span class="glyphicon glyphicon-filter"></button>
             <button id="locate" type="button" class="navbar-toggle">
                 <span class="glyphicon glyphicon-screenshot"></span>
             </button>
+            
+           
+            
+       
 
         </div>
 
