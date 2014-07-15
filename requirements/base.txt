@@ -1,5 +1,4 @@
 Django==1.6.5
-PyYAML==3.11
 argparse==1.2.1
 django-appconf==0.6
 django-compressor==1.4

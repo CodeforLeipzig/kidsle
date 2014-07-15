@@ -4,7 +4,7 @@ import json
 from django.core.management.base import BaseCommand
 from django.conf import settings
 
-from playgrounds.models import Playground
+from playgrounds.models import GamingDevice, GamingDevicePlaygroundM2M, Playground
 
 
 PLAYGROUND_DATA_DIR = os.path.join(settings.BASE_DIR, 'playgrounds', 'data')
@@ -23,7 +23,11 @@ class Command(BaseCommand):
                 district = playground_information['properties']['district']
                 town = playground_information['properties']['town']
                 location = playground_information['properties']['location']
-                gaming_devices = playground_information['properties']['gaming_devices']
+                #read_gaming_devices = playground_information['properties']['gaming_devices']
+                #for gaming_device in read_gaming_devices:
+                #    gaming_devices.add(GamingDevice.objects.get_or_create(gaming_device))
+                #gaming_devices_of_playground = GamingDevicesM2M()
+                #gaming_devices_of_playground.gaming_devices = devices
                 equipment = playground_information['properties']['equipment']
                 lines = ''
                 stops_ = set()
@@ -38,17 +42,27 @@ class Command(BaseCommand):
                     stops += stop + ', '
                 latitude = playground_information["geometry"]["coordinates"][1]
                 longitude = playground_information["geometry"]["coordinates"][0]
-                obj, created = Playground.objects.get_or_create(
+                playground, created = Playground.objects.get_or_create(
                     name=name,
                     district=district,
                     town=town,
                     location=location,
-                    gaming_devices=gaming_devices,
+                    #=gaming_devices,
                     equipment=equipment,
                     lines=lines,
                     stops=stops,
                     latitude=latitude,
                     longitude=longitude
                 )
+                read_gaming_devices = json.loads(playground_information['properties']['gaming_devices'])
+                #print(read_gaming_devices)
+                for read_gaming_device in read_gaming_devices:
+                    #print(read_gaming_device)
+                    gaming_device, _ = GamingDevice.objects.get_or_create(title=read_gaming_device)
+                    GamingDevicePlaygroundM2M.objects.get_or_create(device=gaming_device,
+                        playground=playground)[0].save()
+                print(playground.gaming_devices.all())
+                print()
+
                 if created:
                     self.stdout.write('Created Playground %s' % name)
