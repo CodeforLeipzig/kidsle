@@ -24,12 +24,6 @@ var YouIcon = L.icon({
     iconAnchor: [16, 16],
 });
 
-// var schoolMarker = L.icon({
-//     iconUrl: schoolIcon,
-//     iconSize: [32, 32],
-//     iconAnchor: [16, 16],
-// });
-
 var kitaMarker = L.icon({
     iconUrl: kitaIcon,
     iconSize: [40, 40],
@@ -154,11 +148,3 @@ showplay.addEventListener("click", function() {
         showplay.className = showplay.className.replace(/\bbtn-primary\b/, 'btn-disabled');
     }
 });
-
-
-
-
-
-
-
-//spacer

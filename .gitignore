@@ -1,5 +1,8 @@
 # gitignore files #
 ###################
+
+.gitignore
+kidsle/
 *.pyc
 *.db
 *.sqlite3
