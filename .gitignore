@@ -1,10 +1,5 @@
 # gitignore files #
 ###################
-
-
-#npm modules
-node_modules/
-kidsle/
 *.pyc
 *.db
 *.sqlite3
