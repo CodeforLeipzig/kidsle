@@ -7,10 +7,12 @@ from rest_framework import routers
 
 from core.views import IndexView
 from schools.views import SchoolViewSet
+from daycare.views import DaycareViewSet
 
 
 router = routers.DefaultRouter()
 router.register(r'schools', SchoolViewSet)
+router.register(r'daycare', DaycareViewSet)
 
 
 urlpatterns = patterns('',
