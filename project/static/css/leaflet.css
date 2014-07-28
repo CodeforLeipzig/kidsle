@@ -388,13 +388,11 @@
 	text-align: center;
 	}
 .leaflet-popup-content-wrapper {
-	padding: 1px;
 	font-family: "Merriweather", "Helvetica", sans-serif;
 	text-align: left;
 	border-radius: 1px;
 	}
 .leaflet-popup-content {
-	margin: 0 0 13px 0;
 	line-height: 1.4;
 	}
 .leaflet-popup-content p {
@@ -441,7 +439,7 @@
 	background: transparent;
 	}
 .leaflet-container a.leaflet-popup-close-button:hover {
-	color: #ebebeb;
+	color: #fff;
 	}
 .leaflet-popup-scrolled {
 	overflow: auto;

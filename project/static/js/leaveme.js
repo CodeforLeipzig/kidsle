@@ -1,5 +1,9 @@
-var kitas = new L.MarkerClusterGroup();
-var playgrounds = new L.MarkerClusterGroup();
+var kitas = new L.MarkerClusterGroup({
+    showCoverageOnHover: false
+});
+var playgrounds = new L.MarkerClusterGroup({
+    showCoverageOnHover: false
+});
 
 var map = L.map('map', {
     zoomControl: false,
@@ -103,8 +107,9 @@ $.ajax({
             gaming_devices = $.grep(play.gaming_devices, function(element) {
                 return element.trim().length !== 0;
             });
+            local_traffic = play.local_traffic;
 
-            info_text = '<div class=\"res playground\"><h4>' + play.title + '</h4></div>' + '<div class=\"playground-content\"><b>' + play.address + '</b><br/><br/>' + 'Ausstattung: <br/>' + equipment.join('<br>') + '<br/><br/>Spielgeräte: <br/>' + gaming_devices.join(', <br/> ') + '</div>';
+            info_text = '<div class=\"res playground\"><h4>' + play.title + '</h4></div>' + '<div class=\"playground-content\"><b>' + play.address + '</b><br/>' + '<h5>Ausstattung:</h5>' + equipment.join('<br>') + '<br/><h5>Spielgeräte:</h5>' + gaming_devices.join(', <br/> ') + '<br/><h5>Zu Erreichen:</h5>' + local_traffic.join(',') + '</div>';
 
             var markerPlay = L.marker({
                 lng: play['lng'],

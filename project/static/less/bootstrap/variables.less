@@ -151,8 +151,12 @@
 @btn-default-border:             #ccc;
 
 @btn-primary-color:              #fff;
-@btn-primary-bg:                 @brand-primary;
-@btn-primary-border:             darken(@btn-primary-bg, 5%);
+@btn-primary-bg:                 @medium-blue;
+@btn-primary-border:             transparent;
+
+@btn-disabled-color:             @btn-primary-color;
+@btn-disabled-bg:                lighten(@btn-primary-bg, 10%);
+@btn-disabled-border:            transparent;
 
 @btn-success-color:              #fff;
 @btn-success-bg:                 @brand-success;

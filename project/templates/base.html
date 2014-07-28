@@ -11,8 +11,6 @@
     <!-- This is the client-side way to compile less and an ok choice for local dev -->
     <link rel="stylesheet/less" type="text/css" media="all" href="{% static 'less/style.less' %}" />
     <link rel="stylesheet" href="{% static 'css/leaflet.css' %}" />
-    <link rel="stylesheet" href="{% static 'css/MarkerCluster.css' %}" />
-    <link rel="stylesheet" href="{% static 'css/MarkerCluster.Default.css' %}" />
     {% else %} {% compress css %}
     <!-- This is the nifty django-compressor way to compile your less files in css -->
     <link rel="stylesheet" type="text/less" media="all" href="{% static 'less/style.less' %}" />
@@ -21,8 +19,7 @@
 
 <body>
     <div class="navmenu navmenu-default navmenu-fixed-left">
-        <a class="navmenu-brand" href="#">kidsle</a>
-        <h5>Ergebnisse Filtern</h5>
+        <h1>Kids in Leipzig</h1>
         <div class="filter">
             <button id="kit" type="button" class="btn btn-lg btn-primary btn-block" >Kitas ausblenden</button>
             <button id="play" type="button" class="btn btn-lg btn-primary btn-block">Spielplätze ausblenden</button>
@@ -113,11 +110,6 @@
     <script type="text/javascript" charset="utf-8" src="{% static 'js/leaveme.js' %}"></script>
     <script type="text/javascript" charset="utf-8" src="{% static 'js/offcanvas.js' %}"></script>
     <script type="text/javascript" charset="utf-8">
-    $('#distance-slider').slider({
-        formater: function(value) {
-            return 'Current value: ' + value;
-        }
-    });
     </script>
 
     {% endblock %}
