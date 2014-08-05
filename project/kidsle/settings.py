@@ -43,6 +43,7 @@ INSTALLED_APPS = (
 
     # own apps
     'core',
+    'daycare',
     'schools',
     'playgrounds'
 )
