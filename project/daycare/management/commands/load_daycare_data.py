@@ -37,13 +37,6 @@ class Command(BaseCommand):
                 address = ""
 
             address = address.replace(', Leipzig', '')
-            pos_firstNumber = re.search("\d", address)
-            
-            #street = street_number = ""
-
-            #if pos_firstNumber is not None: 
-            #    street = address[0:pos_firstNumber.start()]
-            #    street_number = address[pos_firstNumber.start():]
 
             try:
                 latitude = daycare_information['address']['lat']
