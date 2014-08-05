@@ -55,8 +55,6 @@ class Command(BaseCommand):
                 daycare_type=daycare_type,
                 zipcode=zip_code,
                 address=address,
-                #street=street,
-                #streetNumber=street_number,
                 latitude=latitude,
                 longitude=longitude,
                 district=district
