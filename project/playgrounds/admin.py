@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Playground
+from .models import Playground, GamingDevice, Equipment
 
 
 class PlaygroundAdmin(admin.ModelAdmin):
@@ -9,4 +9,16 @@ class PlaygroundAdmin(admin.ModelAdmin):
     search_fields = ('name',)
 
 
+class GamingDeviceAdmin(admin.ModelAdmin):
+    list_display = ('title',)
+    search_fields = ('title',)
+
+
+class EquipmentAdmin(admin.ModelAdmin):
+    list_display = ('title',)
+    search_fields = ('title',)
+
+
 admin.site.register(Playground, PlaygroundAdmin)
+admin.site.register(GamingDevice, GamingDeviceAdmin)
+admin.site.register(Equipment, EquipmentAdmin)
