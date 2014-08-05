@@ -1,4 +1,4 @@
-{% load compress %} 
+{% load compress %}
 {% load staticfiles %}
 <!DOCTYPE html>
 <html>
@@ -9,7 +9,7 @@
         {% block title %} kidlse {% endblock %}
     </title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
-    {% block styles %} 
+    {% block styles %}
     {% if debug %}
     <!-- This is the client-side way to compile less and an ok choice for local dev -->
     <link rel="stylesheet/less" type="text/css" media="all" href="{% static 'less/style.less' %}" />
@@ -29,6 +29,7 @@
         <div class="filter">
             <button id="kit" type="button" class="btn btn-lg btn-primary btn-block">Kitas ausblenden</button>
             <button id="play" type="button" class="btn btn-lg btn-primary btn-block">Spielplätze ausblenden</button>
+            <button id="school" type="button" class="btn btn-lg btn-primary btn-block">Schulen ausblenden</button>
         </div>
     </div>
 
@@ -52,7 +53,7 @@
 
     {% block js %}
     <!-- Leaflet -->
-    <script src="//cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
     <script type="text/javascript" charset="utf-8" src="{% static 'js/leaflet.markercluster.js' %}"></script>
     <script type="text/javascript" charset="utf-8" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
@@ -60,10 +61,20 @@
     <script type="text/javascript" charset="utf-8" src="{% static 'js/less-1.7.0.min.js' %}"></script>
     {% endif %}
     <script type="text/javascript" charset="utf-8" src="{% static 'js/bootstrap-slider.js' %}"></script>
+
+    <script type="text/javascript" charset="utf-8">
+        var kitaIcon = '{% static "img/kita.svg" %}';
+        var playIcon = '{% static "img/playground3.svg" %}';
+        var schoolIcon = '{% static "img/school.svg" %}';
+        var posIcon = '{% static "img/marker-circle.svg" %}';
+
+        var kitaDataUrl = '{% url "daycarecenter-list" %}';
+        var playDataUrl = '{% url "playground-list" %}';
+        var schoolDataUrl = '{% url "school-list" %}';
+    </script>
+
     <script type="text/javascript" charset="utf-8" src="{% static 'js/leaveme.js' %}"></script>
     <script type="text/javascript" charset="utf-8" src="{% static 'js/offcanvas.js' %}"></script>
-    <script type="text/javascript" charset="utf-8">
-    </script>
 
     {% endblock %}
 </body>
