@@ -44,7 +44,8 @@ INSTALLED_APPS = (
     # own apps
     'daycare',
     'core',
-    'schools'
+    'schools',
+    'playgrounds'
 )
 
 MIDDLEWARE_CLASSES = (

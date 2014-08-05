@@ -60,6 +60,9 @@
 .btn-primary {
   .button-variant(@btn-primary-color; @btn-primary-bg; @btn-primary-border);
 }
+.btn-disabled {
+  .button-variant(@btn-disabled-color; @btn-disabled-bg; @btn-disabled-border);
+}
 // Success appears as green
 .btn-success {
   .button-variant(@btn-success-color; @btn-success-bg; @btn-success-border);
@@ -123,7 +126,7 @@
 
 .btn-lg {
   // line-height: ensure even-numbered height of button next to large input
-  .button-size(@padding-large-vertical; @padding-large-horizontal; @font-size-large; @line-height-large; @border-radius-large);
+  .button-size(20px; @padding-large-horizontal; @font-size-large; @line-height-large; @border-radius-large);
 }
 .btn-sm {
   // line-height: ensure proper height of button next to small input
@@ -138,15 +141,16 @@
 // --------------------------------------------------
 
 .btn-block {
+  text-align: left;
   display: block;
   width: 100%;
-  padding-left: 0;
+  padding-left: 10px;
   padding-right: 0;
 }
 
 // Vertically space out multiple block buttons
 .btn-block + .btn-block {
-  margin-top: 5px;
+ // margin-top: 5px;
 }
 
 // Specificity overrides

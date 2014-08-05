@@ -1,145 +1,71 @@
-{% load compress %}
+{% load compress %} 
 {% load staticfiles %}
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <title>
-      {% block title %}
-        kidlse
-      {% endblock %}
+        {% block title %} kidlse {% endblock %}
     </title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
-
-    {% block styles %}
-
+    {% block styles %} 
     {% if debug %}
-      <!-- This is the client-side way to compile less and an ok choice for local dev -->
-      <link rel="stylesheet/less" type="text/css" media="all" href="{% static 'less/style.less' %}" />
-      <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+    <!-- This is the client-side way to compile less and an ok choice for local dev -->
+    <link rel="stylesheet/less" type="text/css" media="all" href="{% static 'less/style.less' %}" />
+    <link rel="stylesheet" href="{% static 'css/leaflet.css' %}" />
     {% else %}
-      {% compress css %}
-      <!-- This is the nifty django-compressor way to compile your less files in css -->
-      <link rel="stylesheet" type="text/less" media="all" href="{% static 'less/style.less' %}" />
-      <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
-      {% endcompress %}
+    {% compress css %}
+    <!-- This is the nifty django-compressor way to compile your less files in css -->
+    <link rel="stylesheet" type="text/less" media="all" href="{% static 'less/style.less' %}" />
+    {% endcompress %}
     {% endif %}
     {% endblock %}
-  </head>
-  <body>
-     <div class="navmenu navmenu-default navmenu-fixed-left">
-      <a class="navmenu-brand" href="#">kidsle</a>
-      Ergebnisse Filtern
-      <ul class="nav navmenu-nav">
-        Ergebnisse Filtern
-        <li>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox"> Obeschulen
-            </label>
-          </div>
-        </li>
-        <li>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox"> Grundschulen
-            </label>
-          </div>
-        </li>
-        <li>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox"> Gymansien
-            </label>
-          </div>
-        </li>
-      </ul>
-      <div class="">
-        Umkreis
-      </div>
+</head>
 
-          <input id="distance-slider" data-slider-id='slider' type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="14"/>
-        <form class="navbar-form navbar-left">
-            <input type="text" class="form-control" placeholder="Suchen...">
-        </form>
-
+<body>
+    <div class="navmenu navmenu-default navmenu-fixed-left">
+        <h1>Kids in Leipzig</h1>
+        <div class="filter">
+            <button id="kit" type="button" class="btn btn-lg btn-primary btn-block">Kitas ausblenden</button>
+            <button id="play" type="button" class="btn btn-lg btn-primary btn-block">Spielplätze ausblenden</button>
+        </div>
     </div>
 
     <div class="canvas">
 
-      <div class="navbar navbar-default navbar-fixed-top">
-        <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas">
-          Menu
-        </button>
-      </div>
-
-
-
-      <div class="container">
-        <div class="results">
-          <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-            <h1 class="">Nachbarschafts Schule</h1>
-            <div class="row">
-              <div class="col-xs-12 col-md-6">
-                <h2 class="info">Beschreibung</h2>
-                <p class="description">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                </p>
-              </div>
-              <div class="col-xs-12 col-md-6">
-                <h2 class="info">Details</h2>
-                  <ul>
-                    <li>
-                    <a href="#">Webseite</a>
-                    </li>
-                    <li>
-                    <a href="#">Kommentare</a>
-                    </li>
-                    <li>
-                    <a href="#">Bewertung</a><div class="rating-group"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span></div>
-                    </li>
-                  </ul>
-              </div>
-            </div>
-          </div>
+        <div class="navbar navbar-default navbar-fixed-top">
+            <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas">
+                <span class="glyphicon glyphicon-filter">
+            </button>
+            <button id="locate" type="button" class="navbar-toggle">
+                <span class="glyphicon glyphicon-screenshot"></span>
+            </button>
         </div>
+        <div class="container">
+            <div id="map"></div>
+        </div>
+        <!-- /.container -->
 
-        <div id="map"></div>
+    </div>
+    <!-- /.canvas  -->
 
-      </div><!-- /.container -->
-
-    </div><!-- /.canvas  -->
-
-
-    <!-- Google Maps API -->
     {% block js %}
-    <script src="//maps.googleapis.com/maps/api/js?sensor=false"></script>
     <!-- Leaflet -->
     <script src="//cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
-
-    <script src="//google-maps-utility-library-v3.googlecode.com/svn/trunk/geolocationmarker/src/geolocationmarker-compiled.js"></script>
+    <script type="text/javascript" charset="utf-8" src="{% static 'js/leaflet.markercluster.js' %}"></script>
     <script type="text/javascript" charset="utf-8" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     {% if debug %}
     <script type="text/javascript" charset="utf-8" src="{% static 'js/less-1.7.0.min.js' %}"></script>
-    <script type="text/javascript">
-         less.env = "development";
-	 less.watch();
-    </script>
     {% endif %}
-    <script type="text/javascript" charset="utf-8" src="{% static 'js/custom.js' %}"></script>
     <script type="text/javascript" charset="utf-8" src="{% static 'js/bootstrap-slider.js' %}"></script>
-    <script type="text/javascript" charset="utf-8" src="{% static 'js/map.js' %}"></script>
     <script type="text/javascript" charset="utf-8" src="{% static 'js/leaveme.js' %}"></script>
     <script type="text/javascript" charset="utf-8" src="{% static 'js/offcanvas.js' %}"></script>
     <script type="text/javascript" charset="utf-8">
-      $('#distance-slider').slider({
-        formater: function(value) {
-          return 'Current value: ' + value;
-        }
-      });
-
     </script>
+
     {% endblock %}
-  </body>
+</body>
+
 </html>
