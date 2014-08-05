@@ -43,7 +43,8 @@ INSTALLED_APPS = (
 
     # own apps
     'core',
-    'schools'
+    'schools',
+    'playgrounds'
 )
 
 MIDDLEWARE_CLASSES = (
