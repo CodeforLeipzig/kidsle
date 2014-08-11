@@ -3,36 +3,36 @@ var map = L.map('map', {
     maxZoom: 18,
 });
 
-var kitas = new L.MarkerClusterGroup({
-    showCoverageOnHover: false
+var daycarecenters = new L.MarkerClusterGroup({
+    showCoverageOnHover: true
 });
 
 var playgrounds = new L.MarkerClusterGroup({
-    showCoverageOnHover: false
+    showCoverageOnHover: true
 });
 
 var schools = new L.MarkerClusterGroup({
-    showCoverageOnHover: false
+    showCoverageOnHover: true
 });
 
-map.addLayer(kitas);
+map.addLayer(daycarecenters);
 map.addLayer(playgrounds);
 map.addLayer(schools);
 
-var YouIcon = L.icon({
+var posMarker = L.icon({
     iconUrl: posIcon,
     iconSize: [32, 32],
     iconAnchor: [16, 16],
 });
 
-var kitaMarker = L.icon({
-    iconUrl: kitaIcon,
+var daycarecenterMarker = L.icon({
+    iconUrl: daycarecenterIcon,
     iconSize: [40, 40],
     iconAnchor: [20, 20],
 });
 
 var playMarker = L.icon({
-    iconUrl: playIcon,
+    iconUrl: playgroundIcon,
     iconSize: [40, 40],
     iconAnchor: [20, 20],
 });
@@ -55,20 +55,19 @@ function setUpMap() {
         map.locate({
             setView: true,
             maxZoom: 15,
-            icon: YouIcon
+            icon: posMarker
         });
     });
 
     function onLocationFound(e) {
         L.marker(e.latlng, {
-            icon: YouIcon,
+            icon: posMarker,
             draggable: true
         }).addTo(map);
     }
 
     map.on('locationfound', onLocationFound);
 
-    var MapBox = 'https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png';
     var MapNik = 'http://{s}.www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png';
 
     L.tileLayer(MapNik, {
@@ -80,20 +79,20 @@ function setUpMap() {
 
 function setUpSortbuttons() {
     var showplay = document.getElementById("play");
-    var showkitas = document.getElementById("kit");
+    var showdaycarecenter = document.getElementById("kit");
     var showschools = document.getElementById("school");
 
-    showkitas.addEventListener("click", function() {
-        if (showkitas.clicked === false) {
-            showkitas.clicked = true;
-            showkitas.innerHTML = "Kitas ausblenden";
-            showkitas.className = showkitas.className.replace(/\bbtn-disabled\b/, 'btn-primary');
-            map.addLayer(kitas);
+    showdaycarecenter.addEventListener("click", function() {
+        if (showdaycarecenter.clicked === false) {
+            showdaycarecenter.clicked = true;
+            showdaycarecenter.innerHTML = "daycarecenter ausblenden";
+            showdaycarecenter.className = showdaycarecenter.className.replace(/\bbtn-disabled\b/, 'btn-primary');
+            map.addLayer(daycarecenters);
         } else {
-            showkitas.clicked = false;
-            map.removeLayer(kitas);
-            showkitas.className = showkitas.className.replace(/\bbtn-primary\b/, 'btn-disabled');
-            showkitas.innerHTML = "Kitas anzeigen";
+            showdaycarecenter.clicked = false;
+            map.removeLayer(daycarecenters);
+            showdaycarecenter.className = showdaycarecenter.className.replace(/\bbtn-primary\b/, 'btn-disabled');
+            showdaycarecenter.innerHTML = "daycarecenter anzeigen";
         }
     });
 
@@ -130,7 +129,7 @@ function gatherIconInformation() {
 
     $.ajax({
         type: 'GET',
-        url: kitaDataUrl,
+        url: daycarecenterDataUrl,
         success: function(data, latlng) {
             for (var i = 0; i < data.length; i++) {
                 kita = data[i];
@@ -141,15 +140,15 @@ function gatherIconInformation() {
                     lng: parseFloat(kita.longitude),
                     lat: parseFloat(kita.latitude),
                 }, {
-                    icon: kitaMarker
-                }).bindPopup(info_text).addTo(kitas);
+                    icon: daycarecenterMarker
+                }).bindPopup(info_text).addTo(daycarecenters);
             }
         }
     });
 
     $.ajax({
         type: 'GET',
-        url: playDataUrl,
+        url: playgroundDataUrl,
         success: function(data, latlng) {
             for (var i = 0; i < data.length; i++) {
                 play = data[i];

@@ -60,16 +60,15 @@
     {% if debug %}
     <script type="text/javascript" charset="utf-8" src="{% static 'js/less-1.7.0.min.js' %}"></script>
     {% endif %}
-    <script type="text/javascript" charset="utf-8" src="{% static 'js/bootstrap-slider.js' %}"></script>
 
     <script type="text/javascript" charset="utf-8">
-        var kitaIcon = '{% static "img/kita.svg" %}';
-        var playIcon = '{% static "img/playground3.svg" %}';
+        var daycarecenterIcon = '{% static "img/kita.svg" %}';
+        var playgroundIcon = '{% static "img/playground3.svg" %}';
         var schoolIcon = '{% static "img/school.svg" %}';
         var posIcon = '{% static "img/marker-circle.svg" %}';
 
-        var kitaDataUrl = '{% url "daycarecenter-list" %}';
-        var playDataUrl = '{% url "playground-list" %}';
+        var daycarecenterDataUrl = '{% url "daycarecenter-list" %}';
+        var playgroundDataUrl = '{% url "playground-list" %}';
         var schoolDataUrl = '{% url "school-list" %}';
     </script>
 
