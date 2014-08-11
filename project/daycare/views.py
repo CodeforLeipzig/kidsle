@@ -4,7 +4,7 @@ from .models import DayCareCenter
 from .serializers import DaycareSerializer
 
 
-class DaycareViewSet(viewsets.ModelViewSet):
+class DaycareViewSet(viewsets.ReadOnlyModelViewSet):
     """
     API endpoint that allows users to be viewed or edited.
     """
