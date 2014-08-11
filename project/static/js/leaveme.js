@@ -4,15 +4,15 @@ var map = L.map('map', {
 });
 
 var kitas = new L.MarkerClusterGroup({
-    showCoverageOnHover: false
+    showCoverageOnHover: true
 });
 
 var playgrounds = new L.MarkerClusterGroup({
-    showCoverageOnHover: false
+    showCoverageOnHover: true
 });
 
 var schools = new L.MarkerClusterGroup({
-    showCoverageOnHover: false
+    showCoverageOnHover: true
 });
 
 map.addLayer(kitas);
@@ -68,7 +68,6 @@ function setUpMap() {
 
     map.on('locationfound', onLocationFound);
 
-    var MapBox = 'https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png';
     var MapNik = 'http://{s}.www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png';
 
     L.tileLayer(MapNik, {
