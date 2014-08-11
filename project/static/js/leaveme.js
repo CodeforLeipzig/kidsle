@@ -133,7 +133,6 @@ function gatherIconInformation() {
         success: function(data, latlng) {
             for (var i = 0; i < data.length; i++) {
                 kita = data[i];
-                console.log(kita);
                 info_text = '<div class=\"res kita\"><h4>' + kita.name + '</h4></div>' + '<div class=\"kita-content\"><b>' + kita.address + '</b><br/>' + kita.daycare_type + '</b></div>';
 
                 var markerKita = L.marker({
@@ -152,7 +151,6 @@ function gatherIconInformation() {
         success: function(data, latlng) {
             for (var i = 0; i < data.length; i++) {
                 play = data[i];
-                console.log(play);
                 var equipment = '';
                 for (var j = 0; j < play.equipment.length; j++) {
                     if (j !== 0) {
