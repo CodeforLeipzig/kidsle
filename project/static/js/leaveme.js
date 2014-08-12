@@ -85,14 +85,14 @@ function setUpSortbuttons() {
     showdaycarecenter.addEventListener("click", function() {
         if (showdaycarecenter.clicked === false) {
             showdaycarecenter.clicked = true;
-            showdaycarecenter.innerHTML = "daycarecenter ausblenden";
+            showdaycarecenter.innerHTML = "Kitas ausblenden";
             showdaycarecenter.className = showdaycarecenter.className.replace(/\bbtn-disabled\b/, 'btn-primary');
             map.addLayer(daycarecenters);
         } else {
             showdaycarecenter.clicked = false;
             map.removeLayer(daycarecenters);
             showdaycarecenter.className = showdaycarecenter.className.replace(/\bbtn-primary\b/, 'btn-disabled');
-            showdaycarecenter.innerHTML = "daycarecenter anzeigen";
+            showdaycarecenter.innerHTML = "Kitas anzeigen";
         }
     });
 
