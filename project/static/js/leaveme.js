@@ -1,8 +1,3 @@
-var map = L.map('map', {
-    zoomControl: false,
-    maxZoom: 18,
-});
-
 var daycarecenters = new L.MarkerClusterGroup({
     showCoverageOnHover: true
 });
@@ -14,10 +9,6 @@ var playgrounds = new L.MarkerClusterGroup({
 var schools = new L.MarkerClusterGroup({
     showCoverageOnHover: true
 });
-
-map.addLayer(daycarecenters);
-map.addLayer(playgrounds);
-map.addLayer(schools);
 
 var posMarker = L.icon({
     iconUrl: posIcon,
@@ -43,9 +34,11 @@ var schoolMarker = L.icon({
     iconAnchor: [20, 20],
 });
 
+function setUpMap(map, options) {
 
-function setUpMap() {
-    map.setView([51.34, 12.37], 15);
+    map.addLayer(daycarecenters);
+    map.addLayer(playgrounds);
+    map.addLayer(schools);
 
     new L.Control.Zoom({
         position: 'topright'
@@ -68,16 +61,12 @@ function setUpMap() {
 
     map.on('locationfound', onLocationFound);
 
-    var MapNik = 'http://{s}.www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png';
-
-    L.tileLayer(MapNik, {
-        attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>,under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.',
-        maxZoom: 18
-    }).addTo(map);
+    gatherIconInformation(map);
+    setUpSortbuttons(map);
 
 }
 
-function setUpSortbuttons() {
+function setUpSortbuttons(map) {
     var showplay = document.getElementById("play");
     var showdaycarecenter = document.getElementById("kit");
     var showschools = document.getElementById("school");
@@ -85,14 +74,14 @@ function setUpSortbuttons() {
     showdaycarecenter.addEventListener("click", function() {
         if (showdaycarecenter.clicked === false) {
             showdaycarecenter.clicked = true;
-            showdaycarecenter.innerHTML = "daycarecenter ausblenden";
+            showdaycarecenter.innerHTML = "Kitas ausblenden";
             showdaycarecenter.className = showdaycarecenter.className.replace(/\bbtn-disabled\b/, 'btn-primary');
             map.addLayer(daycarecenters);
         } else {
             showdaycarecenter.clicked = false;
             map.removeLayer(daycarecenters);
             showdaycarecenter.className = showdaycarecenter.className.replace(/\bbtn-primary\b/, 'btn-disabled');
-            showdaycarecenter.innerHTML = "daycarecenter anzeigen";
+            showdaycarecenter.innerHTML = "Kitas anzeigen";
         }
     });
 
@@ -196,8 +185,3 @@ function gatherIconInformation() {
 
 }
 
-$(document).ready(function () {
-    setUpMap();
-    gatherIconInformation();
-    setUpSortbuttons();
-});
