@@ -5,7 +5,7 @@ from .models import Playground
 from .serializers import PlaygroundSerializer
 
 
-class PlaygroundViewSet(viewsets.ModelViewSet):
+class PlaygroundViewSet(viewsets.ReadOnlyModelViewSet):
     """
     API endpoint that allows users to be viewed or edited.
     """

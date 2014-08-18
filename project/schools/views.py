@@ -4,7 +4,7 @@ from .models import School
 from .serializers import SchoolSerializer
 
 
-class SchoolViewSet(viewsets.ModelViewSet):
+class SchoolViewSet(viewsets.ReadOnlyModelViewSet):
     """
     API endpoint that allows users to be viewed or edited.
     """
