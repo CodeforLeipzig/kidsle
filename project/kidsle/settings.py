@@ -1,3 +1,4 @@
+# encoding: utf-8
 """
 Django settings for kidsle project.
 
@@ -40,6 +41,7 @@ INSTALLED_APPS = (
     'grappelli',
     'rest_framework',
     'django.contrib.admin',
+    'leaflet',
 
     # own apps
     'core',
@@ -127,3 +129,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
 STATIC_URL = '/static/'
+
+LEAFLET_CONFIG = {
+    'MAX_ZOOM': 18,
+    'DEFAULT_CENTER': (51.34, 12.37),
+    'DEFAULT_ZOOM': 15,
+    'RESET_VIEW': False,
+    'TILES': u'http://{s}.www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png',
+    'ATTRIBUTION_PREFIX': u'<a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> | © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Map tiles by <a href="http://stamen.com">Stamen Design</a>,under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.'
+}
