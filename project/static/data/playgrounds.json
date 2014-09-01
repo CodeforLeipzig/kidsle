@@ -2,7 +2,7 @@
   {
     "town": "Leipzig",
     "district": "Ost,Mölkau",
-    "title": "Spielplatz  ''Paunsdorfer Straße''",
+    "title": "Spielplatz \"Paunsdorfer Straße\"",
     "local_traffic": [
       "Bus Linie 72, 73 (Haltestelle Anemonenweg)"
     ],
@@ -25,7 +25,7 @@
   {
     "town": "Leipzig",
     "district": "Ost,Mölkau",
-    "title": "Spielplatz  ''Paunsdorfer Straße''",
+    "title": "Spielplatz \"Paunsdorfer Straße\"",
     "local_traffic": [
       "Bus Linie 72, 73 (Haltestelle Anemonenweg)"
     ],
@@ -789,15 +789,11 @@
       "Stehwippe",
       "Balancierbalken",
       "Reck",
-      " ",
-      " "
     ],
     "equipment": [
       "Schattenplätze",
       "Sandspielfläche",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -819,15 +815,11 @@
       "Stehwippe",
       "Balancierbalken",
       "Reck",
-      " ",
-      " "
     ],
     "equipment": [
       "Schattenplätze",
       "Sandspielfläche",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -1980,16 +1972,12 @@
       "Hängebrücke",
       "2 Rutschen",
       "Wippe",
-      " ",
-      " "
     ],
     "equipment": [
       "Pavillon",
       "Spielwiese",
       "Schattenplätze",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -2010,16 +1998,12 @@
       "Hängebrücke",
       "2 Rutschen",
       "Wippe",
-      " ",
-      " "
     ],
     "equipment": [
       "Pavillon",
       "Spielwiese",
       "Schattenplätze",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -2226,14 +2210,11 @@
       "Mastpendel",
       "Klettergerüst",
       "Streetballplatz",
-      " ",
-      " "
     ],
     "equipment": [
       "überdachter Sitzbereich",
       "Schattenplätze",
       "Bänke",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -2252,14 +2233,11 @@
       "Mastpendel",
       "Klettergerüst",
       "Streetballplatz",
-      " ",
-      " "
     ],
     "equipment": [
       "überdachter Sitzbereich",
       "Schattenplätze",
       "Bänke",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -2452,14 +2430,10 @@
       "Drehscheibe",
       "Rodelhügel",
       "Streetballplatz",
-      " ",
-      " "
     ],
     "equipment": [
       "Spielwiese",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -2478,14 +2452,10 @@
       "Drehscheibe",
       "Rodelhügel",
       "Streetballplatz",
-      " ",
-      " "
     ],
     "equipment": [
       "Spielwiese",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -2507,8 +2477,6 @@
       "Spielwiese",
       "Schattenplätze",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -2530,8 +2498,6 @@
       "Spielwiese",
       "Schattenplätze",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -3130,15 +3096,11 @@
       "Balancierholz",
       "Reck",
       "Kletterkamel",
-      " ",
-      " "
     ],
     "equipment": [
       "Sandspielfläche",
       "Spielwiese",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -3161,15 +3123,11 @@
       "Balancierholz",
       "Reck",
       "Kletterkamel",
-      " ",
-      " "
     ],
     "equipment": [
       "Sandspielfläche",
       "Spielwiese",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -3287,16 +3245,12 @@
       "Rutschturm",
       "Wippe",
       "Doppelschaukel",
-      " ",
-      " "
     ],
     "equipment": [
       "Findlinge",
       "Spielwiese",
       "Schattenplätze",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -3316,16 +3270,12 @@
       "Rutschturm",
       "Wippe",
       "Doppelschaukel",
-      " ",
-      " "
     ],
     "equipment": [
       "Findlinge",
       "Spielwiese",
       "Schattenplätze",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -3443,8 +3393,6 @@
     "equipment": [
       "Schattenplätze",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -3468,8 +3416,6 @@
     "equipment": [
       "Schattenplätze",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -4305,8 +4251,6 @@
       "Spielwiese",
       "Schattenplätze",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -4330,8 +4274,6 @@
       "Spielwiese",
       "Schattenplätze",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -4891,15 +4833,11 @@
     "gaming_devices": [
       "Reifenkarussell",
       "Klettersäule",
-      " ",
-      " "
     ],
     "equipment": [
       "Spielwiese",
       "Schattenplätze",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "Hinweis:",
       "Die öffentlichen Parkplätze befinden sich außerhalb des Forstgebietes."
@@ -4918,15 +4856,11 @@
     "gaming_devices": [
       "Reifenkarussell",
       "Klettersäule",
-      " ",
-      " "
     ],
     "equipment": [
       "Spielwiese",
       "Schattenplätze",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "Hinweis:",
       "Die öffentlichen Parkplätze befinden sich außerhalb des Forstgebietes."
@@ -4996,15 +4930,11 @@
     "gaming_devices": [
       "Rutschturm",
       "Drehscheibe",
-      " ",
-      " "
     ],
     "equipment": [
       "Findlinge",
       "Spielwiese",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -5023,15 +4953,11 @@
     "gaming_devices": [
       "Rutschturm",
       "Drehscheibe",
-      " ",
-      " "
     ],
     "equipment": [
       "Findlinge",
       "Spielwiese",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -6180,8 +6106,6 @@
       "Spielwiese",
       "Bänke",
       "überdachter Sitzbereich",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -6210,8 +6134,6 @@
       "Spielwiese",
       "Bänke",
       "überdachter Sitzbereich",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -6401,8 +6323,6 @@
       "2 Tischtennisplatten",
       "Klettergerüst",
       "Brettspieltische",
-      " ",
-      " "
     ],
     "equipment": [
       "Spielwiese",
@@ -6427,8 +6347,6 @@
       "2 Tischtennisplatten",
       "Klettergerüst",
       "Brettspieltische",
-      " ",
-      " "
     ],
     "equipment": [
       "Spielwiese",
@@ -6878,8 +6796,6 @@
       "Spielwiese",
       "Schattenplätze",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -6910,8 +6826,6 @@
       "Spielwiese",
       "Schattenplätze",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -7022,8 +6936,6 @@
     "equipment": [
       "Schattenplätze",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -7046,8 +6958,6 @@
     "equipment": [
       "Schattenplätze",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -7821,14 +7731,10 @@
       "Doppelschaukel",
       "Sitzkarussell",
       "Kletterelement \"Spagettini\"",
-      " ",
-      " "
     ],
     "equipment": [
       "Bänke",
       "Schattenplätze",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -7848,14 +7754,10 @@
       "Doppelschaukel",
       "Sitzkarussell",
       "Kletterelement \"Spagettini\"",
-      " ",
-      " "
     ],
     "equipment": [
       "Bänke",
       "Schattenplätze",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -8398,8 +8300,6 @@
       " "
     ],
     "equipment": [
-      " ",
-      " ",
       "Sandspielfläche",
       "Spielwiese",
       "Schattenplätze",
@@ -8426,8 +8326,6 @@
       " "
     ],
     "equipment": [
-      " ",
-      " ",
       "Sandspielfläche",
       "Spielwiese",
       "Schattenplätze",
@@ -8906,8 +8804,6 @@
     "equipment": [
       "Spielwiese",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -8928,8 +8824,6 @@
     "equipment": [
       "Spielwiese",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -9001,8 +8895,6 @@
       "Spielwiese",
       "Schattenplätze",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -9028,8 +8920,6 @@
       "Spielwiese",
       "Schattenplätze",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -9052,15 +8942,11 @@
       "Wippe",
       "Kletternetz",
       "Sprossenwand",
-      " ",
-      " "
     ],
     "equipment": [
       "Bänke",
       "Spielwiese",
       "Schattenplätze",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -9083,15 +8969,11 @@
       "Wippe",
       "Kletternetz",
       "Sprossenwand",
-      " ",
-      " "
     ],
     "equipment": [
       "Bänke",
       "Spielwiese",
       "Schattenplätze",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -10383,8 +10265,6 @@
     "equipment": [
       "Spielwiese",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -10406,8 +10286,6 @@
     "equipment": [
       "Spielwiese",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -10509,8 +10387,6 @@
       "Kletterpodest",
       "Fußballplatz",
       "Tischtennisplatte",
-      " ",
-      " "
     ],
     "equipment": [
       "Sandspielfläche",
@@ -10539,8 +10415,6 @@
       "Kletterpodest",
       "Fußballplatz",
       "Tischtennisplatte",
-      " ",
-      " "
     ],
     "equipment": [
       "Sandspielfläche",
@@ -12153,12 +12027,10 @@
       "Klettergerüst",
       "Wippe",
       "Kletterholz",
-      " ",
-      " "
     ],
     "equipment": [
       "Spielwiese",
-      "änke",
+      "Bänke",
       " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
@@ -12179,8 +12051,6 @@
       "Klettergerüst",
       "Wippe",
       "Kletterholz",
-      " ",
-      " "
     ],
     "equipment": [
       "Spielwiese",
@@ -12658,8 +12528,6 @@
       "Balancierbalken",
       "Gewichtheber",
       "Holzsitzgruppe",
-      " ",
-      " "
     ],
     "equipment": [
       "Spielwiese",
@@ -12686,8 +12554,6 @@
       "Balancierbalken",
       "Gewichtheber",
       "Holzsitzgruppe",
-      " ",
-      " "
     ],
     "equipment": [
       "Spielwiese",
@@ -12798,14 +12664,10 @@
     ],
     "gaming_devices": [
       "Tischtennisplatte",
-      " ",
-      " "
     ],
     "equipment": [
       "Schattenplätze",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -12822,14 +12684,10 @@
     ],
     "gaming_devices": [
       "Tischtennisplatte",
-      " ",
-      " "
     ],
     "equipment": [
       "Schattenplätze",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -13254,15 +13112,11 @@
       "Balanciersteg",
       "Pendel",
       "Holzkletterdach",
-      " ",
-      " "
     ],
     "equipment": [
       "Spielwiese",
       "Schattenplätze",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "Hinweis:",
       "Die öffentlichen Parkplätze befinden sich außerhalb des Forstgebietes."
@@ -13282,15 +13136,11 @@
       "Balanciersteg",
       "Pendel",
       "Holzkletterdach",
-      " ",
-      " "
     ],
     "equipment": [
       "Spielwiese",
       "Schattenplätze",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "Hinweis:",
       "Die öffentlichen Parkplätze befinden sich außerhalb des Forstgebietes."
@@ -13420,8 +13270,6 @@
       "Spielwiese",
       "Schattenplätze",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze sind vorhanden"
     ],
@@ -13448,8 +13296,6 @@
       "Spielwiese",
       "Schattenplätze",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze sind vorhanden"
     ],
@@ -13752,15 +13598,11 @@
     "gaming_devices": [
       "Kletternetz",
       "Wippe",
-      " ",
-      " "
     ],
     "equipment": [
       "Sandspielfläche",
       "Schattenplätze",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -13779,15 +13621,11 @@
     "gaming_devices": [
       "Kletternetz",
       "Wippe",
-      " ",
-      " "
     ],
     "equipment": [
       "Sandspielfläche",
       "Schattenplätze",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
@@ -13844,7 +13682,7 @@
   {
     "town": "Leipzig",
     "district": "West,Schönau",
-    "title": "Spielplatz ''Garskestraße''",
+    "title": "Spielplatz \"Garskestraße\"",
     "local_traffic": [
       "Bus Linie 65, 80E, 61, 66, 161 (Haltestelle Schönauer Ring)",
       "Straßenbahn Linie 8, 15 (Haltestelle Schönauer Ring)"
@@ -13862,7 +13700,7 @@
   {
     "town": "Leipzig",
     "district": "West,Schönau",
-    "title": "Spielplatz ''Garskestraße''",
+    "title": "Spielplatz \"Garskestraße\"",
     "local_traffic": [
       "Bus Linie 65, 80E, 61, 66, 161 (Haltestelle Schönauer Ring)",
       "Straßenbahn Linie 8, 15 (Haltestelle Schönauer Ring)"
@@ -13880,7 +13718,7 @@
   {
     "town": "Leipzig",
     "district": "Süd,Connewitz",
-    "title": "Spielplatz ''Leopoldstraße''",
+    "title": "Spielplatz \"Leopoldstraße\"",
     "local_traffic": [
       "Bus Linie 107 (Haltestelle Mathildenstraße)",
       "Straßenbahn Linie 9 (Haltestelle Mathildenstraße)"
@@ -13903,7 +13741,7 @@
   {
     "town": "Leipzig",
     "district": "Süd,Connewitz",
-    "title": "Spielplatz ''Leopoldstraße''",
+    "title": "Spielplatz \"Leopoldstraße\"",
     "local_traffic": [
       "Bus Linie 107 (Haltestelle Mathildenstraße)",
       "Straßenbahn Linie 9 (Haltestelle Mathildenstraße)"
@@ -13926,7 +13764,7 @@
   {
     "town": "Leipzig",
     "district": "Südwest,Plagwitz",
-    "title": "Spielplatz ''Plagwitzer Bahnhof''",
+    "title": "Spielplatz \"Plagwitzer Bahnhof\"",
     "local_traffic": [
       "Straßenbahn Linie 14 (Haltestelle S-Bahnhof Plagwitz) ",
       "Bus Linie 60 (Haltestelle Naumburger Straße)"
@@ -13948,7 +13786,7 @@
   {
     "town": "Leipzig",
     "district": "Südwest,Plagwitz",
-    "title": "Spielplatz ''Plagwitzer Bahnhof''",
+    "title": "Spielplatz \"Plagwitzer Bahnhof\"",
     "local_traffic": [
       "Straßenbahn Linie 14 (Haltestelle S-Bahnhof Plagwitz) ",
       "Bus Linie 60 (Haltestelle Naumburger Straße)"
@@ -13987,8 +13825,8 @@
       "öffentliche Parkplätze vorhanden"
     ],
     "address": "Siegfriedstraße / im Park",
-    "lat": 51.1380981,
-    "lng": 12.8197703
+    "lat": 51.296411,
+    "lng": 12.401118
   },
   {
     "town": "Leipzig",
@@ -14010,8 +13848,8 @@
       "öffentliche Parkplätze vorhanden"
     ],
     "address": "Siegfriedstraße / im Park",
-    "lat": 51.1380981,
-    "lng": 12.8197703
+    "lat": 51.296411,
+    "lng": 12.401118
   },
   {
     "town": "Leipzig",
@@ -14034,8 +13872,8 @@
       "öffentliche Parkplätze vorhanden"
     ],
     "address": "Siegfriedstraße / im Park",
-    "lat": 51.1380981,
-    "lng": 12.8197703
+    "lat": 51.297692,
+    "lng": 12.404660
   },
   {
     "town": "Leipzig",
@@ -14058,8 +13896,8 @@
       "öffentliche Parkplätze vorhanden"
     ],
     "address": "Siegfriedstraße / im Park",
-    "lat": 51.1380981,
-    "lng": 12.8197703
+    "lat": 51.297692,
+    "lng": 12.404660
   },
   {
     "town": "Leipzig",
@@ -14084,8 +13922,8 @@
       "öffentliche Parkplätze vorhanden"
     ],
     "address": "nördlich der Siegfriedstraße / im Park",
-    "lat": 51.1380981,
-    "lng": 12.8197703
+    "lat": 51.298127,
+    "lng": 12.405846
   },
   {
     "town": "Leipzig",
@@ -14110,8 +13948,8 @@
       "öffentliche Parkplätze vorhanden"
     ],
     "address": "nördlich der Siegfriedstraße / im Park",
-    "lat": 51.1380981,
-    "lng": 12.8197703
+    "lat": 51.298127,
+    "lng": 12.405846
   },
   {
     "town": "Leipzig",
@@ -14130,8 +13968,8 @@
       "öffentliche Parkplätze vorhanden"
     ],
     "address": "nördlich der Siegfriedstraße / im Park",
-    "lat": 51.1380981,
-    "lng": 12.8197703
+    "lat": 51.298487,
+    "lng": 12.405990
   },
   {
     "town": "Leipzig",
@@ -14150,8 +13988,8 @@
       "öffentliche Parkplätze vorhanden"
     ],
     "address": "nördlich der Siegfriedstraße / im Park",
-    "lat": 51.1380981,
-    "lng": 12.8197703
+    "lat": 51.298487,
+    "lng": 12.405990
   },
   {
     "town": "Leipzig",
@@ -14167,14 +14005,12 @@
     "equipment": [
       "Spielwiese",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
     "address": "Zum Förderturm / im Park",
-    "lat": 51.1380981,
-    "lng": 12.8197703
+    "lat": 51.294519,
+    "lng": 12.405472
   },
   {
     "town": "Leipzig",
@@ -14190,14 +14026,12 @@
     "equipment": [
       "Spielwiese",
       "Bänke",
-      " ",
-      " ",
       "Parkmöglichkeit:",
       "öffentliche Parkplätze vorhanden"
     ],
     "address": "Zum Förderturm / im Park",
-    "lat": 51.1380981,
-    "lng": 12.8197703
+    "lat": 51.294519,
+    "lng": 12.405472
   },
   {
     "town": "Leipzig",
@@ -14216,8 +14050,8 @@
       "öffentliche Parkplätze vorhanden"
     ],
     "address": "nördlich der Siegfriedstaße / im Park",
-    "lat": 51.1380981,
-    "lng": 12.8197703
+    "lat": 51.297437,
+    "lng": 12.401811
   },
   {
     "town": "Leipzig",
@@ -14236,8 +14070,8 @@
       "öffentliche Parkplätze vorhanden"
     ],
     "address": "nördlich der Siegfriedstaße / im Park",
-    "lat": 51.1380981,
-    "lng": 12.8197703
+    "lat": 51.297437,
+    "lng": 12.401811
   },
   {
     "town": "Leipzig",
