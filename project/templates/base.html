@@ -1,5 +1,7 @@
 {% load compress %}
 {% load staticfiles %}
+{% load leaflet_tags %}
+
 <!DOCTYPE html>
 <html>
 
@@ -13,11 +15,12 @@
     {% if debug %}
     <!-- This is the client-side way to compile less and an ok choice for local dev -->
     <link rel="stylesheet/less" type="text/css" media="all" href="{% static 'less/style.less' %}" />
-    <link rel="stylesheet" href="{% static 'css/leaflet.css' %}" />
+    {% leaflet_css %}
     {% else %}
     {% compress css %}
     <!-- This is the nifty django-compressor way to compile your less files in css -->
     <link rel="stylesheet" type="text/less" media="all" href="{% static 'less/style.less' %}" />
+    {% leaflet_css %}
     {% endcompress %}
     {% endif %}
     {% endblock %}
@@ -34,24 +37,34 @@
     </div>
 
     <div class="canvas">
-
         <div class="navbar navbar-default navbar-fixed-top">
-            <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas">
+            <button type="button"
+                    class="navbar-toggle"
+                    data-toggle="offcanvas"
+                    data-recalc="false"
+                    data-target=".navmenu"
+                    data-canvas=".canvas">
                 <span class="glyphicon glyphicon-filter">
             </button>
             <button id="locate" type="button" class="navbar-toggle">
                 <span class="glyphicon glyphicon-screenshot"></span>
             </button>
         </div>
+<<<<<<< HEAD
             <div id="map"></div>
-        <!-- /.container -->
+=======
 
+        <div class="container">
+            {% leaflet_map "map" callback="window.setUpMap" %}
+        </div>
+>>>>>>> a38262ecfd4552def510d1ae513cfafcca9de252
+        <!-- /.container -->
     </div>
     <!-- /.canvas  -->
 
     {% block js %}
     <!-- Leaflet -->
-    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    {% leaflet_js %}
     <script type="text/javascript" charset="utf-8" src="{% static 'js/leaflet.markercluster.js' %}"></script>
     <script type="text/javascript" charset="utf-8" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
