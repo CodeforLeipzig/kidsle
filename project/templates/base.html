@@ -1,6 +1,4 @@
-{% load compress %}
-{% load staticfiles %}
-{% load leaflet_tags %}
+{% load compress %} {% load staticfiles %} {% load leaflet_tags %}
 
 <!DOCTYPE html>
 <html>
@@ -10,25 +8,24 @@
     <title>
         {% block title %} kidlse {% endblock %}
     </title>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
-    {% block styles %}
-    {% if debug %}
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />{% block styles %} {% if debug %}
     <!-- This is the client-side way to compile less and an ok choice for local dev -->
-    <link rel="stylesheet/less" type="text/css" media="all" href="{% static 'less/style.less' %}" />
-    {% leaflet_css %}
-    {% else %}
-    {% compress css %}
+    <link rel="stylesheet/less" type="text/css" media="all" href="{% static 'less/style.less' %}" />{% leaflet_css %} {% else %} {% compress css %}
     <!-- This is the nifty django-compressor way to compile your less files in css -->
-    <link rel="stylesheet" type="text/less" media="all" href="{% static 'less/style.less' %}" />
-    {% leaflet_css %}
-    {% endcompress %}
-    {% endif %}
-    {% endblock %}
+    <link rel="stylesheet" type="text/less" media="all" href="{% static 'less/style.less' %}" />{% leaflet_css %} {% endcompress %} {% endif %} {% endblock %}
 </head>
 
 <body>
     <div class="navmenu navmenu-default navmenu-fixed-left">
         <h1>Kids in Leipzig</h1>
+        <ul class="nav navmenu-nav">
+            <li class="active"><a href="#">Home</a>
+            </li>
+            <li><a href="#">Link</a>
+            </li>
+            <li><a href="#">Link</a>
+            </li>
+        </ul>
         <div class="filter">
             <button id="kit" type="button" class="btn btn-lg btn-primary btn-block">Kitas ausblenden</button>
             <button id="play" type="button" class="btn btn-lg btn-primary btn-block">Spielplätze ausblenden</button>
@@ -38,26 +35,20 @@
 
     <div class="canvas">
         <div class="navbar navbar-default navbar-fixed-top">
-            <button type="button"
-                    class="navbar-toggle"
-                    data-toggle="offcanvas"
-                    data-recalc="false"
-                    data-target=".navmenu"
-                    data-canvas=".canvas">
+            <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas">
                 <span class="glyphicon glyphicon-filter">
             </button>
             <button id="locate" type="button" class="navbar-toggle">
                 <span class="glyphicon glyphicon-screenshot"></span>
             </button>
         </div>
-<<<<<<< HEAD
-            <div id="map"></div>
-=======
+
+
+
 
         <div class="container">
             {% leaflet_map "map" callback="window.setUpMap" %}
         </div>
->>>>>>> a38262ecfd4552def510d1ae513cfafcca9de252
         <!-- /.container -->
     </div>
     <!-- /.canvas  -->
@@ -73,14 +64,14 @@
     {% endif %}
 
     <script type="text/javascript" charset="utf-8">
-        var daycarecenterIcon = '{% static "img/kita.svg" %}';
-        var playgroundIcon = '{% static "img/playground3.svg" %}';
-        var schoolIcon = '{% static "img/school.svg" %}';
-        var posIcon = '{% static "img/marker-circle.svg" %}';
+    var daycarecenterIcon = '{% static "img/kita.svg" %}';
+    var playgroundIcon = '{% static "img/playground3.svg" %}';
+    var schoolIcon = '{% static "img/school.svg" %}';
+    var posIcon = '{% static "img/marker-circle.svg" %}';
 
-        var daycarecenterDataUrl = '{% url "daycarecenter-list" %}';
-        var playgroundDataUrl = '{% url "playground-list" %}';
-        var schoolDataUrl = '{% url "school-list" %}';
+    var daycarecenterDataUrl = '{% url "daycarecenter-list" %}';
+    var playgroundDataUrl = '{% url "playground-list" %}';
+    var schoolDataUrl = '{% url "school-list" %}';
     </script>
 
     <script type="text/javascript" charset="utf-8" src="{% static 'js/leaveme.js' %}"></script>

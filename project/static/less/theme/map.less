@@ -1,11 +1,14 @@
 #map {
   position: absolute!important;
-
   width:100%;
   height: 100%;
   top: 0;
   bottom: 0;
   left: 0;
+  border-left: @medium-blue;
+  -webkit-box-shadow: -5px 0px 10px 0px fadeout(darken(@medium-blue, 20%), 10%);
+     -moz-box-shadow: -5px 0px 10px 0px fadeout(darken(@medium-blue, 20%), 10%);
+          box-shadow: -5px 0px 10px 0px fadeout(darken(@medium-blue, 20%), 10%);
 }
 
 .leaflet-top.leaflet-left {
