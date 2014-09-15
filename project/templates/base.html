@@ -10,22 +10,16 @@
     </title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />{% block styles %} {% if debug %}
     <!-- This is the client-side way to compile less and an ok choice for local dev -->
-    <link rel="stylesheet/less" type="text/css" media="all" href="{% static 'less/style.less' %}" />{% leaflet_css %} {% else %} {% compress css %}
+    <link rel="stylesheet/less" type="text/css" media="all" href="{% static 'less/style.less' %}" /> {% else %} {% compress css %}
     <!-- This is the nifty django-compressor way to compile your less files in css -->
-    <link rel="stylesheet" type="text/less" media="all" href="{% static 'less/style.less' %}" />{% leaflet_css %} {% endcompress %} {% endif %} {% endblock %}
+    <link rel="stylesheet" type="text/less" media="all" href="{% static 'less/style.less' %}" /> {% endcompress %} {% endif %} {% endblock %}
 </head>
 
 <body>
     <div class="navmenu navmenu-default navmenu-fixed-left">
-        <h1>Kids in Leipzig</h1>
-        <ul class="nav navmenu-nav">
-            <li class="active"><a href="#">Home</a>
-            </li>
-            <li><a href="#">Link</a>
-            </li>
-            <li><a href="#">Link</a>
-            </li>
-        </ul>
+        <div class="navmenu-brand">
+            <h1>Kids in Leipzig</h1>
+        </div>
         <div class="filter">
             <button id="kit" type="button" class="btn btn-lg btn-primary btn-block">Kitas ausblenden</button>
             <button id="play" type="button" class="btn btn-lg btn-primary btn-block">Spielplätze ausblenden</button>
