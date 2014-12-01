@@ -135,6 +135,6 @@ LEAFLET_CONFIG = {
     'DEFAULT_CENTER': (51.34, 12.37),
     'DEFAULT_ZOOM': 15,
     'RESET_VIEW': False,
-    'TILES': u'http://{s}.www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png',
-    'ATTRIBUTION_PREFIX': u'<a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> | © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Map tiles by <a href="http://stamen.com">Stamen Design</a>,under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.'
+    'TILES': 'http://a.tiles.mapbox.com/v3/themakermafia.jkmkllh8/{z}/{x}/{y}.png',
+    'ATTRIBUTION_PREFIX': u'<a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox © OpenStreetMap</a>'
 }

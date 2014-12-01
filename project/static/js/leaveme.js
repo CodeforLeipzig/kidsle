@@ -122,7 +122,7 @@ function gatherIconInformation() {
         success: function(data, latlng) {
             for (var i = 0; i < data.length; i++) {
                 kita = data[i];
-                info_text = '<div class=\"res kita\"><h4>' + kita.name + '</h4></div>' + '<div class=\"kita-content\"><b>' + kita.address + '</b><br/>' + kita.daycare_type + '</b></div>';
+                info_text = '<div class=\"results-header kita\"><h4>' + kita.name + '</h4></div>' + '<div class=\"kita-content results-body\"><b>' + kita.address + '</b><br/>' + kita.daycare_type + '</b></div>';
 
                 var markerKita = L.marker({
                     lng: parseFloat(kita.longitude),
@@ -154,7 +154,7 @@ function gatherIconInformation() {
                     }
                     gaming_devices += play.gaming_devices[k].title;
                 }
-                info_text = '<div class=\"res playground\"><h4>' + play.name + '</h4></div>' + '<div class=\"playground-content\"><b>' + play.location + '</b><br/>' + '<h5>Ausstattung:</h5>' + equipment + '<br/><h5>Spielgeräte:</h5>' + gaming_devices + '<br/><h5>Zu Erreichen:</h5>' + play.lines + '</div>';
+                info_text = '<div class=\"results-header playground\"><h4>' + play.name + '</h4></div>' + '<div class=\"playground-content results-body\"><b>' + play.location + '</b><br/>' + '<h5>Ausstattung:</h5>' + equipment + '<br/><h5>Spielgeräte:</h5>' + gaming_devices + '<br/><h5>Zu Erreichen:</h5>' + play.lines + '</div>';
 
                 var markerPlay = L.marker({
                     lng: parseFloat(play.longitude),
@@ -172,7 +172,7 @@ function gatherIconInformation() {
         success: function(data, latlng) {
             for (var i = 0; i < data.length; i++) {
                 school = data[i];
-                info_text = '<div class=\"res school\"><h4>' + school.name + '</h4></div>' + '<div class=\"school-content\"><b>' + school.street + ', ' + school.post_code + ' ' + school.town + '</b><br/>' + '<h5>Schulart:</h5>' + school.school_type + '</div>';
+                info_text = '<div class=\"results-header school\"><h4>' + school.name + '</h4></div>' + '<div class=\"school-content results-body\"><b>' + school.street + ', ' + school.post_code + ' ' + school.town + '</b><br/>' + '<h5>Schulart:</h5>' + school.school_type + '</div>';
                 var markerPlay = L.marker({
                     lng: parseFloat(school.longitude),
                     lat: parseFloat(school.latitude),
@@ -184,4 +184,5 @@ function gatherIconInformation() {
     });
 
 }
+
 
