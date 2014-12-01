@@ -185,3 +185,4 @@ function gatherIconInformation() {
 
 }
 
+

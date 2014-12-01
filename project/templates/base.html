@@ -11,9 +11,9 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />{% block styles %} {% if debug %}
     <!-- This is the client-side way to compile less and an ok choice for local dev -->
     <link rel="stylesheet/less" type="text/css" media="all" href="{% static 'less/style.less' %}" />
-    {% leaflet_css %} {% else %} {% compress css %}
+     {% else %} {% compress css %}
     <!-- This is the nifty django-compressor way to compile your less files in css -->
-    <link rel="stylesheet" type="text/less" media="all" href="{% static 'less/style.less' %}" /> {% leaflet_css %}  {% endcompress %} {% endif %} {% endblock %}
+    <link rel="stylesheet" type="text/less" media="all" href="{% static 'less/style.less' %}" /> {% endcompress %} {% endif %} {% endblock %}
 </head>
 
 <body>
@@ -21,6 +21,11 @@
         <div class="navmenu-brand">
             <h1>Kids in Leipzig</h1>
         </div>
+     
+           <!--  <div class="input-group">
+                <input id="searchbox" type="text" class="typeahead form-control search" placeholder="Suchen nach Name, Ort …">
+            </div> -->
+
         <div class="filter">
             <button id="kit" type="button" class="btn btn-lg btn-primary btn-block">Kitas ausblenden</button>
             <button id="play" type="button" class="btn btn-lg btn-primary btn-block">Spielplätze ausblenden</button>
@@ -48,6 +53,12 @@
     </div>
     <!-- /.canvas  -->
 
+    <!-- Contact Modal -->
+
+
+
+    <!-- Imprint Modal -->
+
     {% block js %}
     <!-- Leaflet -->
     {% leaflet_js %}
@@ -70,6 +81,7 @@
     </script>
 
     <script type="text/javascript" charset="utf-8" src="{% static 'js/leaveme.js' %}"></script>
+    <script type="text/javascript" charset="utf-8" src="{% static 'js/filter.js' %}"></script>
     <script type="text/javascript" charset="utf-8" src="{% static 'js/offcanvas.js' %}"></script>
 
     {% endblock %}
