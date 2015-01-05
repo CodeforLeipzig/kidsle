@@ -54,6 +54,7 @@ INSTALLED_APPS = (
 ACTIVE_APPS = (
     'daycare',
     'schools',
+    #'playgrounds',
 )
 
 MIDDLEWARE_CLASSES = (
