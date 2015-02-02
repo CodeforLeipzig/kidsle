@@ -21,14 +21,18 @@
             <h1>Kids in Leipzig</h1>
         </div>
 
-        <!--  <div class="input-group">
-                <input id="searchbox" type="text" class="typeahead form-control search" placeholder="Suchen nach Name, Ort …">
-            </div> -->
-
         <div class="filter">
+            {% if 'daycare' in active_apps %}
             <button id="kit" type="button" class="btn btn-lg btn-primary btn-block">Kitas ausblenden</button>
+            {% endif %}
+
+            {% if 'playgrounds' in active_apps %}
             <button id="play" type="button" class="btn btn-lg btn-primary btn-block">Spielplätze ausblenden</button>
+            {% endif %}
+
+            {% if 'schools' in active_apps %}
             <button id="school" type="button" class="btn btn-lg btn-primary btn-block">Schulen ausblenden</button>
+            {% endif %}
         </div>
 
         <div class="statics">
@@ -116,6 +120,10 @@
     var daycarecenterDataUrl = '{% url "daycarecenter-list" %}';
     var playgroundDataUrl = '{% url "playground-list" %}';
     var schoolDataUrl = '{% url "school-list" %}';
+
+    var schoolsActive = {% if 'schools' in active_apps %}true{% else %}false{% endif %};
+    var daycareActive = {% if 'daycare' in active_apps %}true{% else %}false{% endif %};
+    var playgroundsActive = {% if 'playgrounds' in active_apps %}true{% else %}false{% endif %};
     </script>
 
     <script type="text/javascript" charset="utf-8" src="{% static 'js/leaveme.js' %}"></script>

@@ -10,9 +10,9 @@ install:
 	pip install -U -r requirements/base.txt;
 	cd project; \
 	python manage.py syncdb; \
-	python manage.py load_school_data; \
-	python manage.py load_daycare_data; \
-	python manage.py load_playground_data;
+	python manage.py loaddata schools; \
+	python manage.py loaddata daycare; \
+	python manage.py loaddata playgrounds;
 	@echo "Install done. Use 'make runserver' to start the server."
 
 runserver:

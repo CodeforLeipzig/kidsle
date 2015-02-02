@@ -50,6 +50,13 @@ INSTALLED_APPS = (
     'playgrounds'
 )
 
+# list all of the own apps despite core, that should be used and shown in the frontend
+ACTIVE_APPS = (
+    'daycare',
+    'schools',
+    #'playgrounds',
+)
+
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -81,6 +88,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     "django.core.context_processors.tz",
     "django.contrib.messages.context_processors.messages",
     "django.core.context_processors.request",
+    "core.context_processors.active_apps"
 )
 
 STATICFILES_FINDERS = (
