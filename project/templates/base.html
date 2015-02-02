@@ -16,6 +16,7 @@
 </head>
 
 <body>
+  {% include 'icons.svg' %}
     <div class="navmenu navmenu-default navmenu-fixed-left">
         <div class="navmenu-brand">
             <h1>Kids in Leipzig</h1>
@@ -44,10 +45,14 @@
     <div class="canvas">
         <div class="navbar navbar-default navbar-fixed-top">
             <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas">
-                <span class="glyphicon glyphicon-filter">
+                <svg class="icon-kid icon-sm ">
+                            <use xlink:href="#icon-layer" />
+                        </svg>
             </button>
             <button id="locate" type="button" class="navbar-toggle">
-                <span class="glyphicon glyphicon-screenshot"></span>
+                <svg class="icon-kid icon-sm ">
+                            <use xlink:href="#icon-locate" />
+                        </svg>
             </button>
         </div>
 
