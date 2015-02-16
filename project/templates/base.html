@@ -13,6 +13,7 @@
     <link rel="stylesheet/less" type="text/css" media="all" href="{% static 'less/style.less' %}" /> {% else %} {% compress css %}
     <!-- This is the nifty django-compressor way to compile your less files in css -->
     <link rel="stylesheet" type="text/less" media="all" href="{% static 'less/style.less' %}" /> {% endcompress %} {% endif %} {% endblock %}
+    {% include 'favicon.html' %}
 </head>
 
 <body>
