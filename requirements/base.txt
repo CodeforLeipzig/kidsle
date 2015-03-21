@@ -6,4 +6,3 @@ django-grappelli==2.5.3
 django-leaflet==0.14.1
 djangorestframework==2.3.13
 six==1.6.1
-wsgiref==0.1.2
