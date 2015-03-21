@@ -7,7 +7,7 @@ help:
 	@echo "  clean-pyc          to remove Python file artifacts"
 
 install:
-	pip install -U -r requirements/base.txt;
+	pip install -U --no-deps -r requirements.txt;
 	cd project; \
 	python manage.py syncdb; \
 	python manage.py loaddata schools; \
