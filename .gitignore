@@ -7,3 +7,6 @@ kidsle/
 *.db
 *.sqlite3
 *~
+
+project/compresses_static/Cache
+
