@@ -2,7 +2,7 @@ Django==1.7.4
 argparse==1.2.1
 django-appconf==0.6
 django-compressor==1.4
-django-grappelli==2.5.3
+django-grappelli==2.6.4
 django-leaflet==0.14.1
 djangorestframework==2.3.13
 six==1.6.1
