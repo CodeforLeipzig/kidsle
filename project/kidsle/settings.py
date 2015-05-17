@@ -102,8 +102,6 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 
-COMPRESS_ROOT = os.path.join(BASE_DIR, 'compressed_static')
-
 COMPRESS_PRECOMPILERS = (
    ('text/less', 'lessc {infile} {outfile}'),
 )
