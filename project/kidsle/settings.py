@@ -146,3 +146,8 @@ LEAFLET_CONFIG = {
     'TILES': 'http://a.tiles.mapbox.com/v3/themakermafia.jkmkllh8/{z}/{x}/{y}.png',
     'ATTRIBUTION_PREFIX': u'<a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox © OpenStreetMap</a>'
 }
+
+try:
+    from local_settings import *
+except ImportError:
+    pass
