@@ -142,7 +142,7 @@ LEAFLET_CONFIG = {
     'DEFAULT_CENTER': (51.34, 12.37),
     'DEFAULT_ZOOM': 15,
     'RESET_VIEW': False,
-    'TILES': 'http://a.tiles.mapbox.com/v3/themakermafia.jkmkllh8/{z}/{x}/{y}.png',
+    'TILES': '    http://api.mapbox.com/v4/mapbox.streets/0/0/0.png?access_token=pk.eyJ1IjoidGhlbWFrZXJtYWZpYSIsImEiOiJ1TTNqazF3In0.diqXR455aEg5yfGD-CTgPg',
     'ATTRIBUTION_PREFIX': u'<a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox © OpenStreetMap</a>'
 }
 
