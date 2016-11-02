@@ -8,11 +8,13 @@
     <title>
         {% block title %} kidlse {% endblock %}
     </title>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />{% block styles %} {% if debug %}
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+    {% block styles %}
+
     <!-- This is the client-side way to compile less and an ok choice for local dev -->
-    <link rel="stylesheet/less" type="text/css" media="all" href="{% static 'less/style.less' %}" /> {% else %} {% compress css %}
-    <!-- This is the nifty django-compressor way to compile your less files in css -->
-    <link rel="stylesheet" type="text/less" media="all" href="{% static 'less/style.less' %}" /> {% endcompress %} {% endif %} {% endblock %}
+    <link rel="stylesheet/less" type="text/css" media="all" href="{% static 'less/style.less' %}" /> {% else %}
+
+    {% endblock %}
     {% include 'favicon.html' %}
 </head>
 
@@ -113,9 +115,8 @@
     <script type="text/javascript" charset="utf-8" src="{% static 'js/leaflet.markercluster.js' %}"></script>
     <script type="text/javascript" charset="utf-8" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    {% if debug %}
+
     <script type="text/javascript" charset="utf-8" src="{% static 'js/less-1.7.0.min.js' %}"></script>
-    {% endif %}
 
     <script type="text/javascript" charset="utf-8">
     var daycarecenterIcon = '{% static "img/kita.svg" %}';
