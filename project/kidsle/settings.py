@@ -100,6 +100,8 @@ STATICFILES_FINDERS = (
     'compressor.finders.CompressorFinder'
 )
 
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
