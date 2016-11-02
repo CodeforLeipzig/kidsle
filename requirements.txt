@@ -5,4 +5,5 @@ django-compressor==1.4
 django-grappelli==2.6.4
 django-leaflet==0.14.1
 djangorestframework==2.3.13
+whitenoise==3.2.2
 six==1.6.1
