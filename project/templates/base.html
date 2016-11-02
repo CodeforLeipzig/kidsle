@@ -12,10 +12,9 @@
     {% block styles %}
 
     <!-- This is the client-side way to compile less and an ok choice for local dev -->
-    <link rel="stylesheet/less" type="text/css" media="all" href="{% static 'less/style.less' %}" /> {% else %}
+    <link rel="stylesheet/less" type="text/css" media="all" href="{% static 'less/style.less' %}" />
 
     {% endblock %}
-    {% include 'favicon.html' %}
 </head>
 
 <body>
